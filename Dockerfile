@@ -1,4 +1,4 @@
-FROM microsoft/dotnet:2.1.300-rc1-sdk
+FROM microsoft/dotnet:2.1-sdk
 # FROM microsoft/aspnetcore-build:2.0
 # WORKDIR /data
 # COPY data/SPIMBENCH_small/source.ttl ./
@@ -17,13 +17,10 @@ RUN dotnet restore
 
 # Copy everything else and build
 COPY Prototype/ ./
-RUN ls -la
 WORKDIR /app/PrototypeLib
 COPY PrototypeLib/ ./
-RUN ls -la
 WORKDIR /app/Prototype
-RUN dotnet clean
-RUN dotnet build --force
+RUN dotnet build
 RUN dotnet publish -c Release -o out
 
 

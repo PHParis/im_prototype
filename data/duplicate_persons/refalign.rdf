@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<Alignment>
+<map>
+<Cell>
+<entity1 rdf:resource="http://dbpedia.org/resource/Richard_Dawson"/>
+<entity2 rdf:resource="http://wikidata.dbpedia.org/resource/Q1354328"/>
+<measure rdf:datatype="xsd:float">1.0</measure>
+<relation>=</relation>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://dbpedia.org/resource/Thomas_Gibson"/>
+<entity2 rdf:resource="http://wikidata.dbpedia.org/resource/Q320945"/>
+<measure rdf:datatype="xsd:float">1.0</measure>
+<relation>=</relation>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://dbpedia.org/resource/Chris_Martin"/>
+<entity2 rdf:resource="http://wikidata.dbpedia.org/resource/Q712860"/>
+<measure rdf:datatype="xsd:float">1.0</measure>
+<relation>=</relation>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://dbpedia.org/resource/George_Buchanan"/>
+<entity2 rdf:resource="http://wikidata.dbpedia.org/resource/Q715169"/>
+<measure rdf:datatype="xsd:float">1.0</measure>
+<relation>=</relation>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://dbpedia.org/resource/James_Brown"/>
+<entity2 rdf:resource="http://wikidata.dbpedia.org/resource/Q5950"/>
+<measure rdf:datatype="xsd:float">1.0</measure>
+<relation>=</relation>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://dbpedia.org/resource/Michael_Moore"/>
+<entity2 rdf:resource="http://wikidata.dbpedia.org/resource/Q174908"/>
+<measure rdf:datatype="xsd:float">1.0</measure>
+<relation>=</relation>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://dbpedia.org/resource/James_Taylor"/>
+<entity2 rdf:resource="http://wikidata.dbpedia.org/resource/Q310300"/>
+<measure rdf:datatype="xsd:float">1.0</measure>
+<relation>=</relation>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://dbpedia.org/resource/William_Powell"/>
+<entity2 rdf:resource="http://wikidata.dbpedia.org/resource/Q105960"/>
+<measure rdf:datatype="xsd:float">1.0</measure>
+<relation>=</relation>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://dbpedia.org/resource/Henry_Hill"/>
+<entity2 rdf:resource="http://wikidata.dbpedia.org/resource/Q558354"/>
+<measure rdf:datatype="xsd:float">1.0</measure>
+<relation>=</relation>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://dbpedia.org/resource/Jack_White"/>
+<entity2 rdf:resource="http://wikidata.dbpedia.org/resource/Q272031"/>
+<measure rdf:datatype="xsd:float">1.0</measure>
+<relation>=</relation>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://dbpedia.org/resource/Bobby_Brown"/>
+<entity2 rdf:resource="http://wikidata.dbpedia.org/resource/Q311241"/>
+<measure rdf:datatype="xsd:float">1.0</measure>
+<relation>=</relation>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://dbpedia.org/resource/John_Barnard"/>
+<entity2 rdf:resource="http://wikidata.dbpedia.org/resource/Q173549"/>
+<measure rdf:datatype="xsd:float">1.0</measure>
+<relation>=</relation>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://dbpedia.org/resource/David_Bailey"/>
+<entity2 rdf:resource="http://wikidata.dbpedia.org/resource/Q902568"/>
+<measure rdf:datatype="xsd:float">1.0</measure>
+<relation>=</relation>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://dbpedia.org/resource/John_Corbett"/>
+<entity2 rdf:resource="http://wikidata.dbpedia.org/resource/Q178010"/>
+<measure rdf:datatype="xsd:float">1.0</measure>
+<relation>=</relation>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://dbpedia.org/resource/Donald_Campbell"/>
+<entity2 rdf:resource="http://wikidata.dbpedia.org/resource/Q971150"/>
+<measure rdf:datatype="xsd:float">1.0</measure>
+<relation>=</relation>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://dbpedia.org/resource/Brian_Williams"/>
+<entity2 rdf:resource="http://wikidata.dbpedia.org/resource/Q459695"/>
+<measure rdf:datatype="xsd:float">1.0</measure>
+<relation>=</relation>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://dbpedia.org/resource/John_Mills"/>
+<entity2 rdf:resource="http://wikidata.dbpedia.org/resource/Q315728"/>
+<measure rdf:datatype="xsd:float">1.0</measure>
+<relation>=</relation>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://dbpedia.org/resource/Terry_Jones"/>
+<entity2 rdf:resource="http://wikidata.dbpedia.org/resource/Q166159"/>
+<measure rdf:datatype="xsd:float">1.0</measure>
+<relation>=</relation>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://dbpedia.org/resource/James_Cameron"/>
+<entity2 rdf:resource="http://wikidata.dbpedia.org/resource/Q42574"/>
+<measure rdf:datatype="xsd:float">1.0</measure>
+<relation>=</relation>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://dbpedia.org/resource/John_Williams"/>
+<entity2 rdf:resource="http://wikidata.dbpedia.org/resource/Q131285"/>
+<measure rdf:datatype="xsd:float">1.0</measure>
+<relation>=</relation>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://dbpedia.org/resource/James_Mason"/>
+<entity2 rdf:resource="http://wikidata.dbpedia.org/resource/Q209186"/>
+<measure rdf:datatype="xsd:float">1.0</measure>
+<relation>=</relation>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://dbpedia.org/resource/Mark_Thomas"/>
+<entity2 rdf:resource="http://wikidata.dbpedia.org/resource/Q6769973"/>
+<measure rdf:datatype="xsd:float">1.0</measure>
+<relation>=</relation>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://dbpedia.org/resource/Kevin_Smith"/>
+<entity2 rdf:resource="http://wikidata.dbpedia.org/resource/Q489831"/>
+<measure rdf:datatype="xsd:float">1.0</measure>
+<relation>=</relation>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://dbpedia.org/resource/Robert_Powell"/>
+<entity2 rdf:resource="http://wikidata.dbpedia.org/resource/Q504982"/>
+<measure rdf:datatype="xsd:float">1.0</measure>
+<relation>=</relation>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://dbpedia.org/resource/John_Ford"/>
+<entity2 rdf:resource="http://wikidata.dbpedia.org/resource/Q51114"/>
+<measure rdf:datatype="xsd:float">1.0</measure>
+<relation>=</relation>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://dbpedia.org/resource/Tom_Baker"/>
+<entity2 rdf:resource="http://wikidata.dbpedia.org/resource/Q358421"/>
+<measure rdf:datatype="xsd:float">1.0</measure>
+<relation>=</relation>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://dbpedia.org/resource/John_Goodman"/>
+<entity2 rdf:resource="http://wikidata.dbpedia.org/resource/Q215072"/>
+<measure rdf:datatype="xsd:float">1.0</measure>
+<relation>=</relation>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://dbpedia.org/resource/Kevin_Barry"/>
+<entity2 rdf:resource="http://wikidata.dbpedia.org/resource/Q1855981"/>
+<measure rdf:datatype="xsd:float">1.0</measure>
+<relation>=</relation>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://dbpedia.org/resource/Paul_Walker"/>
+<entity2 rdf:resource="http://wikidata.dbpedia.org/resource/Q213864"/>
+<measure rdf:datatype="xsd:float">1.0</measure>
+<relation>=</relation>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://dbpedia.org/resource/Richard_Harris"/>
+<entity2 rdf:resource="http://wikidata.dbpedia.org/resource/Q106775"/>
+<measure rdf:datatype="xsd:float">1.0</measure>
+<relation>=</relation>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://dbpedia.org/resource/Bill_Robinson"/>
+<entity2 rdf:resource="http://wikidata.dbpedia.org/resource/Q862416"/>
+<measure rdf:datatype="xsd:float">1.0</measure>
+<relation>=</relation>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://dbpedia.org/resource/James_Bruce"/>
+<entity2 rdf:resource="http://wikidata.dbpedia.org/resource/Q348489"/>
+<measure rdf:datatype="xsd:float">1.0</measure>
+<relation>=</relation>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://dbpedia.org/resource/Mike_Murphy"/>
+<entity2 rdf:resource="http://wikidata.dbpedia.org/resource/Q7484818"/>
+<measure rdf:datatype="xsd:float">1.0</measure>
+<relation>=</relation>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://dbpedia.org/resource/Peter_Jackson"/>
+<entity2 rdf:resource="http://wikidata.dbpedia.org/resource/Q4465"/>
+<measure rdf:datatype="xsd:float">1.0</measure>
+<relation>=</relation>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://dbpedia.org/resource/William_Morris"/>
+<entity2 rdf:resource="http://wikidata.dbpedia.org/resource/Q182589"/>
+<measure rdf:datatype="xsd:float">1.0</measure>
+<relation>=</relation>
+</Cell>
+</map>
+<map>
+<Cell>
+<entity1 rdf:resource="http://dbpedia.org/resource/William_Wallace"/>
+<entity2 rdf:resource="http://wikidata.dbpedia.org/resource/Q82457"/>
+<measure rdf:datatype="xsd:float">1.0</measure>
+<relation>=</relation>
+</Cell>
+</map>
+</Alignment>
+</rdf:RDF>

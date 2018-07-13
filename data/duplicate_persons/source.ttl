@@ -1,0 +1,3482 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dbpedia:	<http://dbpedia.org/resource/> .
+@prefix ns2:	<http://dbpedia.org/ontology/> .
+dbpedia:Karen_Friedman_Hill	rdf:type	ns2:Person .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+dbpedia:Karen_Friedman_Hill	rdfs:label	"Karen Friedman Hill"@en ;
+	ns2:birthPlace	<http://dbpedia.org/resource/New_York_City,_New_York> ;
+	ns2:occupation	dbpedia:Socialite ,
+		dbpedia:Karen_Friedman_Hill__1 ;
+	ns2:spouse	dbpedia:Henry_Hill .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix ns5:	<http://wikidata.dbpedia.org/resource/> .
+dbpedia:Karen_Friedman_Hill	owl:sameAs	ns5:Q20090906 ,
+		dbpedia:Karen_Friedman_Hill .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+dbpedia:Karen_Friedman_Hill	ns2:birthDate	"1946-01-16"^^xsd:date ;
+	ns2:birthName	"Karen B. Friedman"@en ;
+	ns2:birthYear	"1946"^^xsd:gYear .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+dbpedia:Karen_Friedman_Hill	foaf:name	"Karen Friedman Hill"@en .
+<http://dbpedia.org/resource/Santa_Clarita,_California>	rdf:type	ns2:City ;
+	rdfs:label	"Santa Clarita, California"@en ;
+	ns2:country	dbpedia:United_States ;
+	ns2:governmentType	dbpedia:Council-manager_government ;
+	ns2:isPartOf	dbpedia:California ,
+		<http://dbpedia.org/resource/Los_Angeles_County,_California> ;
+	ns2:timeZone	dbpedia:Pacific_Time_Zone ;
+	ns2:type	<http://dbpedia.org/resource/City_(California)> ;
+	owl:sameAs	<http://dbpedia.org/resource/Santa_Clarita,_California> ,
+		ns5:Q491132 ;
+	ns2:areaCode	"661" ;
+	ns2:elevation	367.89359999999999218 ,
+		368.0 ;
+	ns2:percentageOfAreaWater	"0.098999999463558197021"^^xsd:float ;
+	ns2:populationAsOf	"2016-01-01"^^xsd:date ;
+	ns2:populationMetro	"13155788"^^xsd:nonNegativeInteger ;
+	ns2:populationTotalRanking	"3"^^xsd:positiveInteger ,
+		"24"^^xsd:positiveInteger ;
+	ns2:postalCode	"91310, 91321\u201391322, 91350\u201391351, 91354\u201391355, 91380\u201391387, 91390" ;
+	ns2:utcOffset	"\u221208:00" ,
+		"\u221207:00" ;
+	ns2:areaLand	166639835.01901823282 ,
+		166640000.0 ;
+	ns2:areaTotal	166790000.0 ,
+		166795234.3056384027 ;
+	ns2:areaWater	155399.28662016001181 ,
+		155000.0 ;
+	ns2:foundingDate	"1987-12-15"^^xsd:date ;
+	ns2:leaderTitle	"City manager"@en ,
+		"Mayor Pro-Tem"@en ,
+		"Mayor"@en ,
+		"City council"@en ;
+	ns2:populationTotal	"219611"^^xsd:nonNegativeInteger ;
+	foaf:name	"City of Santa Clarita"@en ,
+		"Santa Clarita, California"@en .
+dbpedia:Diana_Lewis	rdf:type	ns2:Person ;
+	rdfs:label	"Diana Lewis"@en ;
+	ns2:birthPlace	<http://dbpedia.org/resource/Asbury_Park,_New_Jersey> ;
+	ns2:deathPlace	<http://dbpedia.org/resource/Rancho_Mirage,_California> ;
+	ns2:occupation	dbpedia:Diana_Lewis__1 ;
+	ns2:restingPlace	dbpedia:Desert_Memorial_Park ,
+		<http://dbpedia.org/resource/Cathedral_City,_California> ;
+	ns2:spouse	dbpedia:William_Powell ;
+	owl:sameAs	dbpedia:Diana_Lewis ,
+		ns5:Q2881575 ;
+	ns2:activeYearsEndYear	"1943"^^xsd:gYear ;
+	ns2:activeYearsStartYear	"1934"^^xsd:gYear ;
+	ns2:birthDate	"1919-09-18"^^xsd:date ;
+	ns2:birthYear	"1919"^^xsd:gYear ;
+	ns2:deathDate	"1997-01-18"^^xsd:date ;
+	ns2:deathYear	"1997"^^xsd:gYear ;
+	foaf:name	"Diana Lewis"@en .
+dbpedia:Americans	rdf:type	ns2:EthnicGroup ;
+	rdfs:label	"Americans"@en ;
+	ns2:language	dbpedia:Languages_of_the_United_States ,
+		dbpedia:American_English ,
+		dbpedia:Spanish_language_in_the_United_States ;
+	ns2:populationPlace	dbpedia:Canada ,
+		dbpedia:China ,
+		dbpedia:Philippines ,
+		dbpedia:United_Kingdom ,
+		dbpedia:Germany ,
+		dbpedia:Mexico ,
+		dbpedia:South_Korea ,
+		dbpedia:Israel ,
+		dbpedia:Costa_Rica ,
+		dbpedia:France ;
+	ns2:religion	dbpedia:Catholic_Church_in_the_United_States ,
+		dbpedia:Christianity_in_the_United_States ,
+		dbpedia:Religion_in_the_United_States ,
+		dbpedia:Mormonism ,
+		dbpedia:American_Jews ;
+	owl:sameAs	ns5:Q846570 ,
+		dbpedia:Americans ;
+	ns2:totalPopulation	"2010"^^xsd:nonNegativeInteger ,
+		"2015"^^xsd:nonNegativeInteger ;
+	foaf:name	"Americans"@en .
+dbpedia:Activist	rdfs:label	"Activist"@en .
+dbpedia:Actor	rdf:type	owl:Thing ;
+	rdfs:label	"Actor"@en ;
+	owl:sameAs	ns5:Q33999 ,
+		dbpedia:Actor .
+dbpedia:Author	rdf:type	owl:Thing ;
+	rdfs:label	"Author"@en ;
+	owl:sameAs	dbpedia:Author ,
+		ns5:Q482980 .
+dbpedia:Bandleader	rdfs:label	"Bandleader"@en ;
+	owl:sameAs	ns5:Q806349 ,
+		dbpedia:Bandleader .
+<http://dbpedia.org/resource/Boston,_Massachusetts>	rdfs:label	"Boston, Massachusetts"@en .
+dbpedia:Columnist	rdf:type	owl:Thing ;
+	rdfs:label	"Columnist"@en ;
+	owl:sameAs	dbpedia:Columnist ,
+		ns5:Q1086863 .
+dbpedia:Comedian	rdf:type	owl:Thing ;
+	rdfs:label	"Comedian"@en ;
+	owl:sameAs	dbpedia:Comedian ,
+		ns5:Q245068 .
+dbpedia:Comic_book_writer	rdfs:label	"Comic book writer"@en .
+dbpedia:Composer	rdf:type	owl:Thing ;
+	rdfs:label	"Composer"@en ;
+	owl:sameAs	dbpedia:Composer ,
+		ns5:Q36834 .
+dbpedia:Conducting	rdf:type	owl:Thing ;
+	rdfs:label	"Conducting"@en ;
+	owl:sameAs	dbpedia:Conducting ,
+		ns5:Q6989196 .
+dbpedia:Dancer	rdfs:label	"Dancer"@en .
+dbpedia:Desert_Memorial_Park	rdfs:label	"Desert Memorial Park"@en ;
+	owl:sameAs	dbpedia:Desert_Memorial_Park ,
+		ns5:Q2357024 .
+dbpedia:Film_director	rdf:type	owl:Thing ;
+	rdfs:label	"Film director"@en ;
+	owl:sameAs	ns5:Q2526255 ,
+		dbpedia:Film_director .
+dbpedia:Film_producer	rdfs:label	"Film producer"@en ;
+	owl:sameAs	ns5:Q3282637 ,
+		dbpedia:Film_producer .
+<http://dbpedia.org/resource/Forest_Lawn_Memorial_Park_(Hollywood_Hills)>	rdfs:label	"Forest Lawn Memorial Park (Hollywood Hills)"@en ;
+	owl:sameAs	<http://dbpedia.org/resource/Forest_Lawn_Memorial_Park_(Hollywood_Hills)> ,
+		ns5:Q1302545 .
+<http://dbpedia.org/resource/Hanged,_drawn_and_quartered>	rdf:type	owl:Thing ;
+	rdfs:label	"Hanged, drawn and quartered"@en ;
+	owl:sameAs	ns5:Q877524 ,
+		<http://dbpedia.org/resource/Hanged,_drawn_and_quartered> .
+dbpedia:Historian	rdf:type	owl:Thing ;
+	rdfs:label	"Historian"@en ;
+	owl:sameAs	dbpedia:Historian ,
+		ns5:Q201788 .
+dbpedia:Hollywood_Hills	rdfs:label	"Hollywood Hills"@en ;
+	owl:sameAs	ns5:Q1138378 ,
+		dbpedia:Hollywood_Hills .
+<http://dbpedia.org/resource/Hollywood_Hills,_California>	rdfs:label	"Hollywood Hills, California"@en .
+<http://dbpedia.org/resource/Holy_Cross_Cemetery,_Culver_City,_California>	rdfs:label	"Holy Cross Cemetery, Culver City, California"@en .
+<http://dbpedia.org/resource/Los_Angeles,_California>	rdfs:label	"Los Angeles, California"@en .
+dbpedia:Medievalism	rdfs:label	"Medievalism"@en ;
+	owl:sameAs	ns5:Q12348939 ,
+		dbpedia:Medievalism .
+<http://dbpedia.org/resource/New_Orleans,_Louisiana>	rdfs:label	"New Orleans, Louisiana"@en .
+<http://dbpedia.org/resource/New_York_(state)>	rdfs:label	"New York (state)"@en .
+<http://dbpedia.org/resource/New_York_City,_New_York>	rdfs:label	"New York City, New York"@en .
+dbpedia:Political_activist	rdfs:label	"Political activist"@en .
+dbpedia:Public_speaker	rdfs:label	"Public speaker"@en .
+dbpedia:Roman_Catholicism	rdfs:label	"Roman Catholicism"@en .
+dbpedia:Scotland	rdf:type	owl:Thing ;
+	rdfs:label	"Scotland"@en ;
+	owl:sameAs	dbpedia:Scotland ,
+		ns5:Q22 .
+dbpedia:Scottish_Wars_of_Independence	rdfs:label	"Scottish Wars of Independence"@en .
+dbpedia:Screenwriter	rdf:type	owl:Thing ;
+	rdfs:label	"Screenwriter"@en ;
+	owl:sameAs	dbpedia:Screenwriter ,
+		ns5:Q28389 .
+dbpedia:Segrave_Trophy	rdfs:label	"Segrave Trophy"@en ;
+	owl:sameAs	ns5:Q7446312 ,
+		dbpedia:Segrave_Trophy .
+dbpedia:Singer	rdfs:label	"Singer"@en .
+dbpedia:Suzy_Amis	rdfs:label	"Suzy Amis"@en .
+dbpedia:Textile_design	rdfs:label	"Textile design"@en ;
+	owl:sameAs	dbpedia:Textile_design ,
+		ns5:Q763631 .
+dbpedia:The_Catholic_University_of_America	rdfs:label	"The Catholic University of America"@en .
+dbpedia:Tomi_Rae_Hynie	rdfs:label	"Tomi Rae Hynie"@en ;
+	owl:sameAs	ns5:Q7818857 ,
+		dbpedia:Tomi_Rae_Hynie .
+dbpedia:Wairarapa	rdfs:label	"Wairarapa"@en ;
+	owl:sameAs	ns5:Q692895 ,
+		dbpedia:Wairarapa .
+dbpedia:Wales	rdf:type	owl:Thing ;
+	rdfs:label	"Wales"@en ;
+	owl:sameAs	ns5:Q25 ,
+		dbpedia:Wales .
+dbpedia:Wallpaper	rdf:type	owl:Thing ;
+	rdfs:label	"Wallpaper"@en ;
+	owl:sameAs	dbpedia:Wallpaper ,
+		ns5:Q191529 .
+dbpedia:West_Riding_of_Yorkshire	rdfs:label	"West Riding of Yorkshire"@en ;
+	owl:sameAs	dbpedia:West_Riding_of_Yorkshire ,
+		ns5:Q1934075 .
+dbpedia:Caleb_Walker	rdf:type	ns2:Person ;
+	rdfs:label	"Caleb Walker"@en ;
+	ns2:birthPlace	<http://dbpedia.org/resource/Los_Angeles_County,_California> ;
+	ns2:occupation	dbpedia:Caleb_Walker__1 ;
+	ns2:relative	dbpedia:Paul_Walker ,
+		<http://dbpedia.org/resource/Cody_Walker_(actor)> ;
+	owl:sameAs	ns5:Q26211028 ,
+		dbpedia:Caleb_Walker ;
+	ns2:activeYearsStartYear	"2012"^^xsd:gYear ;
+	ns2:birthDate	"1977-10-04"^^xsd:date ;
+	ns2:birthName	"Caleb Michael Walker"@en ;
+	ns2:birthYear	"1977"^^xsd:gYear ;
+	foaf:name	"Caleb Walker"@en .
+dbpedia:Italian-American	rdfs:label	"Italian-American"@en .
+dbpedia:Nondenominational_Christianity	rdfs:label	"Nondenominational Christianity"@en ;
+	owl:sameAs	ns5:Q7049261 ,
+		dbpedia:Nondenominational_Christianity .
+dbpedia:Single-vehicle_collision	rdfs:label	"Single-vehicle collision"@en .
+dbpedia:Travel_writer	rdfs:label	"Travel writer"@en .
+dbpedia:Chassis	rdf:type	owl:Thing ;
+	rdfs:label	"Chassis"@en ;
+	owl:sameAs	ns5:Q731988 ,
+		dbpedia:Chassis .
+<http://dbpedia.org/resource/Alfred_I._duPont\u2013Columbia_University_Award>	rdf:type	ns2:Award ;
+	rdfs:label	"Alfred I. duPont\u2013Columbia University Award"@en ;
+	ns2:country	dbpedia:United_States ;
+	ns2:presenter	dbpedia:Columbia_University_Graduate_School_of_Journalism ;
+	owl:sameAs	ns5:Q4722910 ,
+		<http://dbpedia.org/resource/Alfred_I._duPont\u2013Columbia_University_Award> ;
+	foaf:name	"Alfred I. duPont\u2013Columbia University Award"@en .
+dbpedia:Chris_Martin	rdf:type	ns2:Person ;
+	rdfs:label	"Chris Martin"@en ;
+	ns2:birthPlace	dbpedia:Devon ,
+		dbpedia:Exeter ,
+		<http://dbpedia.org/resource/Whitestone,_Devon> ;
+	ns2:occupation	dbpedia:Chris_Martin__1 ;
+	ns2:spouse	dbpedia:Gwyneth_Paltrow ;
+	ns2:birthDate	"1977-03-02"^^xsd:date ;
+	ns2:birthName	"Christopher Anthony John Martin"@en ;
+	ns2:birthYear	"1977"^^xsd:gYear ;
+	ns2:imdbId	"1112874" ;
+	foaf:name	"Chris Martin"@en .
+dbpedia:Chris_Martin__1	rdf:type	ns2:PersonFunction ;
+	ns2:title	"songwriter"@en ,
+		"multi-instrumentalist"@en ,
+		"Singer"@en ,
+		"record producer"@en .
+dbpedia:Coniston_Water	rdf:type	ns2:Lake ;
+	rdfs:label	"Coniston Water"@en ;
+	ns2:island	<http://dbpedia.org/resource/Peel_Island,_Cumbria> ;
+	ns2:location	dbpedia:Cumbria ,
+		dbpedia:Lake_District ;
+	ns2:outflow	dbpedia:River_Crake ;
+	owl:sameAs	ns5:Q1126099 ,
+		dbpedia:Coniston_Water ;
+	ns2:averageDepth	24.100000000000001421 ;
+	ns2:elevation	43.600000000000001421 ;
+	ns2:length	8800.0 ;
+	ns2:maximumDepth	56.100000000000001421 ;
+	ns2:shoreLength	20200.0 ;
+	ns2:volume	113.29999999999999716 ;
+	ns2:width	793.0 ;
+	ns2:areaTotal	4700000.0 ;
+	foaf:name	"Coniston Water"@en .
+<http://dbpedia.org/resource/Denham,_Buckinghamshire>	rdf:type	ns2:Settlement ;
+	rdfs:label	"Denham, Buckinghamshire"@en ;
+	ns2:country	dbpedia:Buckinghamshire ,
+		dbpedia:United_Kingdom ;
+	ns2:district	dbpedia:South_Bucks ;
+	owl:sameAs	ns5:Q988761 ,
+		<http://dbpedia.org/resource/Denham,_Buckinghamshire> ;
+	ns2:areaCode	"01895" ;
+	ns2:gridReference	"TQ0486" ;
+	ns2:postalCode	"UB9" ;
+	ns2:areaTotal	16020000.0 ;
+	ns2:populationTotal	"7139"^^xsd:nonNegativeInteger ;
+	foaf:name	"Denham"@en .
+dbpedia:Fitzrovia	rdf:type	ns2:Settlement ;
+	rdfs:label	"Fitzrovia"@en ;
+	ns2:country	dbpedia:United_Kingdom ;
+	owl:sameAs	dbpedia:Fitzrovia ,
+		ns5:Q121663 ;
+	ns2:areaCode	"020" ;
+	ns2:gridReference	"TQ2981" ;
+	ns2:postalCode	"WC1" ,
+		"W1" ;
+	foaf:name	"Fitzrovia"@en .
+dbpedia:Gosport	rdf:type	ns2:Town ;
+	rdfs:label	"Gosport"@en ;
+	ns2:country	dbpedia:United_Kingdom ;
+	ns2:isPartOf	dbpedia:England ,
+		dbpedia:South_East_England ,
+		dbpedia:Hampshire ,
+		dbpedia:Non-metropolitan_district ;
+	ns2:leaderName	dbpedia:Caroline_Dinenage ;
+	ns2:timeZone	dbpedia:British_Summer_Time ,
+		dbpedia:Greenwich_Mean_Time ;
+	ns2:type	dbpedia:Town ;
+	owl:sameAs	ns5:Q936263 ,
+		dbpedia:Gosport ;
+	ns2:areaCode	"023" ;
+	ns2:postalCode	"PO12, PO13" ;
+	ns2:synonym	"Borough of Gosport" ;
+	ns2:utcOffset	"0" ,
+		"+1" ;
+	ns2:areaTotal	25290000.0 ;
+	ns2:leaderTitle	"MPs"@en ,
+		"Borough Council"@en ,
+		"Mayor"@en ;
+	foaf:name	"Gosport"@en .
+dbpedia:Jack_White	rdf:type	ns2:Person ;
+	rdfs:label	"Jack White"@en ;
+	ns2:birthPlace	dbpedia:Detroit ;
+	ns2:education	dbpedia:Cass_Technical_High_School ;
+	ns2:occupation	dbpedia:Jack_White__1 ;
+	ns2:residence	<http://dbpedia.org/resource/Nashville,_Tennessee> ;
+	ns2:soundRecording	dbpedia:Jack_White__1 ;
+	ns2:activeYearsStartYear	"1987"^^xsd:gYear ;
+	ns2:birthDate	"1975-07-09"^^xsd:date ;
+	ns2:birthName	"John Anthony Gillis"@en ;
+	ns2:birthYear	"1975"^^xsd:gYear ;
+	ns2:imdbId	"1226421" ;
+	foaf:name	"Jack White"@en .
+dbpedia:Jack_White__1	rdf:type	ns2:Sound ,
+		ns2:PersonFunction ;
+	ns2:description	"Demonstrates the \"fake\" bass tone White achieves by using an octave pedal."@en ;
+	ns2:filename	"Seven Nation Army (sample).ogg" ;
+	ns2:title	"Musician"@en ,
+		"singer"@en ,
+		"actor"@en ,
+		"record producer"@en ,
+		"\"Seven Nation Army\" excerpt"@en ,
+		"songwriter"@en .
+dbpedia:New_Statesman	rdf:type	ns2:Magazine ;
+	rdfs:label	"New Statesman"@en ;
+	ns2:city	dbpedia:London ;
+	ns2:country	dbpedia:United_Kingdom ;
+	ns2:editor	dbpedia:Jason_Cowley ;
+	ns2:founder	dbpedia:Beatrice_Webb ,
+		dbpedia:Sidney_Webb ;
+	ns2:language	dbpedia:English_language ;
+	ns2:publisher	dbpedia:Progressive_Digital_Media ;
+	owl:sameAs	dbpedia:New_Statesman ,
+		ns5:Q1566255 ;
+	ns2:circulation	"33395"^^xsd:nonNegativeInteger ;
+	ns2:date	"1913-04-12"^^xsd:date ;
+	ns2:issn	"1364-7431" ;
+	ns2:year	"2015"^^xsd:gYear ;
+	foaf:name	"New Statesman"@en .
+dbpedia:Hayley_Mills	rdf:type	ns2:Person ;
+	rdfs:label	"Hayley Mills"@en ;
+	ns2:birthPlace	dbpedia:England ,
+		dbpedia:London ,
+		dbpedia:Marylebone ;
+	ns2:child	dbpedia:Crispian_Mills ;
+	ns2:education	dbpedia:Elmhurst_Ballet_School ;
+	ns2:occupation	dbpedia:Hayley_Mills__1 ;
+	ns2:parent	dbpedia:Mary_Hayley_Bell ,
+		dbpedia:John_Mills ;
+	ns2:relative	dbpedia:Juliet_Mills ;
+	ns2:spouse	dbpedia:Boulting_brothers ;
+	owl:sameAs	dbpedia:Hayley_Mills ,
+		ns5:Q237805 ;
+	ns2:activeYearsStartYear	"1959"^^xsd:gYear ;
+	ns2:birthDate	"1946-04-18"^^xsd:date ;
+	ns2:birthName	"Hayley Catherine Rose Vivien Mills"@en ;
+	ns2:birthYear	"1946"^^xsd:gYear ;
+	ns2:imdbId	"0001539" ;
+	foaf:name	"Hayley Mills"@en .
+dbpedia:Irish_people	rdf:type	ns2:EthnicGroup ;
+	rdfs:label	"Irish people"@en ;
+	ns2:language	dbpedia:Scots_language ,
+		dbpedia:Shelta_language ,
+		dbpedia:Irish_language ,
+		dbpedia:English_language ;
+	ns2:populationPlace	dbpedia:Australia ,
+		dbpedia:New_Zealand ,
+		dbpedia:Canada ,
+		dbpedia:Northern_Ireland ,
+		dbpedia:Mexico ,
+		dbpedia:United_States ,
+		dbpedia:Irish_by_Country ,
+		dbpedia:Argentina ;
+	ns2:related	dbpedia:Northern_European ,
+		dbpedia:Ulster_Scots_people ,
+		dbpedia:English_people ,
+		dbpedia:Breton_people ,
+		dbpedia:Scottish_people ,
+		dbpedia:Vikings ,
+		dbpedia:Manx_people ,
+		dbpedia:Anglo-Irish_people ,
+		dbpedia:Cornish_people ,
+		dbpedia:Icelanders ,
+		dbpedia:Welsh_people ;
+	ns2:religion	dbpedia:Roman_Catholicism_in_Ireland ,
+		dbpedia:Methodist_Church_in_Ireland ,
+		dbpedia:Protestantism_in_Ireland ,
+		dbpedia:Church_of_Ireland ,
+		dbpedia:Christianity ,
+		dbpedia:Presbyterian_Church_in_Ireland ,
+		dbpedia:Religion_in_Ireland ;
+	owl:sameAs	ns5:Q170826 ,
+		dbpedia:Irish_people ;
+	ns2:totalPopulation	"1"^^xsd:nonNegativeInteger ;
+	foaf:name	"Irish people"@en ,
+		"Muintir na h\u00C9ireann"@en .
+dbpedia:John_Barnard	rdf:type	ns2:Person ;
+	rdfs:label	"John Barnard"@en ;
+	ns2:knownFor	dbpedia:Chassis ;
+	ns2:occupation	dbpedia:Aerodynamicist ,
+		dbpedia:John_Barnard__1 ,
+		dbpedia:Race_car ;
+	ns2:birthDate	"1946-05-04"^^xsd:date ;
+	ns2:birthYear	"1946"^^xsd:gYear ;
+	foaf:name	"John Barnard"@en .
+dbpedia:John_Barnard__1	rdf:type	ns2:PersonFunction ;
+	ns2:title	"race cardesigner, F1Aerodynamicist, F1 Engineer and Former Technical Director."@en .
+dbpedia:John_Corbett	rdf:type	ns2:Person ;
+	rdfs:label	"John Corbett"@en ;
+	ns2:birthPlace	<http://dbpedia.org/resource/Wheeling,_West_Virginia> ;
+	ns2:occupation	dbpedia:John_Corbett__1 ;
+	ns2:partner	dbpedia:Bo_Derek ;
+	ns2:activeYearsStartYear	"1987"^^xsd:gYear ;
+	ns2:birthDate	"1961-05-09"^^xsd:date ;
+	ns2:birthName	"John Joseph Corbett"@en ;
+	ns2:birthYear	"1961"^^xsd:gYear ;
+	foaf:name	"John Corbett"@en .
+dbpedia:John_Corbett__1	rdf:type	ns2:PersonFunction ;
+	ns2:title	"Actor, singer"@en .
+dbpedia:Thomas_Gibson	rdf:type	ns2:Person ;
+	rdfs:label	"Thomas Gibson"@en ;
+	ns2:birthPlace	<http://dbpedia.org/resource/Charleston,_South_Carolina> ,
+		dbpedia:South_Carolina ;
+	ns2:occupation	dbpedia:Film_director ,
+		dbpedia:Thomas_Gibson__1 ,
+		dbpedia:Actor ;
+	ns2:activeYearsStartYear	"1987"^^xsd:gYear ;
+	ns2:birthDate	"1962-07-03"^^xsd:date ;
+	ns2:birthName	"Thomas Ellis Gibson"@en ;
+	ns2:birthYear	"1962"^^xsd:gYear ;
+	foaf:name	"Thomas Gibson"@en .
+dbpedia:Thomas_Gibson__1	rdf:type	ns2:PersonFunction ;
+	ns2:title	"Actor,film director"@en .
+dbpedia:Aileen_Raymond	rdf:type	ns2:Actor ;
+	rdfs:label	"Aileen Raymond"@en ;
+	ns2:country	dbpedia:England ;
+	owl:sameAs	dbpedia:Aileen_Raymond ,
+		ns5:Q4697038 ;
+	ns2:imdbId	"1543426" .
+dbpedia:Mary_Hayley_Bell	rdf:type	ns2:Writer ;
+	rdfs:label	"Mary Hayley Bell"@en ;
+	ns2:birthPlace	dbpedia:Shanghai ;
+	ns2:child	dbpedia:Hayley_Mills ,
+		dbpedia:Juliet_Mills ;
+	ns2:deathPlace	<http://dbpedia.org/resource/Chiltern_(district)> ;
+	ns2:occupation	dbpedia:Writer ,
+		dbpedia:Actress ;
+	ns2:spouse	dbpedia:John_Mills ;
+	owl:sameAs	ns5:Q444867 ,
+		dbpedia:Mary_Hayley_Bell ;
+	ns2:birthDate	"1911-01-22"^^xsd:date ;
+	ns2:deathDate	"2005-12-01"^^xsd:date ;
+	ns2:imdbId	"0068393" ;
+	foaf:name	"Mary Hayley Bell"@en .
+dbpedia:North_Elmham	rdf:type	ns2:Settlement ;
+	rdfs:label	"North Elmham"@en ;
+	ns2:country	dbpedia:Norfolk ,
+		dbpedia:United_Kingdom ;
+	ns2:district	<http://dbpedia.org/resource/Breckland_(district)> ;
+	owl:sameAs	dbpedia:North_Elmham ,
+		ns5:Q1921629 ;
+	ns2:areaCode	"01362" ;
+	ns2:gridReference	"TF985208" ;
+	ns2:postalCode	"NR20" ;
+	ns2:areaTotal	19200000.0 ;
+	ns2:populationTotal	"1433"^^xsd:nonNegativeInteger ;
+	foaf:name	"North Elmham"@en .
+<http://dbpedia.org/resource/Coniston,_Cumbria>	rdf:type	ns2:Settlement ;
+	rdfs:label	"Coniston, Cumbria"@en ;
+	ns2:country	dbpedia:Cumbria ,
+		dbpedia:United_Kingdom ;
+	ns2:district	dbpedia:South_Lakeland ;
+	owl:sameAs	<http://dbpedia.org/resource/Coniston,_Cumbria> ,
+		ns5:Q338140 ;
+	ns2:areaCode	"015394" ;
+	ns2:gridReference	"SD2996" ;
+	ns2:postalCode	"LA21" ;
+	ns2:populationTotal	"928"^^xsd:nonNegativeInteger ;
+	foaf:name	"Coniston"@en .
+dbpedia:Henry_Hill	rdf:type	ns2:Person ;
+	rdfs:label	"Henry Hill"@en ;
+	ns2:birthPlace	dbpedia:Brooklyn ,
+		<http://dbpedia.org/resource/New_York_(state)> ,
+		dbpedia:United_States ;
+	ns2:deathCause	dbpedia:Heart_Disease ;
+	ns2:deathPlace	<http://dbpedia.org/resource/Los_Angeles,_California> ,
+		dbpedia:United_States ;
+	ns2:ethnicity	dbpedia:Irish_American ,
+		dbpedia:Sicilian_American ;
+	ns2:knownFor	dbpedia:Lucchese_crime_family ;
+	ns2:nationality	dbpedia:Italian-American ;
+	ns2:parent	dbpedia:Irish_American ,
+		dbpedia:Sicilian-American ;
+	ns2:residence	<http://dbpedia.org/resource/Topanga,_California> ;
+	ns2:spouse	dbpedia:Karen_Friedman_Hill ;
+	ns2:stateOfOrigin	dbpedia:Italian-American ;
+	ns2:alias	"Alex Canclini"@en ;
+	ns2:birthDate	"1943-06-11"^^xsd:date ;
+	ns2:birthYear	"1943"^^xsd:gYear ;
+	ns2:deathDate	"2012-06-12"^^xsd:date ;
+	ns2:deathYear	"2012"^^xsd:gYear ;
+	ns2:imdbId	"1453737" ;
+	foaf:name	"Henry Hill, Jr."@en .
+dbpedia:Jennifer_Schwalbach_Smith	rdf:type	ns2:Person ;
+	rdfs:label	"Jennifer Schwalbach Smith"@en ;
+	ns2:birthPlace	<http://dbpedia.org/resource/Newark,_New_Jersey> ;
+	ns2:child	dbpedia:Harley_Quinn_Smith ;
+	ns2:occupation	dbpedia:Jennifer_Schwalbach_Smith__1 ,
+		dbpedia:Actor ;
+	ns2:residence	<http://dbpedia.org/resource/Hollywood_Hills,_California> ;
+	ns2:spouse	dbpedia:Kevin_Smith ;
+	owl:sameAs	dbpedia:Jennifer_Schwalbach_Smith ,
+		ns5:Q463692 ;
+	ns2:activeYearsStartYear	"2001"^^xsd:gYear ;
+	ns2:birthDate	"1971-04-07"^^xsd:date ;
+	ns2:birthName	"Jennifer Schwalbach"@en ;
+	ns2:birthYear	"1971"^^xsd:gYear ;
+	foaf:name	"Jennifer Schwalbach Smith"@en .
+dbpedia:Ann_Turkel	rdf:type	ns2:Person ;
+	rdfs:label	"Ann Turkel"@en ;
+	ns2:birthPlace	dbpedia:New_York_City ,
+		<http://dbpedia.org/resource/New_York_(state)> ;
+	ns2:occupation	<http://dbpedia.org/resource/Model_(person)> ,
+		dbpedia:Ann_Turkel__1 ;
+	ns2:spouse	dbpedia:Richard_Harris ;
+	owl:sameAs	ns5:Q558801 ,
+		dbpedia:Ann_Turkel ;
+	ns2:birthDate	"1946-07-16"^^xsd:date ;
+	ns2:birthYear	"1946"^^xsd:gYear ;
+	foaf:name	"Ann Turkel"@en .
+dbpedia:Brian_Williams	rdf:type	ns2:Person ;
+	rdfs:label	"Brian Williams"@en ;
+	ns2:almaMater	dbpedia:George_Washington_University ,
+		dbpedia:The_Catholic_University_of_America ;
+	ns2:award	dbpedia:George_Polk_Award ,
+		<http://dbpedia.org/resource/Alfred_I._duPont\u2013Columbia_University_Award> ,
+		dbpedia:Emmy ,
+		dbpedia:Walter_Cronkite_School_of_Journalism_and_Mass_Communication ;
+	ns2:birthPlace	dbpedia:United_States ,
+		<http://dbpedia.org/resource/Ridgewood,_New_Jersey> ;
+	ns2:child	<http://dbpedia.org/resource/Allison_Williams_(actress)> ;
+	ns2:employer	dbpedia:Comcast ,
+		dbpedia:NBCUniversal ;
+	ns2:religion	dbpedia:Roman_Catholicism ;
+	ns2:lccnId	"no/2007/22365" ;
+	ns2:activeYearsStartYear	"1981"^^xsd:gYear ;
+	ns2:birthDate	"1959-05-05"^^xsd:date ;
+	ns2:birthName	"Brian Douglas Williams"@en ;
+	ns2:birthYear	"1959"^^xsd:gYear ;
+	foaf:name	"Brian Williams"@en .
+dbpedia:Harley_Quinn_Smith	rdf:type	ns2:Person ;
+	rdfs:label	"Harley Quinn Smith"@en ;
+	ns2:birthPlace	<http://dbpedia.org/resource/Red_Bank,_New_Jersey> ;
+	ns2:occupation	dbpedia:Harley_Quinn_Smith__1 ,
+		dbpedia:Actor ;
+	ns2:parent	dbpedia:Kevin_Smith ,
+		dbpedia:Jennifer_Schwalbach_Smith ;
+	owl:sameAs	ns5:Q19300018 ,
+		dbpedia:Harley_Quinn_Smith ;
+	ns2:activeYearsStartYear	"2001"^^xsd:gYear ;
+	ns2:birthDate	"1999-06-26"^^xsd:date ;
+	ns2:birthYear	"1999"^^xsd:gYear ;
+	foaf:name	"Harley Quinn Smith"@en .
+dbpedia:Kathryn_Walker	rdf:type	ns2:Person ;
+	rdfs:label	"Kathryn Walker"@en ;
+	ns2:birthPlace	dbpedia:Pennsylvania ,
+		dbpedia:Philadelphia ;
+	ns2:occupation	dbpedia:Actress ,
+		dbpedia:Kathryn_Walker__1 ;
+	ns2:spouse	dbpedia:James_Taylor ;
+	owl:sameAs	dbpedia:Kathryn_Walker ,
+		ns5:Q1736545 ;
+	ns2:birthDate	"1943-01-09"^^xsd:date ;
+	ns2:birthYear	"1943"^^xsd:gYear ;
+	foaf:name	"Kathryn Walker"@en .
+dbpedia:Kingdom_of_Scotland	rdf:type	ns2:Country ;
+	rdfs:label	"Kingdom of Scotland"@en ;
+	ns2:capital	dbpedia:Edinburgh ;
+	ns2:currency	dbpedia:Pound_Scots ;
+	owl:sameAs	ns5:Q230791 ,
+		dbpedia:Kingdom_of_Scotland ;
+	ns2:dissolutionDate	"1707-05-01"^^xsd:date ;
+	ns2:dissolutionYear	"1707"^^xsd:gYear ;
+	ns2:foundingYear	"0009"^^xsd:gYear ;
+	ns2:motto	"*" ,
+		"* \"In my defence God me defend\"" ;
+	foaf:name	"*"@en ,
+		"Scotland"@en ,
+		"Kingdom of Scotland"@en .
+dbpedia:Pamela_Mason	rdf:type	ns2:Person ;
+	rdfs:label	"Pamela Mason"@en ;
+	ns2:birthPlace	dbpedia:Rochford ,
+		dbpedia:Essex ;
+	ns2:deathPlace	<http://dbpedia.org/resource/Beverly_Hills,_California> ;
+	ns2:occupation	dbpedia:Screenwriter ,
+		dbpedia:Actress ,
+		dbpedia:Pamela_Mason__1 ;
+	ns2:spouse	dbpedia:James_Mason ,
+		dbpedia:Roy_Kellino ;
+	owl:sameAs	dbpedia:Pamela_Mason ,
+		ns5:Q7129208 ;
+	ns2:alias	"Pamela Kellino"@en ;
+	ns2:activeYearsEndYear	"1934"^^xsd:gYear ;
+	ns2:activeYearsStartYear	"1934"^^xsd:gYear ;
+	ns2:birthDate	"1916-03-10"^^xsd:date ;
+	ns2:birthName	"Pamela Helen Ostrer"@en ;
+	ns2:birthYear	"1916"^^xsd:gYear ;
+	ns2:deathDate	"1996-06-29"^^xsd:date ;
+	ns2:deathYear	"1996"^^xsd:gYear ;
+	foaf:name	"Pamela Mason"@en .
+dbpedia:Damian_Harris	rdf:type	ns2:Person ;
+	rdfs:label	"Damian Harris"@en ;
+	ns2:occupation	dbpedia:Damian_Harris__1 ;
+	ns2:spouse	dbpedia:Annabel_Brooks ;
+	owl:sameAs	dbpedia:Damian_Harris ,
+		ns5:Q1158442 ;
+	ns2:activeYearsStartYear	"1989"^^xsd:gYear ;
+	ns2:birthDate	"1958-08-02"^^xsd:date ;
+	ns2:birthName	"Damian David Harris"@en ;
+	ns2:birthYear	"1958"^^xsd:gYear .
+<http://dbpedia.org/resource/Allison_Williams_(actress)>	rdf:type	ns2:Person ;
+	rdfs:label	"Allison Williams (actress)"@en ;
+	ns2:almaMater	dbpedia:Yale_University ;
+	ns2:birthPlace	<http://dbpedia.org/resource/New_Canaan,_Connecticut> ,
+		dbpedia:Connecticut ;
+	ns2:occupation	<http://dbpedia.org/resource/Allison_Williams_(actress)__1> ;
+	ns2:parent	dbpedia:Brian_Williams ;
+	ns2:spouse	dbpedia:Ricky_Van_Veen ;
+	owl:sameAs	ns5:Q4455554 ,
+		<http://dbpedia.org/resource/Allison_Williams_(actress)> ;
+	ns2:activeYearsStartYear	"2004"^^xsd:gYear ;
+	ns2:birthDate	"1988-04-13"^^xsd:date ;
+	ns2:birthYear	"1988"^^xsd:gYear ;
+	foaf:name	"Allison Williams"@en .
+<http://dbpedia.org/resource/Cody_Walker_(actor)>	rdf:type	ns2:Person ;
+	rdfs:label	"Cody Walker (actor)"@en ;
+	ns2:birthPlace	<http://dbpedia.org/resource/Los_Angeles_County,_California> ;
+	ns2:occupation	<http://dbpedia.org/resource/Cody_Walker_(actor)__1> ;
+	ns2:relative	dbpedia:Paul_Walker ;
+	owl:sameAs	<http://dbpedia.org/resource/Cody_Walker_(actor)> ,
+		ns5:Q20658844 ;
+	ns2:activeYearsStartYear	"2013"^^xsd:gYear ;
+	ns2:birthDate	"1988-06-13"^^xsd:date ;
+	ns2:birthName	"Cody Beau Walker"@en ;
+	ns2:birthYear	"1988"^^xsd:gYear ;
+	foaf:name	"Cody Walker"@en .
+<http://dbpedia.org/resource/47th_Academy_Awards>	rdfs:label	"47th Academy Awards"@en ;
+	owl:sameAs	<http://dbpedia.org/resource/47th_Academy_Awards> ,
+		ns5:Q369706 .
+<http://dbpedia.org/resource/53rd_Academy_Awards>	rdfs:label	"53rd Academy Awards"@en ;
+	owl:sameAs	<http://dbpedia.org/resource/53rd_Academy_Awards> ,
+		ns5:Q767355 .
+dbpedia:County_Borough_of_Salford	rdfs:label	"County Borough of Salford"@en ;
+	owl:sameAs	ns5:Q5177620 ,
+		dbpedia:County_Borough_of_Salford .
+<http://dbpedia.org/resource/Hodgkin\u0027s_Lymphoma>	rdfs:label	"Hodgkin's Lymphoma"@en .
+dbpedia:Irish_American	rdfs:label	"Irish American"@en .
+<http://dbpedia.org/resource/Isaac_M._Taylor>	rdf:type	ns2:Person ;
+	rdfs:label	"Isaac M. Taylor"@en ;
+	ns2:nationality	dbpedia:United_States ;
+	owl:sameAs	ns5:Q6076727 ,
+		<http://dbpedia.org/resource/Isaac_M._Taylor> .
+dbpedia:Presenter	rdf:type	owl:Thing ;
+	rdfs:label	"Presenter"@en ;
+	owl:sameAs	dbpedia:Presenter ,
+		ns5:Q13590141 .
+dbpedia:Sicilian_American	rdfs:label	"Sicilian American"@en .
+dbpedia:Emmy	rdfs:label	"Emmy"@en .
+dbpedia:Aerodynamicist	rdfs:label	"Aerodynamicist"@en .
+dbpedia:Palm_Springs	rdfs:label	"Palm Springs"@en .
+dbpedia:Mountjoy_Jail	rdfs:label	"Mountjoy Jail"@en .
+dbpedia:Atlanta	rdf:type	ns2:City ;
+	rdfs:label	"Atlanta"@en ;
+	ns2:country	dbpedia:United_States_of_America ;
+	ns2:isPartOf	<http://dbpedia.org/resource/Fulton_County,_Georgia> ,
+		<http://dbpedia.org/resource/DeKalb_County,_Georgia> ,
+		<http://dbpedia.org/resource/Georgia_(U.S._state)> ;
+	ns2:leaderName	dbpedia:Atlanta_City_Council ,
+		dbpedia:Kasim_Reed ;
+	ns2:timeZone	dbpedia:Eastern_Time_Zone ,
+		dbpedia:Eastern_Daylight_Time ;
+	ns2:type	dbpedia:City ;
+	owl:sameAs	dbpedia:Atlanta ,
+		ns5:Q23556 ;
+	ns2:area	1.0 ;
+	ns2:areaCode	"404/678/470" ;
+	ns2:areaMetro	21693740412.17433548 ;
+	ns2:areaUrban	5084146660.5895681381 ;
+	ns2:elevation	224.94239999999999213 ,
+		225.0 ;
+	ns2:populationMetro	"5522942"^^xsd:nonNegativeInteger ;
+	ns2:populationMetroDensity	255.0 ;
+	ns2:populationUrban	"4975300"^^xsd:nonNegativeInteger ;
+	ns2:populationUrbanDensity	979.0 ;
+	ns2:postalCode	"30060, 30301-30322, 30324-30334, 30336-30350, 30353" ;
+	ns2:utcOffset	"-5" ,
+		"-4" ;
+	ns2:areaLand	344900000.0 ;
+	ns2:areaTotal	347100000.0 ;
+	ns2:areaWater	2200000.0 ;
+	ns2:foundingDate	"1847-12-29"^^xsd:date ;
+	ns2:leaderTitle	"Body"@en ,
+		"Mayor"@en ;
+	ns2:motto	"Resurgens (Latin for rising again)" ;
+	ns2:populationDensity	1299.0 ;
+	ns2:populationTotal	"463878"^^xsd:nonNegativeInteger ;
+	foaf:name	"City of Atlanta"@en ,
+		"Atlanta, Georgia"@en ;
+	foaf:nick	"Hotlanta, ATL, The City in a Forest, The A, The Gate City. (See alsoNicknames of Atlanta)"@en .
+dbpedia:Brooklyn	rdf:type	ns2:City ;
+	rdfs:label	"Brooklyn"@en ;
+	ns2:country	dbpedia:United_States_of_America ;
+	ns2:governmentType	<http://dbpedia.org/resource/Borough_(New_York_City)> ;
+	ns2:isPartOf	dbpedia:New_York ,
+		dbpedia:New_York_City ;
+	ns2:leaderName	<http://dbpedia.org/resource/Eric_Adams_(politician)> ;
+	ns2:type	<http://dbpedia.org/resource/Borough_(New_York_City)> ;
+	owl:sameAs	ns5:Q18419 ,
+		dbpedia:Brooklyn ;
+	ns2:areaCode	"347,718,917,929" ;
+	ns2:postalCode	"112" ;
+	ns2:synonym	"Brooklyn, NYC, New York" ;
+	ns2:areaLand	183889155.8338559866 ;
+	ns2:areaTotal	251228846.70259198546 ;
+	ns2:areaWater	67339690.868735998869 ;
+	ns2:leaderTitle	"District Attorney"@en ,
+		"Borough President"@en ;
+	ns2:motto	"Eendraght Maeckt Maght" ;
+	ns2:populationDensity	14338.714472006668075 ;
+	ns2:populationTotal	"2636735"^^xsd:nonNegativeInteger ;
+	foaf:name	"Brooklyn"@en ,
+		"Kings County"@en .
+dbpedia:Buckinghamshire	rdf:type	ns2:AdministrativeRegion ;
+	rdfs:label	"Buckinghamshire"@en ;
+	ns2:country	dbpedia:United_Kingdom ;
+	ns2:location	dbpedia:England ;
+	owl:sameAs	dbpedia:Buckinghamshire ,
+		ns5:Q23229 ;
+	ns2:areaTotal	1874000000.0 ;
+	ns2:motto	"Vestigia nulla retrorsum (\"No turning back/We do not retreat\")" ;
+	foaf:name	"Buckinghamshire"@en .
+dbpedia:California	rdf:type	ns2:AdministrativeRegion ;
+	rdfs:label	"California"@en ;
+	ns2:capital	<http://dbpedia.org/resource/Sacramento,_California> ;
+	ns2:country	dbpedia:United_States ;
+	ns2:language	dbpedia:Chinese_language ,
+		dbpedia:Spanish_language ,
+		dbpedia:Tagalog_language ,
+		dbpedia:English_language ;
+	ns2:largestCity	dbpedia:Los_Angeles ;
+	owl:sameAs	ns5:Q99 ,
+		dbpedia:California ;
+	ns2:areaCode	"209 213 310 323 408 415 510 530 559 562 619 626 650 661 707 714 760 805 818 831 858 909 916 925 949" ;
+	ns2:areaLand	403932000000.0 ;
+	ns2:areaTotal	423970000000.0 ;
+	ns2:areaWater	20047000000.0 ;
+	ns2:demonym	"Californian"@en ;
+	ns2:maximumElevation	4421.0 ;
+	ns2:minimumElevation	-85.0 ;
+	foaf:name	"State of California"@en .
+dbpedia:Carole_Lombard	rdf:type	ns2:Person ;
+	rdfs:label	"Carole Lombard"@en ;
+	ns2:birthPlace	<http://dbpedia.org/resource/Fort_Wayne,_Indiana> ;
+	ns2:deathPlace	<http://dbpedia.org/resource/Potosi_Mountain_(Nevada)> ;
+	ns2:occupation	dbpedia:Carole_Lombard__1 ;
+	ns2:spouse	dbpedia:William_Powell ,
+		dbpedia:Clark_Gable ;
+	owl:sameAs	dbpedia:Carole_Lombard ,
+		ns5:Q207739 ;
+	ns2:activeYearsEndYear	"1942"^^xsd:gYear ;
+	ns2:activeYearsStartYear	"1921"^^xsd:gYear ;
+	ns2:birthDate	"1908-10-06"^^xsd:date ;
+	ns2:birthName	"Jane Alice Peters"@en ;
+	ns2:birthYear	"1908"^^xsd:gYear ;
+	ns2:deathDate	"1942-01-16"^^xsd:date ;
+	ns2:deathYear	"1942"^^xsd:gYear ;
+	foaf:name	"Carole Lombard"@en .
+dbpedia:Catherine_Deneuve	rdf:type	ns2:Person ;
+	rdfs:label	"Catherine Deneuve"@en ;
+	ns2:birthPlace	dbpedia:France ,
+		dbpedia:Paris ;
+	ns2:child	dbpedia:Christian_Vadim ,
+		dbpedia:Chiara_Mastroianni ;
+	ns2:occupation	dbpedia:Catherine_Deneuve__1 ;
+	ns2:parent	dbpedia:Renée_Simonot ,
+		dbpedia:Maurice_Dorléac ;
+	ns2:partner	dbpedia:Marcello_Mastroianni ,
+		dbpedia:Pierre_Lescure ,
+		<http://dbpedia.org/resource/Hugh_Johnson_(cinematographer)> ,
+		dbpedia:Roger_Vadim ;
+	ns2:relation	dbpedia:Françoise_Dorléac ,
+		dbpedia:Benjamin_Biolay ;
+	ns2:spouse	<http://dbpedia.org/resource/David_Bailey_(photographer)> ,
+		<http://dbpedia.org/resource/1965_in_cinema> ,
+		<http://dbpedia.org/resource/1972_in_cinema> ;
+	owl:sameAs	ns5:Q106418 ,
+		dbpedia:Catherine_Deneuve ;
+	ns2:activeYearsStartYear	"1957"^^xsd:gYear ;
+	ns2:birthDate	"1943-10-22"^^xsd:date ;
+	ns2:birthName	"Catherine Fabienne Dorl\u00E9ac"@en ;
+	ns2:birthYear	"1943"^^xsd:gYear ;
+	ns2:imdbId	"0000366" ;
+	foaf:name	"Catherine Deneuve"@en .
+<http://dbpedia.org/resource/Chapel_Hill,_North_Carolina>	rdf:type	ns2:Settlement ;
+	rdfs:label	"Chapel Hill, North Carolina"@en ;
+	ns2:daylightSavingTimeZone	dbpedia:Eastern_Time_Zone ;
+	ns2:mayor	dbpedia:Pam_Hemminger ;
+	ns2:region	<http://dbpedia.org/resource/Chatham_County,_North_Carolina> ,
+		<http://dbpedia.org/resource/Durham_County,_North_Carolina> ,
+		<http://dbpedia.org/resource/Orange_County,_North_Carolina> ;
+	ns2:timeZone	dbpedia:Eastern_Time_Zone ;
+	owl:sameAs	ns5:Q671812 ,
+		<http://dbpedia.org/resource/Chapel_Hill,_North_Carolina> ;
+	ns2:areaCode	"919" ;
+	ns2:elevation	148.13280000000000314 ;
+	ns2:postalCode	"27514-27517" ;
+	ns2:motto	"\"The Southern Part of Heaven\"" ;
+	ns2:populationTotal	"57233"^^xsd:nonNegativeInteger ;
+	foaf:name	"Chapel Hill, North Carolina"@en .
+<http://dbpedia.org/resource/Charleston,_South_Carolina>	rdf:type	ns2:City ;
+	rdfs:label	"Charleston, South Carolina"@en ;
+	ns2:country	dbpedia:United_States ;
+	ns2:isPartOf	<http://dbpedia.org/resource/Charleston_County,_South_Carolina> ,
+		<http://dbpedia.org/resource/Berkeley_County,_South_Carolina> ,
+		dbpedia:South_Carolina ,
+		dbpedia:Province_of_South_Carolina ;
+	ns2:leaderName	dbpedia:John_Tecklenburg ;
+	ns2:leaderParty	<http://dbpedia.org/resource/Democratic_party_(United_States)> ;
+	ns2:timeZone	dbpedia:Eastern_Daylight_Time ,
+		dbpedia:Eastern_Time_Zone ;
+	ns2:type	dbpedia:City ;
+	owl:sameAs	ns5:Q47716 ,
+		<http://dbpedia.org/resource/Charleston,_South_Carolina> ;
+	ns2:areaCode	"843 and 854" ;
+	ns2:elevation	6.0960000000000000853 ,
+		6.0 ;
+	ns2:percentageOfAreaWater	"14.510000228881835938"^^xsd:float ;
+	ns2:populationTotalRanking	"2"^^xsd:positiveInteger ,
+		"199"^^xsd:positiveInteger ;
+	ns2:populationUrban	"548404"^^xsd:nonNegativeInteger ;
+	ns2:postalCode	"29401, 29403, 29405, 29407, 29409, 29412, 29414, 29424, 29425, 29455, 29492" ;
+	ns2:utcOffset	"-5" ,
+		"-4" ;
+	ns2:areaLand	282300000.0 ;
+	ns2:areaTotal	330200000.0 ;
+	ns2:areaWater	47900000.0 ;
+	ns2:leaderTitle	"Mayor"@en ;
+	ns2:motto	"\u00C6des Mores Juraque Curat (Latinfor" ,
+		"\"She Guards Her Temples, Customs, and Laws\")" ;
+	ns2:populationDensity	444.89999999999997726 ;
+	ns2:populationTotal	"120083"^^xsd:nonNegativeInteger ;
+	foaf:name	"Charleston, South Carolina"@en ,
+		"City of Charleston"@en ;
+	foaf:nick	"\"City of Disasters\""@en ,
+		"\"The Holy City\","@en .
+dbpedia:Detroit	rdf:type	ns2:City ;
+	rdfs:label	"Detroit"@en ;
+	ns2:governingBody	dbpedia:Detroit_City_Council ;
+	ns2:governmentType	dbpedia:Mayor-council_government ;
+	ns2:isPartOf	<http://dbpedia.org/resource/Wayne_County,_Michigan> ,
+		dbpedia:Michigan ;
+	ns2:leaderName	dbpedia:Mike_Duggan ;
+	ns2:timeZone	dbpedia:Eastern_Time_Zone ,
+		dbpedia:Eastern_Daylight_Time ;
+	ns2:type	<http://dbpedia.org/resource/City_(Michigan)> ;
+	owl:sameAs	ns5:Q12439 ,
+		dbpedia:Detroit ;
+	ns2:areaCode	"313" ;
+	ns2:areaMetro	10134623475.744768143 ;
+	ns2:areaUrban	3354034602.885119915 ;
+	ns2:elevation	182.87999999999999545 ;
+	ns2:populationMetro	"4292060"^^xsd:nonNegativeInteger ;
+	ns2:populationTotalRanking	"21"^^xsd:positiveInteger ;
+	ns2:populationUrban	"3734090"^^xsd:nonNegativeInteger ;
+	ns2:postalCode	"48201-48202, 48204-11, 48213-17, 48219, 48221-24, 48226-28, 48231-35, 48238, 48242-44, 48255, 48260, 48264-69, 48272, 48275, 48277-79, 48288" ;
+	ns2:utcOffset	"\u22125" ,
+		"\u22124" ;
+	ns2:areaLand	359360850.30911999941 ,
+		359360000.0 ;
+	ns2:areaTotal	370030000.0 ,
+		370031601.32370430231 ;
+	ns2:areaWater	10670751.014584319666 ,
+		10670000.0 ;
+	ns2:foundingDate	"1806-09-13"^^xsd:date ;
+	ns2:leaderTitle	"City Council"@en ,
+		"Mayor"@en ;
+	ns2:motto	"(Latin: We Hope For Better Things; It Shall Rise From the Ashes)" ,
+		"''" ;
+	ns2:populationDensity	275590.84041795140365 ;
+	ns2:populationTotal	"677116"^^xsd:nonNegativeInteger ;
+	foaf:name	"Detroit, Michigan"@en ,
+		"City of Detroit"@en ;
+	foaf:nick	"The Motor City, Motown, Renaissance City, City of the Straits, The D, Hockeytown,The Automotive Capital of the World, Rock City, The 313"@en .
+dbpedia:Devon	rdf:type	ns2:AdministrativeRegion ;
+	rdfs:label	"Devon"@en ;
+	ns2:country	dbpedia:United_Kingdom ;
+	ns2:location	dbpedia:England ;
+	owl:sameAs	ns5:Q23156 ,
+		dbpedia:Devon ;
+	ns2:areaTotal	6707000000.0 ;
+	ns2:motto	"\"Auxilio Divino\" (\"With God's help\")" ;
+	foaf:name	"Devon"@en .
+dbpedia:Donald_Campbell	rdf:type	ns2:Person ;
+	rdfs:label	"Donald Campbell"@en ;
+	ns2:award	dbpedia:Segrave_Trophy ;
+	ns2:birthPlace	dbpedia:Kingston_upon_Thames ,
+		dbpedia:Surrey ;
+	ns2:deathPlace	dbpedia:Lancashire ,
+		dbpedia:Coniston_Water ;
+	ns2:nationality	dbpedia:United_Kingdom ;
+	ns2:occupation	dbpedia:Donald_Campbell__1 ;
+	ns2:parent	dbpedia:Malcolm_Campbell ;
+	ns2:restingPlace	<http://dbpedia.org/resource/Coniston,_Cumbria> ;
+	ns2:stateOfOrigin	dbpedia:United_Kingdom ;
+	ns2:alias	"'The Skipper'"@en ;
+	ns2:birthDate	"1921-03-23"^^xsd:date ;
+	ns2:birthName	"Donald Malcolm Campbell"@en ;
+	ns2:birthYear	"1921"^^xsd:gYear ;
+	ns2:deathDate	"1967-01-04"^^xsd:date ;
+	ns2:deathYear	"1967"^^xsd:gYear ;
+	foaf:name	"Donald Campbell"@en .
+dbpedia:Donald_Campbell__1	rdf:type	ns2:PersonFunction ;
+	ns2:title	"Speed record breaker"@en .
+dbpedia:Dublin	rdf:type	ns2:City ;
+	rdfs:label	"Dublin"@en ;
+	ns2:country	dbpedia:Republic_of_Ireland ;
+	ns2:governmentType	dbpedia:Dublin_City_Council ;
+	ns2:isPartOf	dbpedia:Leinster ;
+	ns2:leaderName	<http://dbpedia.org/resource/Dublin_(European_Parliament_constituency)> ,
+		<http://dbpedia.org/resource/Dublin_Central_(D\u00E1il_\u00C9ireann_constituency)> ,
+		<http://dbpedia.org/resource/Dublin_Bay_North_(D\u00E1il_\u00C9ireann_constituency)> ,
+		<http://dbpedia.org/resource/Dublin_Bay_South_(D\u00E1il_\u00C9ireann_constituency)> ,
+		<http://dbpedia.org/resource/Dublin_North-West_(D\u00E1il_\u00C9ireann_constituency)> ,
+		<http://dbpedia.org/resource/Dublin_South-Central_(D\u00E1il_\u00C9ireann_constituency)> ,
+		<http://dbpedia.org/resource/Labour_Party_(Ireland)> ;
+	ns2:timeZone	dbpedia:Western_European_Time ,
+		dbpedia:Irish_Standard_Time ;
+	ns2:type	dbpedia:Capital_city ;
+	owl:sameAs	dbpedia:Dublin ,
+		ns5:Q1761 ;
+	ns2:areaCode	"01 (+3531)" ;
+	ns2:areaUrban	318000000.0 ;
+	ns2:populationMetro	"1904806"^^xsd:nonNegativeInteger ;
+	ns2:populationUrban	"1110627"^^xsd:nonNegativeInteger ;
+	ns2:postalCode	"D01 to D18, D20, D22, D24 & D6W" ;
+	ns2:utcOffset	"0" ,
+		"+1" ;
+	ns2:areaTotal	114990000.0 ;
+	ns2:leaderTitle	"Headquarters"@en ,
+		"D\u00E1il \u00C9ireann"@en ,
+		"Lord Mayor"@en ,
+		"European Parliament"@en ;
+	ns2:motto	"\"The Obedience of the citizens produces a happy city\"" ;
+	ns2:populationDensity	4588.0 ;
+	ns2:populationTotal	"553165"^^xsd:nonNegativeInteger ;
+	foaf:name	"Dublin"@en ;
+	foaf:nick	"The Fair City"@en .
+dbpedia:Edinburgh	rdf:type	ns2:City ;
+	rdfs:label	"Edinburgh"@en ;
+	ns2:country	dbpedia:United_Kingdom ;
+	ns2:isPartOf	dbpedia:Scotland ;
+	ns2:leaderName	dbpedia:Politics_of_Edinburgh ;
+	ns2:timeZone	dbpedia:Greenwich_Mean_Time ,
+		dbpedia:British_Summer_Time ;
+	ns2:type	dbpedia:City_status_in_the_United_Kingdom ,
+		dbpedia:Council_areas_of_Scotland ;
+	owl:sameAs	dbpedia:Edinburgh ,
+		ns5:Q23436 ;
+	ns2:areaCode	"0131" ;
+	ns2:elevation	47.0 ;
+	ns2:populationMetro	"1339380"^^xsd:nonNegativeInteger ;
+	ns2:postalCode	"EH1-17, EH28-30" ;
+	ns2:utcOffset	"+1" ,
+		"\u00B10" ;
+	ns2:areaTotal	264000000.0 ;
+	ns2:leaderTitle	"Lord Provost"@en ,
+		"MSPs"@en ,
+		"Governing body"@en ,
+		"MPs"@en ;
+	ns2:populationDensity	1828.0 ;
+	ns2:populationTotal	"464990"^^xsd:nonNegativeInteger ;
+	foaf:name	"City of Edinburgh"@en ;
+	foaf:nick	"\"Auld Reekie\", \"Edina\", \"Athens of the North\""@en .
+<http://dbpedia.org/resource/Glendale,_California>	rdf:type	ns2:City ;
+	rdfs:label	"Glendale, California"@en ;
+	ns2:country	dbpedia:United_States ;
+	ns2:governmentType	dbpedia:Council-manager_government ;
+	ns2:isPartOf	dbpedia:California ,
+		<http://dbpedia.org/resource/Los_Angeles_County,_California> ;
+	ns2:leaderName	dbpedia:Mayor ,
+		dbpedia:Zareh_Sinanyan ,
+		dbpedia:Laura_Friedman ,
+		dbpedia:Rafi_Manoukian ;
+	ns2:timeZone	dbpedia:Pacific_Time_Zone ;
+	ns2:type	dbpedia:Charter_city ;
+	owl:sameAs	<http://dbpedia.org/resource/Glendale,_California> ,
+		ns5:Q485716 ;
+	ns2:areaCode	"818" ;
+	ns2:elevation	159.0 ,
+		159.10560000000000969 ;
+	ns2:percentageOfAreaWater	"0.43000000715255737305"^^xsd:float ;
+	ns2:populationAsOf	"2010-04-01"^^xsd:date ;
+	ns2:populationTotalRanking	"23"^^xsd:positiveInteger ,
+		"3"^^xsd:positiveInteger ;
+	ns2:postalCode	"91201\u201391210, 91214, 91221, 91222, 91224\u201391226" ;
+	ns2:utcOffset	"&minus;7" ,
+		"&minus;8" ;
+	ns2:areaLand	78872907.924062207341 ,
+		78874000.0 ;
+	ns2:areaTotal	79212000.0 ,
+		79209606.378405883908 ;
+	ns2:areaWater	336698.45434368000133 ,
+		338000.0 ;
+	ns2:foundingDate	"1906-02-15"^^xsd:date ;
+	ns2:leaderTitle	"City Manager"@en ,
+		"City treasurer"@en ,
+		"City council"@en ;
+	ns2:populationTotal	"191719"^^xsd:nonNegativeInteger ;
+	foaf:name	"City of Glendale"@en ,
+		"Glendale, California"@en ;
+	foaf:nick	"The Jewel City"@en .
+dbpedia:Gwyneth_Paltrow	rdf:type	ns2:Person ;
+	rdfs:label	"Gwyneth Paltrow"@en ;
+	ns2:birthPlace	<http://dbpedia.org/resource/Los_Angeles,_California> ;
+	ns2:hometown	<http://dbpedia.org/resource/Santa_Monica,_California> ;
+	ns2:occupation	dbpedia:Gwyneth_Paltrow__1 ;
+	ns2:spouse	dbpedia:Chris_Martin ;
+	owl:sameAs	dbpedia:Gwyneth_Paltrow ,
+		ns5:Q34460 ;
+	ns2:activeYearsStartYear	"1989"^^xsd:gYear ;
+	ns2:birthDate	"1972-09-27"^^xsd:date ;
+	ns2:birthName	"Gwyneth Kate Paltrow"@en ;
+	ns2:birthYear	"1972"^^xsd:gYear ;
+	foaf:name	"Gwyneth Paltrow"@en .
+dbpedia:James_Brown	rdf:type	ns2:Person ;
+	rdfs:label	"James Brown"@en ;
+	ns2:birthPlace	<http://dbpedia.org/resource/Barnwell,_South_Carolina> ;
+	ns2:deathCause	dbpedia:Pneumonia ;
+	ns2:deathPlace	dbpedia:Atlanta ;
+	ns2:occupation	dbpedia:James_Brown__1 ,
+		dbpedia:Bandleader ;
+	ns2:spouse	dbpedia:Tomi_Rae_Hynie ;
+	ns2:alias	"James Brown and the Famous Flames"@en ;
+	ns2:birthDate	"1933-05-03"^^xsd:date ;
+	ns2:birthName	"James Joseph Brown"@en ;
+	ns2:birthYear	"1933"^^xsd:gYear ;
+	ns2:deathDate	"2006-12-25"^^xsd:date ;
+	ns2:deathYear	"2006"^^xsd:gYear ;
+	ns2:imdbId	"0113768" .
+dbpedia:James_Brown__1	rdf:type	ns2:PersonFunction ;
+	ns2:title	"dancer"@en ,
+		"bandleader"@en ,
+		"record producer"@en ,
+		"Singer"@en ,
+		"songwriter"@en .
+dbpedia:James_Cameron	rdf:type	ns2:Person ;
+	rdfs:label	"James Cameron"@en ;
+	ns2:birthPlace	dbpedia:Ontario ,
+		dbpedia:Canada ,
+		dbpedia:Kapuskasing ;
+	ns2:education	dbpedia:Brea_Olinda_High_School ;
+	ns2:occupation	dbpedia:James_Cameron__1 ;
+	ns2:residence	<http://dbpedia.org/resource/Malibu,_California> ,
+		dbpedia:Wairarapa ;
+	ns2:spouse	dbpedia:Suzy_Amis ,
+		dbpedia:Gale_Anne_Hurd ,
+		dbpedia:Linda_Hamilton ,
+		dbpedia:Kathryn_Bigelow .
+@prefix ns8:	<http://dbpedia.org/datatype/> .
+dbpedia:James_Cameron	ns2:networth	"1.79E9"^^ns8:usDollar ;
+	ns2:activeYearsStartYear	"1975"^^xsd:gYear ;
+	ns2:birthDate	"1954-08-16"^^xsd:date ;
+	ns2:birthName	"James Francis Cameron"@en ;
+	ns2:birthYear	"1954"^^xsd:gYear ;
+	ns2:imdbId	"0000116" .
+dbpedia:James_Cameron__1	rdf:type	ns2:PersonFunction ;
+	ns2:title	"Filmmaker, environmentalist, explorer, philanthropist"@en .
+dbpedia:James_Mason	rdf:type	ns2:Person ;
+	rdfs:label	"James Mason"@en ;
+	ns2:almaMater	dbpedia:University_of_Cambridge ;
+	ns2:birthPlace	dbpedia:West_Riding_of_Yorkshire ,
+		dbpedia:Huddersfield ;
+	ns2:deathPlace	dbpedia:Lausanne ,
+		dbpedia:Vaud ;
+	ns2:occupation	dbpedia:James_Mason__1 ;
+	ns2:spouse	dbpedia:Pamela_Mason ,
+		dbpedia:Clarissa_Kaye ;
+	ns2:activeYearsEndYear	"1984"^^xsd:gYear ;
+	ns2:activeYearsStartYear	"1931"^^xsd:gYear ;
+	ns2:birthDate	"1909-05-15"^^xsd:date ;
+	ns2:birthName	"James Neville Mason"@en ;
+	ns2:birthYear	"1909"^^xsd:gYear ;
+	ns2:deathDate	"1984-07-27"^^xsd:date ;
+	ns2:deathYear	"1984"^^xsd:gYear ;
+	ns2:imdbId	"0000051" ;
+	foaf:name	"James Mason"@en .
+dbpedia:James_Mason__1	rdf:type	ns2:PersonFunction ;
+	ns2:title	"Actor"@en .
+dbpedia:Kevin_Smith	rdf:type	ns2:Person ;
+	rdfs:label	"Kevin Smith"@en ;
+	ns2:birthPlace	<http://dbpedia.org/resource/Red_Bank,_New_Jersey> ;
+	ns2:child	dbpedia:Harley_Quinn_Smith ;
+	ns2:occupation	dbpedia:Podcast ,
+		dbpedia:Comic_book_writer ,
+		dbpedia:Comedian ,
+		dbpedia:Kevin_Smith__1 ,
+		dbpedia:Actor ,
+		dbpedia:Author ,
+		dbpedia:Public_speaker ,
+		dbpedia:Filmmaker ;
+	ns2:religion	dbpedia:Catholic_Church ;
+	ns2:residence	<http://dbpedia.org/resource/Hollywood_Hills,_California> ;
+	ns2:spouse	dbpedia:Jennifer_Schwalbach_Smith ;
+	ns2:activeYearsStartYear	"1992"^^xsd:gYear ;
+	ns2:birthDate	"1970-08-02"^^xsd:date ;
+	ns2:birthName	"Kevin Patrick Smith"@en ;
+	ns2:birthYear	"1970"^^xsd:gYear ;
+	foaf:name	"Kevin Smith"@en .
+dbpedia:Kevin_Smith__1	rdf:type	ns2:PersonFunction ;
+	ns2:title	"Filmmaker,actor,comedian,public speaker,comic book writer,author,podcaster"@en .
+dbpedia:Kingston_upon_Thames	rdf:type	ns2:Settlement ;
+	rdfs:label	"Kingston upon Thames"@en ;
+	ns2:borough	<http://dbpedia.org/resource/Kingston_(hundred)> ;
+	ns2:country	dbpedia:United_Kingdom ;
+	ns2:region	dbpedia:London ;
+	owl:sameAs	ns5:Q2321706 ,
+		dbpedia:Kingston_upon_Thames ;
+	ns2:areaCode	"020" ;
+	ns2:distanceToCharingCross	16093.440000000000509 ;
+	ns2:gridReference	"TQ182693" ;
+	ns2:postalCode	"KT1, KT2" ;
+	ns2:populationTotal	"43013"^^xsd:nonNegativeInteger ;
+	foaf:name	"Kingston upon Thames"@en .
+dbpedia:Lancashire	rdf:type	ns2:AdministrativeRegion ;
+	rdfs:label	"Lancashire"@en ;
+	ns2:country	dbpedia:United_Kingdom ;
+	ns2:location	dbpedia:England ;
+	owl:sameAs	dbpedia:Lancashire ,
+		ns5:Q23077 ;
+	ns2:areaTotal	3079000000.0 ;
+	foaf:name	"Lancashire"@en .
+dbpedia:Lausanne	rdf:type	ns2:Settlement ;
+	rdfs:label	"Lausanne"@en ;
+	ns2:canton	dbpedia:Vaud ;
+	ns2:country	dbpedia:Switzerland ;
+	ns2:district	<http://dbpedia.org/resource/Lausanne_(district)> ;
+	ns2:highestPlace	<http://dbpedia.org/resource/Jorat_(Switzerland)> ;
+	ns2:lowestPlace	dbpedia:Lake_Léman ;
+	ns2:mayor	dbpedia:Daniel_Brélaz ;
+	ns2:neighboringMunicipality	<http://dbpedia.org/resource/Froideville,_Switzerland> ,
+		<http://dbpedia.org/resource/Saint-Sulpice,_Vaud> ,
+		<http://dbpedia.org/resource/Savigny,_Switzerland> ,
+		dbpedia:Cheseaux-sur-Lausanne ,
+		dbpedia:Chavannes-près-Renens ,
+		dbpedia:Jouxtens-Mézery ,
+		dbpedia:Montpreveyres ,
+		dbpedia:Morrens ,
+		dbpedia:Crissier ,
+		dbpedia:Le_Mont-sur-Lausanne ,
+		dbpedia:Lugrin ,
+		dbpedia:Maxilly-sur-Léman ,
+		dbpedia:Renens ,
+		dbpedia:Neuvecelle ,
+		dbpedia:Pully ,
+		<http://dbpedia.org/resource/Cugy,_Vaud> ,
+		dbpedia:Prilly ,
+		dbpedia:Épalinges ,
+		<http://dbpedia.org/resource/\u00C9cublens,_Vaud> ,
+		dbpedia:Évian-les-Bains ,
+		dbpedia:Bottens ,
+		dbpedia:Romanel-sur-Lausanne ,
+		dbpedia:Bretigny-sur-Morrens ;
+	owl:sameAs	ns5:Q807 ,
+		dbpedia:Lausanne ;
+	ns2:elevation	495.0 ;
+	ns2:isoCodeRegion	"CH-VD" ;
+	ns2:municipalityCode	"5586" ;
+	ns2:postalCode	"1000\u20131018" ;
+	ns2:areaTotal	41370000.0 ;
+	ns2:maximumElevation	929.39999999999997726 ;
+	ns2:minimumElevation	372.0 ;
+	ns2:populationTotal	"141"^^xsd:nonNegativeInteger ;
+	foaf:name	"Lausanne"@en .
+dbpedia:Limerick	rdf:type	ns2:City ;
+	rdfs:label	"Limerick"@en ;
+	ns2:country	dbpedia:Republic_of_Ireland ;
+	ns2:governmentType	dbpedia:Limerick_City_and_County_Council ;
+	ns2:isPartOf	dbpedia:Munster ,
+		dbpedia:County_Limerick ;
+	ns2:leaderName	dbpedia:Fine_Gael ,
+		dbpedia:Fianna_Fáil ,
+		<http://dbpedia.org/resource/Limerick_City_(D\u00E1il_\u00C9ireann_constituency)> ,
+		<http://dbpedia.org/resource/South_(European_Parliament_constituency)> ;
+	ns2:timeZone	dbpedia:Irish_Standard_Time ,
+		dbpedia:Western_European_Time ;
+	ns2:type	dbpedia:City ;
+	owl:sameAs	ns5:Q133315 ,
+		dbpedia:Limerick ;
+	ns2:areaCode	"(+353) 61" ;
+	ns2:elevation	10.0 ;
+	ns2:populationTotalRanking	"3"^^xsd:positiveInteger ;
+	ns2:utcOffset	"0" ,
+		"+1" ;
+	ns2:leaderTitle	"Mayor"@en ,
+		"European Parliament"@en ,
+		"Mayor of City and County Council"@en ,
+		"D\u00E1il \u00C9ireann"@en ;
+	ns2:motto	"Studiisque Asperrima Belli''(Latin)" ,
+		"''Urbs Antiqua Fuit" ,
+		"\"There was an ancient city" ,
+		"very fierce in the skills of war\"" ;
+	foaf:name	"Limerick"@en .
+dbpedia:Linda_Hamilton	rdf:type	ns2:Person ;
+	rdfs:label	"Linda Hamilton"@en ;
+	ns2:birthPlace	<http://dbpedia.org/resource/Salisbury,_Maryland> ;
+	ns2:occupation	dbpedia:Linda_Hamilton__1 ;
+	owl:sameAs	dbpedia:Linda_Hamilton ,
+		ns5:Q208214 ;
+	ns2:activeYearsStartYear	"1980"^^xsd:gYear ;
+	ns2:birthDate	"1956-09-26"^^xsd:date ;
+	ns2:birthName	"Linda Carroll Hamilton"@en ;
+	ns2:birthYear	"1956"^^xsd:gYear .
+dbpedia:Liverpool	rdf:type	ns2:City ;
+	rdfs:label	"Liverpool"@en ;
+	ns2:governingBody	dbpedia:Liverpool_City_Council ;
+	ns2:governmentType	dbpedia:Metropolitan_borough ;
+	ns2:isPartOf	dbpedia:Merseyside ,
+		dbpedia:North_West_England ,
+		dbpedia:Lancashire ;
+	ns2:leaderName	dbpedia:Directly_elected_mayor_of_Liverpool ,
+		<http://dbpedia.org/resource/Joe_Anderson_(politician)> ;
+	ns2:timeZone	dbpedia:British_Summer_Time ,
+		dbpedia:Greenwich_Mean_Time ;
+	ns2:type	dbpedia:Metropolitan_borough ,
+		dbpedia:City_status_in_the_United_Kingdom ;
+	owl:sameAs	dbpedia:Liverpool ,
+		ns5:Q24826 ;
+	ns2:areaCode	"0151" ;
+	ns2:areaUrban	199600000.0 ;
+	ns2:elevation	70.103999999999999204 ;
+	ns2:isoCodeRegion	"GB-LIV" ;
+	ns2:populationMetro	"2241000"^^xsd:nonNegativeInteger ;
+	ns2:populationUrban	"864122"^^xsd:nonNegativeInteger ;
+	ns2:populationUrbanDensity	4329.0 ;
+	ns2:postalCode	"L" ;
+	ns2:utcOffset	"+0" ,
+		"+1" ;
+	ns2:leaderTitle	"Mayor"@en ,
+		"Executive"@en ,
+		"Chief Executive"@en ,
+		"Lord Mayor"@en ,
+		"Leadership"@en ;
+	foaf:name	"Liverpool"@en ;
+	foaf:nick	"The Pool, The Pool of Life, The Pool of Talent, The World in One City"@en .
+dbpedia:London	rdf:type	ns2:Settlement ;
+	rdfs:label	"London"@en ;
+	ns2:country	dbpedia:United_Kingdom ;
+	ns2:governingBody	dbpedia:Greater_London_Authority ;
+	ns2:governmentType	dbpedia:Devolution_in_the_United_Kingdom ;
+	ns2:isPartOf	dbpedia:England ,
+		dbpedia:Greater_London ;
+	ns2:leaderName	dbpedia:Sadiq_Khan ,
+		dbpedia:London_Assembly ,
+		dbpedia:London_Assembly_constituencies ,
+		dbpedia:List_of_Parliamentary_constituencies_in_London ,
+		<http://dbpedia.org/resource/London_(European_Parliament_constituency)> ;
+	ns2:timeZone	dbpedia:Greenwich_Mean_Time ,
+		dbpedia:British_Summer_Time ;
+	owl:sameAs	dbpedia:London ,
+		ns5:Q84 ;
+	ns2:elevation	35.0 ;
+	ns2:utcOffset	"+1" ,
+		"\u00B100:00UTC" ;
+	ns2:areaTotal	1572000000.0 ;
+	ns2:leaderTitle	"London Assembly"@en ,
+		"European Parliament"@en ,
+		"Mayor"@en ,
+		"UK Parliament"@en ,
+		"Elected body"@en ;
+	ns2:populationDensity	5518.0 ;
+	ns2:populationTotal	"8673713"^^xsd:nonNegativeInteger ;
+	foaf:name	"London"@en .
+dbpedia:Los_Angeles	rdf:type	ns2:City ;
+	rdfs:label	"Los Angeles"@en ;
+	ns2:governingBody	dbpedia:Los_Angeles_City_Council ;
+	ns2:governmentType	dbpedia:Mayor-council_government ;
+	ns2:isPartOf	dbpedia:Greater_Los_Angeles_Area ,
+		<http://dbpedia.org/resource/Los_Angeles_County,_California> ,
+		dbpedia:California ,
+		dbpedia:Los_Angeles_metropolitan_area ;
+	ns2:leaderName	dbpedia:Eric_Garcetti ,
+		dbpedia:Mike_Feuer ,
+		dbpedia:Ron_Galperin ;
+	ns2:timeZone	dbpedia:Pacific_Time_Zone ,
+		dbpedia:Pacific_Daylight_Time ;
+	ns2:type	dbpedia:Metropolitan_City ;
+	owl:sameAs	ns5:Q65 ,
+		dbpedia:Los_Angeles ;
+	ns2:areaCode	"213,310/424,562,323,661,747/818" ;
+	ns2:elevation	93.0 ,
+		92.963999999999998636 ;
+	ns2:percentageOfAreaWater	"6.6999998092651367188"^^xsd:float ;
+	ns2:populationAsOf	"2016-01-01"^^xsd:date ;
+	ns2:populationMetro	"13131431"^^xsd:nonNegativeInteger ;
+	ns2:populationTotalRanking	"1"^^xsd:positiveInteger ,
+		"2"^^xsd:positiveInteger ;
+	ns2:populationUrban	"12150996"^^xsd:nonNegativeInteger ;
+	ns2:postalCode	"90001\u201390068, 90070\u201390084, 90086\u201390089, 90091, 90093\u201390097, 90099, 90101\u201390103, 90174, 90185, 90189, 90291\u201390293, 91040\u201391043, 91303\u201391308, 91342\u201391349, 91352\u201391353, 91356\u201391357, 91364\u201391367, 91401\u201391499, 91601\u201391609" ;
+	ns2:utcOffset	"\u22128" ,
+		"\u22127" ;
+	ns2:areaLand	1214000000.0 ,
+		1214704423.7475841045 ;
+	ns2:areaTotal	1302000000.0 ,
+		1302764019.4990079403 ;
+	ns2:areaWater	88059595.751423999667 ,
+		88000000.0 ;
+	ns2:foundingDate	"1850-04-04"^^xsd:date ,
+		"1781-09-04"^^xsd:date ;
+	ns2:leaderTitle	"Mayor"@en ,
+		"City Attorney"@en ,
+		"City Controller"@en ;
+	ns2:maximumElevation	1546.5552000000000135 ;
+	ns2:minimumElevation	0.0 ;
+	ns2:populationDensity	3197.6980770485370158 ;
+	ns2:populationTotal	"4030904"^^xsd:nonNegativeInteger ;
+	foaf:name	"Old Los Angeles"@en ,
+		"Los Angeles, California"@en ,
+		"City of Los Angeles"@en ;
+	foaf:nick	"\"L.A.\", \"City of Angels\", \"Angeltown\", \"The Entertainment Capital of the World\", \"The Big Orange\" \"La-la-land\", \"Tinseltown\""@en .
+dbpedia:Michael_Moore	rdf:type	ns2:Person ;
+	rdfs:label	"Michael Moore"@en ;
+	ns2:almaMater	dbpedia:University_of_Michigan-Flint ;
+	ns2:birthPlace	<http://dbpedia.org/resource/Flint,_Michigan> ;
+	ns2:hometown	<http://dbpedia.org/resource/Davison,_Michigan> ;
+	ns2:occupation	dbpedia:Film_director ,
+		dbpedia:Film_producer ,
+		dbpedia:Actor ,
+		dbpedia:Michael_Moore__1 ,
+		dbpedia:Author ,
+		dbpedia:Political_activist ,
+		dbpedia:Screenwriter ,
+		dbpedia:Journalist ;
+	ns2:activeYearsStartYear	"1976"^^xsd:gYear ;
+	ns2:birthDate	"1954-04-23"^^xsd:date ;
+	ns2:birthName	"Michael Francis Moore"@en ;
+	ns2:birthYear	"1954"^^xsd:gYear .
+dbpedia:Michael_Moore__1	rdf:type	ns2:PersonFunction ;
+	ns2:title	"writer"@en ,
+		"political activist"@en ,
+		"journalist"@en ,
+		"actor"@en ,
+		"author"@en ,
+		"Director"@en ,
+		"producer"@en ,
+		"*"@en .
+dbpedia:Monty_Python	rdf:type	ns2:ComedyGroup ;
+	rdfs:label	"Monty Python"@en ;
+	ns2:nationality	dbpedia:British_people ;
+	owl:sameAs	dbpedia:Monty_Python ,
+		ns5:Q16402 ;
+	foaf:name	"Monty Python"@en .
+<http://dbpedia.org/resource/Nashville,_Tennessee>	rdf:type	ns2:City ;
+	rdfs:label	"Nashville, Tennessee"@en ;
+	ns2:country	dbpedia:United_States ;
+	ns2:isPartOf	dbpedia:Tennessee ,
+		<http://dbpedia.org/resource/Davidson_County,_Tennessee> ;
+	ns2:leaderName	dbpedia:Megan_Barry ;
+	ns2:leaderParty	<http://dbpedia.org/resource/Democratic_Party_(United_States)> ;
+	ns2:timeZone	dbpedia:Central_Time_Zone ;
+	ns2:type	dbpedia:Consolidated_city-county ;
+	owl:sameAs	ns5:Q23197 ,
+		<http://dbpedia.org/resource/Nashville,_Tennessee> ;
+	ns2:areaCode	"615 and 629" ;
+	ns2:elevation	181.96559999999999491 ;
+	ns2:populationMetro	"1830345"^^xsd:nonNegativeInteger ;
+	ns2:postalCode	"37201-37250" ;
+	ns2:utcOffset	"-5" ,
+		"-6" ;
+	ns2:areaLand	1305431707.2526540756 ;
+	ns2:areaTotal	1362178346.7501158714 ;
+	ns2:areaWater	56746639.497461758554 ;
+	ns2:leaderTitle	"Mayor"@en ;
+	ns2:populationTotal	"678889"^^xsd:nonNegativeInteger ;
+	foaf:name	"Metropolitan Government of"@en ,
+		"Nashville, Tennessee"@en ,
+		"Nashville and Davidson County"@en ;
+	foaf:nick	"Music City, Athens of the South"@en .
+dbpedia:Norfolk	rdf:type	ns2:AdministrativeRegion ;
+	rdfs:label	"Norfolk"@en ;
+	ns2:country	dbpedia:United_Kingdom ;
+	ns2:location	dbpedia:England ;
+	owl:sameAs	dbpedia:Norfolk ,
+		ns5:Q23109 ;
+	ns2:areaTotal	5372000000.0 ;
+	foaf:name	"Norfolk"@en .
+dbpedia:Pennsylvania	rdf:type	ns2:AdministrativeRegion ;
+	rdfs:label	"Pennsylvania"@en ;
+	ns2:capital	<http://dbpedia.org/resource/Harrisburg,_Pennsylvania> ;
+	ns2:country	dbpedia:United_States ;
+	ns2:language	dbpedia:Pennsylvania_German_language ;
+	ns2:largestCity	dbpedia:Philadelphia ;
+	owl:sameAs	ns5:Q1400 ,
+		dbpedia:Pennsylvania ;
+	ns2:areaLand	116074000000.0 ;
+	ns2:areaTotal	119283000000.0 ;
+	ns2:areaWater	3208000000.0 ;
+	ns2:demonym	"Pennsylvanian"@en ;
+	ns2:maximumElevation	979.0 ;
+	ns2:minimumElevation	0.0 ;
+	foaf:name	"Commonwealth of Pennsylvania"@en .
+dbpedia:Pittsburgh	rdf:type	ns2:City ;
+	rdfs:label	"Pittsburgh"@en ;
+	ns2:country	dbpedia:United_States ;
+	ns2:founder	dbpedia:George_Washington ,
+		dbpedia:General_John_Forbes ;
+	ns2:governmentType	dbpedia:Mayor-council_government ;
+	ns2:isPartOf	dbpedia:Colony_of_Virginia ,
+		dbpedia:French_colonization_of_the_Americas ,
+		<http://dbpedia.org/resource/Allegheny_County,_Pennsylvania> ,
+		dbpedia:Pennsylvania ,
+		dbpedia:British_Empire ,
+		dbpedia:New_France ,
+		<http://dbpedia.org/resource/Province_of_Quebec_(1763\u201391)> ;
+	ns2:leaderName	dbpedia:Randy_Vulakovich ,
+		dbpedia:Bill_Peduto ,
+		dbpedia:Jay_Costa ,
+		dbpedia:Wayne_Fontana ,
+		<http://dbpedia.org/resource/Michael_F._Doyle> ;
+	ns2:timeZone	dbpedia:Eastern_Time_Zone ;
+	ns2:type	dbpedia:City ;
+	owl:sameAs	dbpedia:Pittsburgh ,
+		ns5:Q1342 ;
+	ns2:areaCode	"412,724,878" ;
+	ns2:areaMetro	13838306473.525247574 ;
+	ns2:percentageOfAreaWater	"4.8000001907348632812"^^xsd:float ;
+	ns2:populationMetro	"2360867"^^xsd:nonNegativeInteger ;
+	ns2:populationTotalRanking	"62"^^xsd:positiveInteger ;
+	ns2:populationUrban	"1733853"^^xsd:nonNegativeInteger ;
+	ns2:utcOffset	"\u22124" ,
+		"\u22125" ;
+	ns2:areaLand	143744340.12364798784 ;
+	ns2:areaTotal	150996306.83258879185 ;
+	ns2:areaWater	7251966.7089408002794 ;
+	ns2:foundingDate	"1816-03-18"^^xsd:date ,
+		"1794-04-22"^^xsd:date ,
+		"1771-04-16"^^xsd:date ,
+		"1758-11-27"^^xsd:date ;
+	ns2:leaderTitle	"Mayor"@en ,
+		"City Council"@en ,
+		"State Senate"@en ,
+		"U.S. House"@en ,
+		"State House"@en ;
+	ns2:maximumElevation	417.57600000000002183 ;
+	ns2:minimumElevation	216.40799999999998704 ;
+	ns2:motto	"Benigno Numine" ;
+	ns2:populationDensity	2139.0059583251504591 ;
+	ns2:populationTotal	"304391"^^xsd:nonNegativeInteger ;
+	foaf:name	"City of Pittsburgh"@en ,
+		"Pittsburgh, Pennsylvania"@en ;
+	foaf:nick	"City of Bridges, Steel City,City of Champions, The 'Burgh"@en .
+dbpedia:Pneumonia	rdf:type	ns2:Disease ;
+	rdfs:label	"Pneumonia"@en ;
+	ns2:soundRecording	dbpedia:Pneumonia__1 ;
+	owl:sameAs	ns5:Q12192 ,
+		dbpedia:Pneumonia ;
+	ns2:icd10	"J12,J13,J14,J15,J16,J17,J18,P23" ;
+	ns2:icd9	"770.0" ,
+		"480" ,
+		"486" ,
+		"-" ,
+		"," ;
+	ns2:meshId	"D011014" ;
+	foaf:name	"Pneumonia"@en .
+dbpedia:Republic_of_Ireland	rdf:type	ns2:Country ;
+	rdfs:label	"Republic of Ireland"@en ;
+	ns2:capital	dbpedia:Dublin ;
+	ns2:currency	dbpedia:Euro ;
+	ns2:ethnicGroup	dbpedia:Irish_Travellers ,
+		dbpedia:Chinese_people ;
+	ns2:governmentType	dbpedia:Unitary_state ,
+		dbpedia:Parliamentary_republic ;
+	ns2:language	dbpedia:Irish_language ,
+		dbpedia:English_language ;
+	ns2:leader	dbpedia:Enda_Kenny ,
+		<http://dbpedia.org/resource/Michael_D._Higgins> ,
+		<http://dbpedia.org/resource/Frances_Fitzgerald_(politician)> ;
+	ns2:timeZone	dbpedia:Western_European_Time ,
+		dbpedia:Greenwich_Mean_Time ;
+	owl:sameAs	dbpedia:Republic_of_Ireland ,
+		ns5:Q27 ;
+	ns2:ethnicGroupsInYear	"2011"^^xsd:gYear ;
+	ns2:percentageOfAreaWater	"2.0"^^xsd:float ;
+	ns2:areaTotal	70273000000.0 ,
+		70274147397.746688843 ;
+	ns2:demonym	"Irish"@en ;
+	ns2:flag	"Flag of Ireland.svg" ;
+	ns2:foundingDate	"1919-01-21"^^xsd:date ,
+		"1916-04-24"^^xsd:date ;
+	ns2:leaderTitle	"T\u00E1naiste"@en ,
+		"President"@en ,
+		"Taoiseach"@en ;
+	ns2:longName	"Ireland"@en ;
+	ns2:populationDensity	1837064.8038931526244 ,
+		4757976.0 ;
+	foaf:name	"Ireland"@en .
+<http://dbpedia.org/resource/Richmond,_Virginia>	rdf:type	ns2:City ;
+	rdfs:label	"Richmond, Virginia"@en ;
+	ns2:country	dbpedia:United_States ;
+	ns2:isPartOf	dbpedia:Virginia ,
+		<http://dbpedia.org/resource/Independent_city_(United_States)> ;
+	ns2:leaderName	dbpedia:Dwight_Clinton_Jones ;
+	ns2:timeZone	dbpedia:Eastern_Time_Zone ;
+	ns2:type	<http://dbpedia.org/resource/Independent_city_(United_States)> ,
+		dbpedia:List_of_capitals_in_the_United_States ;
+	owl:sameAs	<http://dbpedia.org/resource/Richmond,_Virginia> ,
+		ns5:Q43421 ;
+	ns2:area	1.0 ;
+	ns2:areaCode	"804" ;
+	ns2:elevation	45.700000000000002842 ,
+		50.733960000000003276 ;
+	ns2:populationMetro	"1260029"^^xsd:nonNegativeInteger ;
+	ns2:postalCode	"23173, 23218\u201323242, 23249\u201323250, 23255, 23260\u201323261, 23269, 23273\u201323274, 23276, 23278\u201323279, 23282, 23284\u201323286, 23288\u201323295, 23297\u201323298" ;
+	ns2:utcOffset	"-4" ,
+		"-5" ;
+	ns2:areaLand	155658285.43119359016 ;
+	ns2:areaTotal	161874256.89599999785 ;
+	ns2:areaWater	6474970.2758400002494 ;
+	ns2:leaderTitle	"Mayor"@en ;
+	ns2:motto	"Sic Itur Ad Astra (\"Thus do we reach the stars\")" ;
+	ns2:populationDensity	1399.62032471636644 ;
+	ns2:populationTotal	"220289"^^xsd:nonNegativeInteger ;
+	foaf:name	"City of Richmond"@en ,
+		"Richmond, Virginia"@en ;
+	foaf:nick	"RVA, The River City, Fist City, Capital of the South"@en .
+dbpedia:South_Carolina	rdf:type	ns2:AdministrativeRegion ;
+	rdfs:label	"South Carolina"@en ;
+	ns2:capital	<http://dbpedia.org/resource/Columbia,_South_Carolina> ;
+	ns2:country	dbpedia:United_States ;
+	owl:sameAs	ns5:Q1456 ,
+		dbpedia:South_Carolina ;
+	ns2:areaLand	77982000000.0 ;
+	ns2:areaTotal	82931000000.0 ;
+	ns2:areaWater	4949000000.0 ;
+	ns2:demonym	"South Carolinian"@en ;
+	ns2:maximumElevation	1085.0 ;
+	ns2:minimumElevation	0.0 ;
+	foaf:name	"State of South Carolina"@en .
+dbpedia:Surrey	rdf:type	ns2:AdministrativeRegion ;
+	rdfs:label	"Surrey"@en ;
+	ns2:country	dbpedia:United_Kingdom ;
+	ns2:location	dbpedia:England ;
+	owl:sameAs	dbpedia:Surrey ,
+		ns5:Q23276 ;
+	ns2:areaTotal	1663000000.0 ;
+	foaf:name	"Surrey"@en .
+dbpedia:Terry_Jones	rdf:type	ns2:Person ;
+	rdfs:label	"Terry Jones"@en ;
+	ns2:almaMater	<http://dbpedia.org/resource/St_Edmund_Hall,_Oxford> ;
+	ns2:birthPlace	dbpedia:Wales ,
+		dbpedia:Colwyn_Bay ;
+	ns2:knownFor	dbpedia:Monty_Python ;
+	ns2:occupation	dbpedia:Terry_Jones__1 ;
+	ns2:birthDate	"1942-02-01"^^xsd:date ;
+	ns2:birthName	"Terence Graham Parry Jones"@en ;
+	ns2:birthYear	"1942"^^xsd:gYear ;
+	ns2:imdbId	"0001402" ;
+	foaf:name	"Terry Jones"@en .
+dbpedia:Terry_Jones__1	rdf:type	ns2:PersonFunction ;
+	ns2:title	"* writer"@en ,
+		"* presenter"@en ,
+		"* historian"@en ,
+		"* film director"@en ,
+		"* poet"@en ,
+		"* Actor"@en ,
+		"* comedian"@en .
+dbpedia:United_Kingdom	rdf:type	ns2:Country ;
+	rdfs:label	"United Kingdom"@en ;
+	ns2:anthem	dbpedia:God_Save_the_Queen ;
+	ns2:capital	dbpedia:London ;
+	ns2:currency	dbpedia:Pound_sterling ;
+	ns2:governmentType	dbpedia:Unitary_state ;
+	ns2:language	dbpedia:English_language ;
+	ns2:largestCity	dbpedia:Capital_city ;
+	ns2:leader	dbpedia:Theresa_May ,
+		dbpedia:Elizabeth_II ;
+	ns2:timeZone	dbpedia:Greenwich_Mean_Time ;
+	owl:sameAs	dbpedia:United_Kingdom ,
+		ns5:Q145 ;
+	ns2:ethnicGroupsInYear	"2011"^^xsd:gYear ;
+	ns2:percentageOfAreaWater	"1.3400000333786010742"^^xsd:float ;
+	ns2:areaTotal	242495000000.0 ,
+		242495406794.53900146 ;
+	ns2:demonym	"Briton"@en ,
+		"British"@en ;
+	ns2:flag	"Flag of the United Kingdom.svg" ;
+	ns2:foundingDate	"1603-03-24"^^xsd:date ;
+	ns2:leaderTitle	"Prime Minister"@en ,
+		"Monarch"@en ;
+	ns2:populationDensity	255.59999999999999432 ,
+		255.56101873924492907 ;
+	ns2:populationTotal	"65110000"^^xsd:nonNegativeInteger ;
+	foaf:name	"United Kingdom"@en .
+dbpedia:Wellington	rdf:type	ns2:City ;
+	rdfs:label	"Wellington"@en ;
+	ns2:isPartOf	dbpedia:Upper_Hutt ,
+		dbpedia:Porirua ,
+		dbpedia:Wellington_Region ,
+		dbpedia:Lower_Hutt ,
+		dbpedia:Wellington_City ;
+	ns2:leaderName	<http://dbpedia.org/resource/Justin_Lester_(politician)> ;
+	ns2:timeZone	dbpedia:Time_in_New_Zealand ;
+	ns2:type	dbpedia:Urban_areas_of_New_Zealand ;
+	owl:sameAs	dbpedia:Wellington ,
+		ns5:Q23661 ;
+	ns2:areaCode	"04" ;
+	ns2:areaMetro	1388000000.0 ;
+	ns2:areaUrban	442000000.0 ;
+	ns2:postalCode	"5010, 5011, 5012, 5013, 5014, 5016, 5018, 5019, 5022, 5024, 5026, 5028, 6011, 6012, 6021, 6022, 6023, 6035, 6037" ;
+	ns2:utcOffset	"+13" ,
+		"+12" ;
+	ns2:leaderTitle	"Mayor"@en ;
+	ns2:minimumElevation	0.0 ;
+	foaf:name	"Wellington"@en ;
+	foaf:nick	"Windy Wellington, Welly, the Harbour City"@en .
+dbpedia:Whitney_Houston	rdf:type	ns2:Person ;
+	rdfs:label	"Whitney Houston"@en ;
+	ns2:birthPlace	<http://dbpedia.org/resource/Newark,_New_Jersey> ;
+	ns2:child	dbpedia:Bobbi_Kristina_Brown ;
+	ns2:deathCause	dbpedia:Drowning ;
+	ns2:deathPlace	<http://dbpedia.org/resource/Beverly_Hills,_California> ;
+	ns2:education	dbpedia:Mount_Saint_Dominic_Academy ;
+	ns2:occupation	dbpedia:Singer ,
+		<http://dbpedia.org/resource/Model_(people)> ,
+		dbpedia:Whitney_Houston__1 ,
+		dbpedia:Actress ;
+	ns2:parent	dbpedia:Cissy_Houston ;
+	ns2:relation	dbpedia:Dee_Dee_Warwick ,
+		dbpedia:Gary_Garland ,
+		dbpedia:Leontyne_Price ,
+		dbpedia:Dionne_Warwick ;
+	ns2:religion	dbpedia:Baptists ;
+	ns2:restingPlace	<http://dbpedia.org/resource/Westfield,_New_Jersey> ,
+		<http://dbpedia.org/resource/Fairview_Cemetery_(Westfield,_New_Jersey)> ;
+	ns2:soundRecording	dbpedia:Whitney_Houston__1 ;
+	ns2:spouse	dbpedia:Bobby_Brown ;
+	owl:sameAs	ns5:Q34389 ,
+		dbpedia:Whitney_Houston ;
+	ns2:birthDate	"1963-08-09"^^xsd:date ;
+	ns2:birthName	"Whitney Elizabeth Houston"@en ;
+	ns2:birthYear	"1963"^^xsd:gYear ;
+	ns2:deathDate	"2012-02-11"^^xsd:date ;
+	ns2:deathYear	"2012"^^xsd:gYear ;
+	foaf:name	"Whitney Houston"@en .
+dbpedia:William_Morris	rdf:type	ns2:Person ;
+	rdfs:label	"William Morris"@en ;
+	ns2:birthPlace	dbpedia:Walthamstow ,
+		dbpedia:Essex ;
+	ns2:deathPlace	dbpedia:Middlesex ,
+		dbpedia:Hammersmith ;
+	ns2:knownFor	dbpedia:Socialism ,
+		dbpedia:Wallpaper ,
+		dbpedia:Medievalism ,
+		dbpedia:Textile_design ;
+	ns2:occupation	dbpedia:William_Morris__1 ;
+	ns2:birthDate	"1834-03-24"^^xsd:date ;
+	ns2:birthYear	"1834"^^xsd:gYear ;
+	ns2:deathDate	"1896-10-03"^^xsd:date ;
+	ns2:deathYear	"1896"^^xsd:gYear .
+dbpedia:William_Morris__1	rdf:type	ns2:PersonFunction ;
+	ns2:title	"Artist, designer, writer, socialist"@en .
+dbpedia:William_Wallace	rdf:type	ns2:Person ;
+	rdfs:label	"William Wallace"@en ;
+	ns2:birthPlace	dbpedia:Scotland ,
+		dbpedia:Renfrewshire ,
+		dbpedia:Elderslie ;
+	ns2:deathCause	<http://dbpedia.org/resource/Hanged,_drawn_and_quartered> ;
+	ns2:deathPlace	<http://dbpedia.org/resource/Smithfield,_London> ,
+		dbpedia:England ,
+		dbpedia:Middlesex ;
+	ns2:nationality	dbpedia:Kingdom_of_Scotland ;
+	ns2:occupation	dbpedia:William_Wallace__1 ,
+		dbpedia:Scottish_Wars_of_Independence ;
+	ns2:religion	dbpedia:Roman_Catholicism ;
+	ns2:restingPlace	dbpedia:England ;
+	ns2:stateOfOrigin	dbpedia:Kingdom_of_Scotland ;
+	ns2:birthYear	"1270"^^xsd:gYear ;
+	ns2:deathDate	"1305-08-23"^^xsd:date ;
+	ns2:deathYear	"1305"^^xsd:gYear ;
+	foaf:name	"Sir William Wallace"@en .
+dbpedia:William_Wallace__1	rdf:type	ns2:PersonFunction ;
+	ns2:title	"Commander in theScottish Wars of Independence"@en .
+<http://dbpedia.org/resource/Affton,_Missouri>	rdf:type	ns2:Settlement ;
+	rdfs:label	"Affton, Missouri"@en ;
+	ns2:country	dbpedia:United_States ;
+	ns2:isPartOf	dbpedia:Missouri ,
+		<http://dbpedia.org/resource/St._Louis_County,_Missouri> ;
+	ns2:timeZone	dbpedia:North_American_Central_Time_Zone ;
+	ns2:type	dbpedia:Census-designated_place ;
+	owl:sameAs	ns5:Q382985 ,
+		<http://dbpedia.org/resource/Affton,_Missouri> ;
+	ns2:elevation	188.06159999999999854 ,
+		188.0 ;
+	ns2:utcOffset	"-6" ,
+		"-5" ;
+	ns2:areaLand	11900000.0 ;
+	ns2:areaTotal	11900000.0 ;
+	ns2:areaWater	0.0 ;
+	ns2:populationTotal	"20307"^^xsd:nonNegativeInteger ;
+	foaf:name	"Affton, Missouri"@en .
+<http://dbpedia.org/resource/Cape_Elizabeth,_Maine>	rdf:type	ns2:Town ;
+	rdfs:label	"Cape Elizabeth, Maine"@en ;
+	ns2:country	dbpedia:United_States ;
+	ns2:isPartOf	dbpedia:Maine ,
+		<http://dbpedia.org/resource/Cumberland_County,_Maine> ;
+	ns2:timeZone	dbpedia:North_American_Eastern_Time_Zone ;
+	ns2:type	dbpedia:New_England_town ;
+	owl:sameAs	ns5:Q1034417 ,
+		<http://dbpedia.org/resource/Cape_Elizabeth,_Maine> ;
+	ns2:areaCode	"207" ;
+	ns2:elevation	18.89760000000000062 ,
+		19.0 ;
+	ns2:postalCode	"04107" ;
+	ns2:utcOffset	"-4" ,
+		"-5" ;
+	ns2:areaLand	38070000.0 ,
+		38072825.221939198673 ;
+	ns2:areaTotal	118960000.0 ,
+		118958153.90773248672 ;
+	ns2:areaWater	80885328.685793280602 ,
+		80890000.0 ;
+	ns2:foundingDate	"1765-11-01"^^xsd:date ;
+	ns2:populationDensity	236.80000000000001137 ,
+		236.79645383408205817 ;
+	ns2:populationTotal	"9015"^^xsd:nonNegativeInteger ;
+	foaf:name	"Cape Elizabeth, Maine"@en .
+<http://dbpedia.org/resource/Davison,_Michigan>	rdf:type	ns2:City ;
+	rdfs:label	"Davison, Michigan"@en ;
+	ns2:country	dbpedia:United_States ;
+	ns2:isPartOf	dbpedia:Michigan ,
+		<http://dbpedia.org/resource/Genesee_County,_Michigan> ;
+	ns2:timeZone	dbpedia:North_American_Eastern_Time_Zone ;
+	ns2:type	dbpedia:City ;
+	owl:sameAs	<http://dbpedia.org/resource/Davison,_Michigan> ,
+		ns5:Q2644347 ;
+	ns2:areaCode	"810" ;
+	ns2:elevation	242.01120000000000232 ,
+		242.0 ;
+	ns2:populationMetro	"425790"^^xsd:nonNegativeInteger ;
+	ns2:postalCode	"48423" ;
+	ns2:utcOffset	"-4" ,
+		"-5" ;
+	ns2:areaLand	5130000.0 ,
+		5128176.4584652800113 ;
+	ns2:areaTotal	5130000.0 ,
+		5128176.4584652800113 ;
+	ns2:areaWater	0.0 ;
+	ns2:leaderTitle	"City Manager"@en ,
+		"Mayor"@en ;
+	ns2:populationDensity	1008.7304994079941025 ,
+		1008.7000000000000455 ;
+	ns2:populationTotal	"5173"^^xsd:nonNegativeInteger ;
+	foaf:name	"City of Davison"@en ;
+	foaf:nick	"City of Flags"@en .
+<http://dbpedia.org/resource/Floral_Park,_New_York>	rdf:type	ns2:Village ;
+	rdfs:label	"Floral Park, New York"@en ;
+	ns2:country	dbpedia:United_States ;
+	ns2:governmentType	dbpedia:Mayor-council_government ;
+	ns2:isPartOf	<http://dbpedia.org/resource/New_York_(state)> ,
+		<http://dbpedia.org/resource/Nassau_County,_New_York> ;
+	ns2:leaderName	dbpedia:United_States_Citizens_Party ;
+	ns2:timeZone	<http://dbpedia.org/resource/Eastern_Time_Zone_(North_America)> ,
+		dbpedia:Eastern_Daylight_Time ;
+	ns2:type	<http://dbpedia.org/resource/Village_(New_York)> ;
+	owl:sameAs	<http://dbpedia.org/resource/Floral_Park,_New_York> ,
+		ns5:Q991627 ;
+	ns2:areaCode	"516" ;
+	ns2:elevation	28.0 ,
+		28.041599999999998971 ;
+	ns2:postalCode	"11001-11003" ;
+	ns2:utcOffset	"-4" ,
+		"-5" ;
+	ns2:areaLand	3625983.3544704001397 ,
+		3500000.0 ;
+	ns2:areaTotal	3625983.3544704001397 ,
+		3500000.0 ;
+	ns2:areaWater	0.0 ;
+	ns2:leaderTitle	"Mayor"@en ;
+	ns2:motto	"\"A Great Place to Live\"" ;
+	ns2:populationDensity	4492.6461065840458105 ,
+		4499.8999999999996362 ;
+	ns2:populationTotal	"15863"^^xsd:nonNegativeInteger ;
+	foaf:name	"Incorporated Village of Floral Park"@en ,
+		"Floral Park, New York"@en .
+<http://dbpedia.org/resource/Red_Bank,_New_Jersey>	rdf:type	ns2:Settlement ;
+	rdfs:label	"Red Bank, New Jersey"@en ;
+	ns2:country	dbpedia:United_States ;
+	ns2:governmentType	<http://dbpedia.org/resource/Borough_(New_Jersey)> ;
+	ns2:isPartOf	<http://dbpedia.org/resource/Monmouth_County,_New_Jersey> ,
+		dbpedia:New_Jersey ;
+	ns2:leaderName	<http://dbpedia.org/resource/Democratic_Party_(United_States)> ;
+	ns2:timeZone	dbpedia:Eastern_Daylight_Time ,
+		dbpedia:Eastern_Time_Zone ;
+	ns2:type	<http://dbpedia.org/resource/Borough_(New_Jersey)> ;
+	owl:sameAs	<http://dbpedia.org/resource/Red_Bank,_New_Jersey> ,
+		ns5:Q1010539 ;
+	ns2:areaCode	"732" ;
+	ns2:elevation	13.106400000000000716 ;
+	ns2:percentageOfAreaWater	"19.579999923706054688"^^xsd:float ;
+	ns2:populationTotalRanking	"16"^^xsd:positiveInteger ,
+		"200"^^xsd:positiveInteger ;
+	ns2:postalCode	"07701-07704, 07709" ;
+	ns2:utcOffset	"-4" ,
+		"-5" ;
+	ns2:areaLand	4503989.3238743040711 ,
+		4504000.0 ;
+	ns2:areaTotal	5599554.2945464318618 ,
+		5600000.0 ;
+	ns2:areaWater	1096000.0 ,
+		1095564.9706721280236 ;
+	ns2:foundingDate	"1908-03-10"^^xsd:date ,
+		"1870-03-17"^^xsd:date ;
+	ns2:leaderTitle	"Clerk"@en ,
+		"Mayor"@en ,
+		"Administrator"@en ;
+	ns2:populationDensity	2710.0999999999999091 ,
+		2710.089661025282112 ;
+	ns2:populationTotal	"12206"^^xsd:nonNegativeInteger ;
+	foaf:name	"Borough of Red Bank"@en ,
+		"Red Bank, New Jersey"@en .
+<http://dbpedia.org/resource/Ridgewood,_New_Jersey>	rdf:type	ns2:Village ;
+	rdfs:label	"Ridgewood, New Jersey"@en ;
+	ns2:country	dbpedia:United_States ;
+	ns2:governmentType	dbpedia:Faulkner_Act ;
+	ns2:isPartOf	<http://dbpedia.org/resource/Bergen_County,_New_Jersey> ,
+		dbpedia:New_Jersey ;
+	ns2:timeZone	dbpedia:Eastern_Time_Zone ,
+		dbpedia:Eastern_Daylight_Time ;
+	ns2:type	<http://dbpedia.org/resource/Village_(New_Jersey)> ;
+	owl:sameAs	ns5:Q1677925 ,
+		<http://dbpedia.org/resource/Ridgewood,_New_Jersey> ;
+	ns2:areaCode	"201" ;
+	ns2:elevation	25.908000000000001251 ;
+	ns2:percentageOfAreaWater	"1.1399999856948852539"^^xsd:float ;
+	ns2:populationTotalRanking	"10"^^xsd:positiveInteger ,
+		"99"^^xsd:positiveInteger ;
+	ns2:postalCode	"07450-07452" ;
+	ns2:utcOffset	"\u22125" ,
+		"\u22124" ;
+	ns2:areaLand	14897611.610652672127 ,
+		14898000.0 ;
+	ns2:areaTotal	15069000.0 ,
+		15068550.825934847817 ;
+	ns2:areaWater	170939.21528217601008 ,
+		172000.0 ;
+	ns2:foundingDate	"1894-11-20"^^xsd:date ;
+	ns2:leaderTitle	"Manager"@en ,
+		"Mayor"@en ,
+		"Clerk"@en ;
+	ns2:populationDensity	1675.2972659156728241 ,
+		1675.2999999999999545 ;
+	ns2:populationTotal	"24958"^^xsd:nonNegativeInteger ;
+	foaf:name	"Ridgewood, New Jersey"@en ,
+		"Village of Ridgewood"@en .
+dbpedia:Comcast	rdf:type	ns2:Company ;
+	rdfs:label	"Comcast"@en ;
+	ns2:division	dbpedia:NBCUniversal ,
+		dbpedia:Comcast_Cable ;
+	ns2:foundationPlace	<http://dbpedia.org/resource/Tupelo,_Mississippi> ,
+		dbpedia:Mississippi ;
+	ns2:foundedBy	<http://dbpedia.org/resource/Ralph_J._Roberts> ,
+		<http://dbpedia.org/resource/Julian_A._Brodsky> ;
+	ns2:industry	dbpedia:Mass_media ,
+		dbpedia:Telecommunications ;
+	ns2:keyPerson	<http://dbpedia.org/resource/David_L._Cohen> ,
+		<http://dbpedia.org/resource/Brian_L._Roberts> ;
+	ns2:product	dbpedia:Cable_television ,
+		dbpedia:Internet ,
+		dbpedia:Broadcasting ,
+		dbpedia:VoIP_phone ,
+		dbpedia:Theme_park ,
+		dbpedia:Sport_management ,
+		dbpedia:TV_production ,
+		dbpedia:Movie_production ,
+		dbpedia:Venture_capital ,
+		dbpedia:Home_Security_Systems ;
+	ns2:subsidiary	dbpedia:Midco ,
+		dbpedia:Comcast_Spectacor ,
+		dbpedia:Comcast_Interactive_Media ;
+	ns2:type	dbpedia:Public_company ;
+	owl:sameAs	dbpedia:Comcast ,
+		ns5:Q1113804 ;
+	ns2:assets	"1.6657E11"^^ns8:usDollar ;
+	ns2:equity	"5.227E10"^^ns8:usDollar ;
+	ns2:netIncome	"8.16E9"^^ns8:usDollar ;
+	ns2:numberOfEmployees	"153000"^^xsd:nonNegativeInteger ;
+	ns2:operatingIncome	"1.6E10"^^ns8:usDollar ;
+	ns2:revenue	"7.451E10"^^ns8:usDollar ;
+	foaf:name	"Comcast Corporation"@en .
+dbpedia:Esophageal_cancer	rdf:type	ns2:Disease ;
+	rdfs:label	"Esophageal cancer"@en ;
+	owl:sameAs	ns5:Q372701 ,
+		dbpedia:Esophageal_cancer ;
+	ns2:icd10	"C15" ;
+	ns2:icd9	"150" ;
+	ns2:meshId	"D004938" ;
+	ns2:omim	133239 ;
+	foaf:name	"Esophageal cancer"@en .
+dbpedia:George_Buchanan	rdf:type	ns2:Person ;
+	rdfs:label	"George Buchanan"@en ;
+	ns2:birthPlace	dbpedia:Killearn ,
+		dbpedia:Stirlingshire ;
+	ns2:deathPlace	dbpedia:Edinburgh ;
+	ns2:nationality	dbpedia:Scotland ;
+	ns2:occupation	dbpedia:George_Buchanan__1 ,
+		dbpedia:Historian ;
+	ns2:stateOfOrigin	dbpedia:Scotland ;
+	ns2:birthYear	"1506"^^xsd:gYear ;
+	ns2:deathDate	"1582-09-28"^^xsd:date ;
+	ns2:deathYear	"1582"^^xsd:gYear ;
+	foaf:name	"George Buchanan"@en .
+dbpedia:George_Buchanan__1	rdf:type	ns2:PersonFunction ;
+	ns2:title	"historian, scholar"@en .
+dbpedia:George_Washington_University	rdf:type	ns2:University ;
+	rdfs:label	"George Washington University"@en ;
+	ns2:affiliation	dbpedia:National_Association_of_Independent_Colleges_and_Universities ,
+		dbpedia:Consortium_of_Universities_of_the_Washington_Metropolitan_Area ,
+		dbpedia:Southeastern_Universities_Research_Association ,
+		dbpedia:Oak_Ridge_Associated_Universities ;
+	ns2:athletics	dbpedia:NCAA_Division_I ;
+	ns2:campus	dbpedia:Urban_area ,
+		dbpedia:Suburb ;
+	ns2:city	<http://dbpedia.org/resource/Washington,_D.C.> ;
+	ns2:country	<http://dbpedia.org/resource/U.S.> ;
+	ns2:president	dbpedia:Steven_Knapp ;
+	ns2:type	dbpedia:Private_university ;
+	owl:sameAs	ns5:Q432637 ,
+		dbpedia:George_Washington_University ;
+	ns2:endowment	"1.616E9"^^ns8:usDollar ;
+	ns2:facultySize	"2663"^^xsd:nonNegativeInteger ;
+	ns2:formerName	"Columbian College in the District of Columbia, Columbian University"@en ;
+	ns2:mascot	"George, the Colonial" ;
+	ns2:numberOfPostgraduateStudents	"14843"^^xsd:nonNegativeInteger ;
+	ns2:numberOfStudents	"26212"^^xsd:nonNegativeInteger ;
+	ns2:numberOfUndergraduateStudents	"10900"^^xsd:nonNegativeInteger ;
+	ns2:officialSchoolColour	"Buff and Blue" ;
+	ns2:other	469 ;
+	ns2:foundingDate	"1821-02-09"^^xsd:date ;
+	ns2:motto	"Deus Nobis Fiducia (Latin)" ,
+		"God is Our Trust" ;
+	foaf:name	"The George Washington University"@en ;
+	foaf:nick	"Colonials"@en .
+dbpedia:Heart_failure	rdf:type	ns2:Disease ;
+	rdfs:label	"Heart failure"@en ;
+	owl:sameAs	ns5:Q181754 ,
+		dbpedia:Heart_failure ;
+	ns2:icd10	"I50" ;
+	ns2:icd9	"428.0" ;
+	ns2:meshId	"D006333" ;
+	foaf:name	"Heart failure"@en .
+dbpedia:John_Ford	rdf:type	ns2:Person ;
+	rdfs:label	"John Ford"@en ;
+	ns2:birthPlace	<http://dbpedia.org/resource/Cape_Elizabeth,_Maine> ;
+	ns2:deathCause	dbpedia:Stomach_cancer ;
+	ns2:deathPlace	<http://dbpedia.org/resource/Palm_Desert,_California> ,
+		dbpedia:California ;
+	ns2:occupation	dbpedia:John_Ford__1 ,
+		dbpedia:Film_director ;
+	ns2:restingPlace	<http://dbpedia.org/resource/Holy_Cross_Cemetery,_Culver_City,_California> ;
+	ns2:activeYearsStartYear	"1917"^^xsd:gYear ;
+	ns2:birthDate	"1894-02-01"^^xsd:date ;
+	ns2:birthName	"John Martin Feeney"@en ;
+	ns2:birthYear	"1894"^^xsd:gYear ;
+	ns2:deathDate	"1973-08-31"^^xsd:date ;
+	ns2:deathYear	"1973"^^xsd:gYear ;
+	foaf:name	"John Ford"@en .
+dbpedia:John_Ford__1	rdf:type	ns2:PersonFunction ;
+	ns2:title	"Film director/producer"@en .
+dbpedia:John_Goodman	rdf:type	ns2:Person ;
+	rdfs:label	"John Goodman"@en ;
+	ns2:birthPlace	<http://dbpedia.org/resource/Affton,_Missouri> ;
+	ns2:occupation	dbpedia:John_Goodman__1 ;
+	ns2:residence	<http://dbpedia.org/resource/New_Orleans,_Louisiana> ;
+	ns2:activeYearsStartYear	"1975"^^xsd:gYear ;
+	ns2:birthDate	"1952-06-20"^^xsd:date ;
+	ns2:birthYear	"1952"^^xsd:gYear ;
+	foaf:name	"John Goodman"@en .
+dbpedia:John_Goodman__1	rdf:type	ns2:PersonFunction ;
+	ns2:title	"Actor, voice actor"@en .
+dbpedia:Kapuskasing	rdf:type	ns2:Town ;
+	rdfs:label	"Kapuskasing"@en ;
+	ns2:country	dbpedia:Canada ;
+	ns2:governmentType	dbpedia:List_of_towns_in_Ontario ;
+	ns2:isPartOf	dbpedia:Cochrane_District ;
+	ns2:leaderName	<http://dbpedia.org/resource/Carol_Hughes_(politician)> ,
+		dbpedia:Gilles_Bisson ;
+	ns2:timeZone	dbpedia:Eastern_Time_Zone ;
+	ns2:type	dbpedia:List_of_towns_in_Ontario ;
+	owl:sameAs	ns5:Q1027634 ,
+		dbpedia:Kapuskasing ;
+	ns2:areaCode	"705" ;
+	ns2:elevation	217.90000000000000568 ;
+	ns2:postalCode	"P5N" ;
+	ns2:utcOffset	"-5" ,
+		"-4" ;
+	ns2:areaLand	84130000.0 ;
+	ns2:leaderTitle	"MP"@en ,
+		"Mayor"@en ,
+		"Governing Body"@en ,
+		"MPP"@en ;
+	ns2:motto	"Model Town of the North" ;
+	ns2:populationDensity	97.400000000000005684 ;
+	ns2:populationTotal	"8196"^^xsd:nonNegativeInteger ;
+	foaf:name	"Town of Kapuskasing"@en ,
+		"Kapuskasing"@en ,
+		"(Ville de Kapuskasing (French)"@en .
+dbpedia:Lalla_Ward	rdf:type	ns2:Person ;
+	rdfs:label	"Lalla Ward"@en ;
+	ns2:birthPlace	dbpedia:London ;
+	ns2:occupation	dbpedia:Lalla_Ward__1 ;
+	ns2:spouse	dbpedia:Richard_Dawkins ,
+		dbpedia:Tom_Baker ;
+	owl:sameAs	dbpedia:Lalla_Ward ,
+		ns5:Q439404 ;
+	ns2:activeYearsStartYear	"1972"^^xsd:gYear ;
+	ns2:birthDate	"1951-06-28"^^xsd:date ;
+	ns2:birthName	"Sarah Ward"@en ;
+	ns2:birthYear	"1951"^^xsd:gYear ;
+	foaf:name	"Lalla Ward"@en .
+dbpedia:Leytonstone	rdf:type	ns2:Settlement ;
+	rdfs:label	"Leytonstone"@en ;
+	ns2:country	dbpedia:United_Kingdom ;
+	ns2:region	<http://dbpedia.org/resource/London_(European_Parliament_constituency)> ;
+	owl:sameAs	dbpedia:Leytonstone ,
+		ns5:Q1368969 ;
+	ns2:areaCode	"020" ;
+	ns2:gridReference	"TQ3987" ;
+	ns2:postalCode	"E15" ,
+		"E11" ;
+	ns2:populationTotal	"12879"^^xsd:nonNegativeInteger ;
+	foaf:name	"Leytonstone"@en .
+dbpedia:Paul_Walker	rdf:type	ns2:Person ;
+	rdfs:label	"Paul Walker"@en ;
+	ns2:birthPlace	<http://dbpedia.org/resource/Glendale,_California> ;
+	ns2:deathCause	dbpedia:Single-vehicle_collision ;
+	ns2:deathPlace	<http://dbpedia.org/resource/Santa_Clarita,_California> ;
+	ns2:education	dbpedia:Village_Christian_Schools ;
+	ns2:occupation	dbpedia:Paul_Walker__1 ,
+		dbpedia:Actor ;
+	ns2:relative	dbpedia:Caleb_Walker ,
+		<http://dbpedia.org/resource/Cody_Walker_(actor)> ;
+	ns2:religion	dbpedia:Nondenominational_Christianity ,
+		dbpedia:The_Church_of_Jesus_Christ_of_Latter-day_Saints ;
+	ns2:restingPlace	<http://dbpedia.org/resource/Forest_Lawn_Memorial_Park_(Hollywood_Hills)> ,
+		dbpedia:Los_Angeles ,
+		dbpedia:Hollywood_Hills ;
+	ns2:height	1.8287999999999999812 ;
+	ns2:networth	"2.5E7"^^ns8:usDollar ;
+	ns2:activeYearsEndYear	"2013"^^xsd:gYear ;
+	ns2:activeYearsStartYear	"1984"^^xsd:gYear ;
+	ns2:birthDate	"1973-09-12"^^xsd:date ;
+	ns2:birthName	"Paul William Walker IV"@en ;
+	ns2:birthYear	"1973"^^xsd:gYear ;
+	ns2:deathDate	"2013-11-30"^^xsd:date ;
+	ns2:deathYear	"2013"^^xsd:gYear ;
+	foaf:name	"Paul Walker"@en .
+dbpedia:Paul_Walker__1	rdf:type	ns2:PersonFunction ;
+	ns2:title	"Actor"@en .
+dbpedia:Richard_Dawson	rdf:type	ns2:Person ;
+	rdfs:label	"Richard Dawson"@en ;
+	ns2:birthPlace	dbpedia:Hampshire ,
+		dbpedia:Gosport ;
+	ns2:child	dbpedia:Mark_Dawson ;
+	ns2:deathCause	dbpedia:Esophageal_cancer ;
+	ns2:deathPlace	dbpedia:California ,
+		dbpedia:Los_Angeles ;
+	ns2:occupation	dbpedia:Richard_Dawson__1 ;
+	ns2:restingPlace	dbpedia:Westwood_Village_Memorial_Park_Cemetery ;
+	ns2:spouse	dbpedia:Diana_Dors ;
+	ns2:activeYearsEndYear	"1995"^^xsd:gYear ;
+	ns2:activeYearsStartYear	"1960"^^xsd:gYear ;
+	ns2:birthDate	"1932-11-20"^^xsd:date ;
+	ns2:birthName	"Colin Lionel Emm"@en ;
+	ns2:birthYear	"1932"^^xsd:gYear ;
+	ns2:deathDate	"2012-06-02"^^xsd:date ;
+	ns2:deathYear	"2012"^^xsd:gYear ;
+	foaf:name	"Richard Dawson"@en .
+dbpedia:Richard_Dawson__1	rdf:type	ns2:PersonFunction ;
+	ns2:title	"Actor"@en ,
+		"Comedian"@en ,
+		"Game show host and panelist"@en .
+dbpedia:Stomach_cancer	rdf:type	ns2:Disease ;
+	rdfs:label	"Stomach cancer"@en ;
+	owl:sameAs	ns5:Q189588 ,
+		dbpedia:Stomach_cancer ;
+	ns2:icd10	"C16" ;
+	ns2:icd9	"151" ;
+	ns2:meshId	"D013274" ;
+	ns2:omim	137215 ;
+	foaf:name	"Stomach cancer"@en .
+dbpedia:Elon_University	rdf:type	ns2:University ;
+	rdfs:label	"Elon University"@en ;
+	ns2:athletics	dbpedia:NCAA_Division_I ;
+	ns2:city	<http://dbpedia.org/resource/Elon,_North_Carolina> ;
+	ns2:president	dbpedia:Leo_Lambert ;
+	ns2:state	dbpedia:North_Carolina ;
+	ns2:type	dbpedia:Private_university ;
+	owl:sameAs	dbpedia:Elon_University ,
+		ns5:Q4568893 ;
+	ns2:endowment	"5.179E8"^^ns8:usDollar ;
+	ns2:facultySize	"424"^^xsd:nonNegativeInteger ;
+	ns2:formerName	"Elon College (1889\u20132001)"@en ;
+	ns2:numberOfPostgraduateStudents	"728"^^xsd:nonNegativeInteger ;
+	ns2:numberOfUndergraduateStudents	"5903"^^xsd:nonNegativeInteger ;
+	ns2:officialSchoolColour	"Maroon and Gold" ;
+	ns2:motto	"Numen Lumen" ,
+		"Intellectual and spiritual light" ;
+	foaf:name	"Elon University"@en ;
+	foaf:nick	"Phoenix"@en .
+dbpedia:Jared_Harris	rdf:type	ns2:Person ;
+	rdfs:label	"Jared Harris"@en ;
+	ns2:birthPlace	dbpedia:London ,
+		dbpedia:England ;
+	ns2:occupation	dbpedia:Jared_Harris__1 ;
+	ns2:parent	dbpedia:Richard_Harris ,
+		dbpedia:Elizabeth_Rees-Williams ;
+	ns2:relative	<http://dbpedia.org/resource/Jamie_Harris_(actor)> ,
+		dbpedia:Damian_Harris ;
+	ns2:spouse	dbpedia:Emilia_Fox ;
+	owl:sameAs	dbpedia:Jared_Harris ,
+		ns5:Q362500 ;
+	ns2:activeYearsStartYear	"1989"^^xsd:gYear ;
+	ns2:birthDate	"1961-08-24"^^xsd:date ;
+	ns2:birthYear	"1961"^^xsd:gYear .
+dbpedia:Massachusetts	rdf:type	ns2:AdministrativeRegion ;
+	rdfs:label	"Massachusetts"@en ;
+	ns2:capital	dbpedia:Boston ;
+	ns2:country	dbpedia:United_States ;
+	ns2:language	dbpedia:English_language ,
+		dbpedia:Portuguese_language ,
+		dbpedia:Chinese_language ,
+		dbpedia:Spanish_language ;
+	ns2:largestCity	dbpedia:Boston ;
+	owl:sameAs	dbpedia:Massachusetts ,
+		ns5:Q771 ;
+	ns2:areaLand	20306000000.0 ;
+	ns2:areaTotal	27336000000.0 ;
+	ns2:areaWater	22031000000.0 ;
+	ns2:demonym	"Bay Stater (official) Massachusite (traditional)"@en ,
+		"Massachusettsian"@en ;
+	ns2:maximumElevation	1063.4000000000000909 ;
+	ns2:minimumElevation	0.0 ;
+	foaf:name	"Commonwealth of Massachusetts"@en .
+dbpedia:Elizabeth_Rees-Williams	rdf:type	ns2:Person ;
+	rdfs:label	"Elizabeth Rees-Williams"@en ;
+	ns2:birthPlace	dbpedia:Cardiff ;
+	ns2:child	dbpedia:Jared_Harris ,
+		dbpedia:Damian_Harris ,
+		<http://dbpedia.org/resource/Jamie_Harris_(actor)> ;
+	ns2:spouse	dbpedia:Jonathan_Aitken ,
+		dbpedia:Rex_Harrison ,
+		dbpedia:Richard_Harris ;
+	owl:sameAs	dbpedia:Elizabeth_Rees-Williams ,
+		ns5:Q5363418 ;
+	ns2:birthDate	"1936-05-01"^^xsd:date ;
+	ns2:birthName	"Joan Elizabeth Rees-Williams"@en ;
+	ns2:birthYear	"1936"^^xsd:gYear ;
+	foaf:name	"Elizabeth Rees-Williams"@en .
+dbpedia:Killearn	rdf:type	ns2:Settlement ;
+	rdfs:label	"Killearn"@en ;
+	ns2:councilArea	<http://dbpedia.org/resource/Stirling_(council_area)> ;
+	ns2:country	dbpedia:United_Kingdom ,
+		dbpedia:Scotland ;
+	ns2:lieutenancyArea	dbpedia:Stirling_and_Falkirk ;
+	owl:sameAs	dbpedia:Killearn ,
+		ns5:Q1010543 ;
+	ns2:areaCode	"01360" ;
+	ns2:distanceToEdinburgh	80467.19999999999709 ;
+	ns2:distanceToLondon	643737.59999999997672 ;
+	ns2:gridReference	"NS522860" ;
+	ns2:postalCode	"G63" ;
+	ns2:populationTotal	"1701"^^xsd:nonNegativeInteger ;
+	foaf:name	"Killern, orig. Kynhern"@en ,
+		"Cill Fhearann, orig. Ceann Fhearann"@en ,
+		"Killearn"@en .
+dbpedia:Walter_Cronkite_School_of_Journalism_and_Mass_Communication	rdf:type	ns2:University ;
+	rdfs:label	"Walter Cronkite School of Journalism and Mass Communication"@en ;
+	ns2:campus	dbpedia:Arizona_State_University ;
+	ns2:city	<http://dbpedia.org/resource/Phoenix,_Arizona> ;
+	ns2:country	dbpedia:United_States ;
+	ns2:state	dbpedia:Arizona ;
+	ns2:type	dbpedia:Public_university ;
+	owl:sameAs	ns5:Q7964615 ,
+		dbpedia:Walter_Cronkite_School_of_Journalism_and_Mass_Communication ;
+	ns2:facultySize	"25"^^xsd:nonNegativeInteger ;
+	ns2:numberOfStudents	"1700"^^xsd:nonNegativeInteger ;
+	foaf:name	"Walter Cronkite School of Journalism and Mass Communication"@en .
+<http://dbpedia.org/resource/Whitestone,_Devon>	rdf:type	ns2:Settlement ;
+	rdfs:label	"Whitestone, Devon"@en ;
+	ns2:country	dbpedia:England ,
+		dbpedia:Devon ,
+		dbpedia:United_Kingdom ;
+	owl:sameAs	<http://dbpedia.org/resource/Whitestone,_Devon> ,
+		ns5:Q2362567 ;
+	ns2:gridReference	"SX918924" ;
+	foaf:name	"Whitestone"@en .
+dbpedia:William_Powell	rdf:type	ns2:Person ;
+	rdfs:label	"William Powell"@en ;
+	ns2:birthPlace	dbpedia:Pennsylvania ,
+		dbpedia:Pittsburgh ;
+	ns2:child	dbpedia:William_David_Powell ;
+	ns2:deathCause	dbpedia:Heart_failure ;
+	ns2:deathPlace	dbpedia:California ,
+		dbpedia:Palm_Springs ;
+	ns2:occupation	dbpedia:William_Powell__1 ;
+	ns2:restingPlace	dbpedia:Desert_Memorial_Park ,
+		<http://dbpedia.org/resource/Cathedral_City,_California> ;
+	ns2:spouse	dbpedia:Diana_Lewis ,
+		dbpedia:Carole_Lombard ;
+	ns2:activeYearsEndYear	"1955"^^xsd:gYear ;
+	ns2:activeYearsStartYear	"1911"^^xsd:gYear ;
+	ns2:birthDate	"1892-07-29"^^xsd:date ;
+	ns2:birthYear	"1892"^^xsd:gYear ;
+	ns2:deathDate	"1984-03-05"^^xsd:date ;
+	ns2:deathYear	"1984"^^xsd:gYear .
+dbpedia:William_Powell__1	rdf:type	ns2:PersonFunction ;
+	ns2:title	"Actor"@en .
+dbpedia:Boston	rdf:type	ns2:Settlement ;
+	rdfs:label	"Boston"@en ;
+	ns2:governmentType	dbpedia:Mayor-council_government ;
+	ns2:isPartOf	dbpedia:Kingdom_of_England ,
+		dbpedia:Massachusetts_Bay_Colony ,
+		dbpedia:Massachusetts ,
+		dbpedia:Province_of_Massachusetts_Bay ,
+		<http://dbpedia.org/resource/Suffolk_County,_Massachusetts> ,
+		dbpedia:Kingdom_of_Great_Britain ;
+	ns2:leaderName	dbpedia:Boston_City_Council ,
+		<http://dbpedia.org/resource/Democratic_Party_(United_States)> ,
+		<http://dbpedia.org/resource/Marty_Walsh_(politician)> ;
+	ns2:timeZone	dbpedia:Eastern_Time_Zone ,
+		dbpedia:Eastern_Daylight_Time ;
+	ns2:type	dbpedia:Capital_city ;
+	owl:sameAs	ns5:Q100 ,
+		dbpedia:Boston ;
+	ns2:area	1.0 ;
+	ns2:areaCode	"617 and 857" ;
+	ns2:areaMetro	11700000000.0 ,
+		11654946496.51199913 ;
+	ns2:areaUrban	4584278955.294719696 ,
+		4600000000.0 ;
+	ns2:elevation	42.976799999999997226 ;
+	ns2:populationMetro	"4628910"^^xsd:nonNegativeInteger ;
+	ns2:populationUrban	"4180000"^^xsd:nonNegativeInteger ;
+	ns2:utcOffset	"-5" ,
+		"-4" ;
+	ns2:areaLand	125410000.0 ,
+		125407224.30246911943 ;
+	ns2:areaTotal	232140634.32941567898 ,
+		232140000.0 ;
+	ns2:areaWater	106730000.0 ,
+		106733410.02694655955 ;
+	ns2:foundingDate	"1822-03-04"^^xsd:date ,
+		"1630-09-07"^^xsd:date ;
+	ns2:leaderTitle	"Mayor"@en ,
+		"Council"@en ;
+	ns2:motto	"----" ,
+		"Sicut patribus sit Deus nobis" ;
+	ns2:populationDensity	5344.0399763859941231 ;
+	ns2:populationTotal	"667137"^^xsd:nonNegativeInteger ;
+	foaf:name	"Boston, Massachusetts"@en ,
+		"City of Boston"@en ;
+	foaf:nick	"SeeBoston nicknames"@en ,
+		"----"@en .
+dbpedia:University_of_Cambridge	rdf:type	ns2:University ;
+	rdfs:label	"University of Cambridge"@en ;
+	ns2:affiliation	dbpedia:League_of_European_Research_Universities ,
+		dbpedia:Russell_Group ,
+		dbpedia:European_University_Association ,
+		<http://dbpedia.org/resource/G5_(universities)> ,
+		dbpedia:International_Alliance_of_Research_Universities ,
+		<http://dbpedia.org/resource/SES_(universities)> ,
+		<http://dbpedia.org/resource/Golden_triangle_(universities)> ;
+	ns2:athletics	<http://dbpedia.org/resource/Blue_(university_sport)> ;
+	ns2:chancellor	<http://dbpedia.org/resource/David_Sainsbury,_Baron_Sainsbury_of_Turville> ;
+	ns2:city	dbpedia:Cambridge ;
+	ns2:country	dbpedia:England ,
+		dbpedia:United_Kingdom ;
+	ns2:type	dbpedia:Research_university ;
+	ns2:viceChancellor	dbpedia:Leszek_Borysiewicz ;
+	owl:sameAs	dbpedia:University_of_Cambridge ,
+		ns5:Q35794 ;
+	ns2:endowment	"5.89E9"^^ns8:poundSterling ;
+	ns2:facultySize	"6645"^^xsd:nonNegativeInteger ;
+	ns2:officialSchoolColour	"Cambridge Blue" ;
+	ns2:staff	"3178"^^xsd:nonNegativeInteger ;
+	ns2:motto	"Literal: From here, light and sacred draughts" ,
+		"(Latin)" ,
+		"Non-literal: From this place, we gain enlightenment and precious knowledge" ;
+	foaf:name	"University of Cambridge"@en ,
+		"Universitas Cantabrigiensis"@la .
+<http://dbpedia.org/resource/Cathedral_City,_California>	rdf:type	ns2:City ;
+	rdfs:label	"Cathedral City, California"@en ;
+	ns2:country	dbpedia:United_States ;
+	ns2:isPartOf	dbpedia:California ,
+		<http://dbpedia.org/resource/Riverside_County,_California> ;
+	ns2:timeZone	dbpedia:Pacific_Daylight_Time ,
+		dbpedia:Pacific_Time_Zone ;
+	ns2:type	<http://dbpedia.org/resource/City_(California)> ;
+	owl:sameAs	ns5:Q578518 ,
+		<http://dbpedia.org/resource/Cathedral_City,_California> ;
+	ns2:areaCode	"442/760" ;
+	ns2:elevation	100.0 ,
+		99.974400000000002819 ;
+	ns2:percentageOfAreaWater	"1.1799999475479125977"^^xsd:float ;
+	ns2:populationAsOf	"2010-04-01"^^xsd:date ;
+	ns2:postalCode	"92234\u201392235" ;
+	ns2:utcOffset	"-8" ,
+		"-7" ;
+	ns2:areaLand	55683000.0 ,
+		55682154.384113661945 ;
+	ns2:areaTotal	56349000.0 ,
+		56347781.328470014036 ;
+	ns2:areaWater	666000.0 ,
+		665626.94435635197442 ;
+	ns2:foundingDate	"1981-11-16"^^xsd:date ;
+	ns2:leaderTitle	"Mayor"@en ;
+	ns2:populationTotal	"51200"^^xsd:nonNegativeInteger ;
+	foaf:name	"City of Cathedral City"@en .
+dbpedia:County_Limerick	rdf:type	ns2:Settlement ;
+	rdfs:label	"County Limerick"@en ;
+	ns2:governmentType	dbpedia:Limerick_City_and_County_Council ;
+	ns2:isPartOf	<http://dbpedia.org/resource/Kerry_North\u2013West_Limerick_(D\u00E1il_\u00C9ireann_constituency)> ,
+		<http://dbpedia.org/resource/Limerick_(D\u00E1il_\u00C9ireann_constituency)> ,
+		<http://dbpedia.org/resource/Limerick_City_(D\u00E1il_\u00C9ireann_constituency)> ,
+		dbpedia:Munster ,
+		<http://dbpedia.org/resource/South_(European_Parliament_constituency)> ;
+	owl:sameAs	dbpedia:County_Limerick ,
+		ns5:Q178283 ;
+	ns2:populationTotalRanking	"8"^^xsd:positiveInteger ;
+	ns2:areaTotal	2756000000.0 ;
+	ns2:motto	"\"Remember Limerick\"" ,
+		"Cuimhnigh ar Luimneach(Irish)" ;
+	foaf:name	"County Limerick"@en .
+<http://dbpedia.org/resource/Flint,_Michigan>	rdf:type	ns2:City ;
+	rdfs:label	"Flint, Michigan"@en ;
+	ns2:country	dbpedia:United_States ;
+	ns2:governmentType	dbpedia:Mayor-council_government ;
+	ns2:isPartOf	dbpedia:Michigan ,
+		<http://dbpedia.org/resource/Genesee_County,_Michigan> ;
+	ns2:leaderName	dbpedia:Karen_Weaver ;
+	ns2:timeZone	dbpedia:Eastern_Daylight_Time ,
+		dbpedia:Eastern_Standard_Time_Zone ;
+	ns2:type	dbpedia:County_seat ,
+		<http://dbpedia.org/resource/City_(Michigan)> ;
+	owl:sameAs	<http://dbpedia.org/resource/Flint,_Michigan> ,
+		ns5:Q490584 ;
+	ns2:area	1.0 ;
+	ns2:areaCode	"810" ;
+	ns2:elevation	229.0 ,
+		228.9047999999999945 ;
+	ns2:percentageOfAreaWater	"0.63999998569488525391"^^xsd:float ;
+	ns2:populationMetro	"415376"^^xsd:nonNegativeInteger ;
+	ns2:populationTotalRanking	"297"^^xsd:positiveInteger ;
+	ns2:populationUrban	"356218"^^xsd:nonNegativeInteger ;
+	ns2:postalCode	"48501-48507, 48532" ;
+	ns2:utcOffset	"-5" ,
+		"-4" ;
+	ns2:areaLand	86560000.0 ,
+		86557402.647429123521 ;
+	ns2:areaTotal	88214995.038044154644 ,
+		88210000.0 ;
+	ns2:leaderTitle	"Mayor"@en ,
+		"Receivership Transition Advisory Board"@en ,
+		"Flint City Council"@en ;
+	ns2:motto	"\"Strong, Proud\"" ;
+	ns2:populationDensity	1183.4000000000000909 ,
+		1183.4417261484509254 ;
+	ns2:populationTotal	"102434"^^xsd:nonNegativeInteger ;
+	foaf:name	"City of Flint"@en ,
+		"Flint, Michigan"@en ;
+	foaf:nick	"Vehicle City"@en .
+<http://dbpedia.org/resource/Malibu,_California>	rdf:type	ns2:City ;
+	rdfs:label	"Malibu, California"@en ;
+	ns2:country	dbpedia:United_States ;
+	ns2:isPartOf	dbpedia:California ,
+		<http://dbpedia.org/resource/Los_Angeles_County,_California> ;
+	ns2:timeZone	dbpedia:Pacific_Time_Zone ;
+	ns2:type	<http://dbpedia.org/resource/City_(California)> ;
+	owl:sameAs	<http://dbpedia.org/resource/Malibu,_California> ,
+		ns5:Q387047 ;
+	ns2:areaCode	"310/424" ;
+	ns2:elevation	32.003999999999997783 ,
+		32.0 ;
+	ns2:percentageOfAreaWater	"0.21999999880790710449"^^xsd:float ;
+	ns2:populationAsOf	"2010-04-01"^^xsd:date ;
+	ns2:postalCode	"90263, 90264, 90265" ;
+	ns2:utcOffset	"-7" ,
+		"-8" ;
+	ns2:areaLand	51242914.762997761369 ,
+		51242000.0 ;
+	ns2:areaTotal	51354284.251742206514 ,
+		51354000.0 ;
+	ns2:areaWater	113000.0 ,
+		111369.48874444799731 ;
+	ns2:foundingDate	"1991-03-28"^^xsd:date ;
+	ns2:leaderTitle	"Mayor"@en ;
+	ns2:populationTotal	"12645"^^xsd:nonNegativeInteger ;
+	foaf:name	"Malibu, California"@en ,
+		"City of Malibu"@en ;
+	foaf:nick	"The 'Bu"@en .
+<http://dbpedia.org/resource/Palm_Desert,_California>	rdf:type	ns2:City ;
+	rdfs:label	"Palm Desert, California"@en ;
+	ns2:country	dbpedia:United_States ;
+	ns2:isPartOf	dbpedia:California ,
+		<http://dbpedia.org/resource/Riverside_County,_California> ;
+	ns2:timeZone	dbpedia:Pacific_Time_Zone ,
+		dbpedia:Pacific_Daylight_Time ;
+	ns2:type	<http://dbpedia.org/resource/City_(California)> ;
+	owl:sameAs	ns5:Q399976 ,
+		<http://dbpedia.org/resource/Palm_Desert,_California> ;
+	ns2:areaCode	"442/760" ;
+	ns2:elevation	67.0 ,
+		67.055999999999997385 ;
+	ns2:percentageOfAreaWater	"0.75999999046325683594"^^xsd:float ;
+	ns2:populationAsOf	"2010-04-01"^^xsd:date ;
+	ns2:postalCode	"92210, 92211, 92255, 92260, 92261" ;
+	ns2:utcOffset	"-7" ,
+		"-8" ;
+	ns2:areaLand	69437581.238108158112 ,
+		69437000.0 ;
+	ns2:areaTotal	69965938.812616705894 ,
+		69966000.0 ;
+	ns2:areaWater	529000.0 ,
+		528357.57450854405761 ;
+	ns2:foundingDate	"1973-11-26"^^xsd:date ;
+	ns2:leaderTitle	"Mayor"@en ;
+	ns2:motto	"\"Feel The Warmth\"" ;
+	ns2:populationTotal	"48445"^^xsd:nonNegativeInteger ;
+	foaf:name	"City of Palm Desert"@en ;
+	foaf:nick	"P.D. , Palm Deezy"@en .
+dbpedia:Walthamstow	rdf:type	ns2:Settlement ;
+	rdfs:label	"Walthamstow"@en ;
+	ns2:country	dbpedia:United_Kingdom ;
+	ns2:region	dbpedia:London ;
+	owl:sameAs	ns5:Q2321784 ,
+		dbpedia:Walthamstow ;
+	ns2:areaCode	"020" ;
+	ns2:distanceToCharingCross	12070.079999999999927 ;
+	ns2:gridReference	"TQ372891" ;
+	ns2:postalCode	"E17" ;
+	ns2:populationTotal	"109424"^^xsd:nonNegativeInteger ;
+	foaf:name	"Walthamstow"@en .
+dbpedia:Bobby_Brown	rdf:type	ns2:Person ;
+	rdfs:label	"Bobby Brown"@en ;
+	ns2:birthPlace	<http://dbpedia.org/resource/Boston,_Massachusetts> ;
+	ns2:child	dbpedia:Bobbi_Kristina_Brown ;
+	ns2:nationality	dbpedia:Americans ;
+	ns2:occupation	dbpedia:Songwriter ,
+		dbpedia:Actor ,
+		dbpedia:Singer ,
+		dbpedia:Dancer ,
+		dbpedia:Bobby_Brown__1 ;
+	ns2:spouse	dbpedia:Whitney_Houston ;
+	ns2:stateOfOrigin	dbpedia:Americans ;
+	ns2:activeYearsStartYear	"1978"^^xsd:gYear ;
+	ns2:birthDate	"1969-02-05"^^xsd:date ;
+	ns2:birthName	"Robert Barisford Brown"@en ;
+	ns2:birthYear	"1969"^^xsd:gYear ;
+	foaf:name	"Bobby Brown"@en .
+dbpedia:Bobby_Brown__1	rdf:type	ns2:PersonFunction ;
+	ns2:title	"Dancer"@en ,
+		"Songwriter"@en ,
+		"Singer"@en ,
+		"*"@en ,
+		"Actor"@en .
+dbpedia:Carly_Simon	rdf:type	ns2:Person ;
+	rdfs:label	"Carly Simon"@en ;
+	ns2:almaMater	dbpedia:Sarah_Lawrence_College ;
+	ns2:birthPlace	dbpedia:The_Bronx ,
+		<http://dbpedia.org/resource/New_York_(state)> ,
+		dbpedia:New_York_City ;
+	ns2:occupation	dbpedia:Singer-songwriter ,
+		dbpedia:Carly_Simon__1 ;
+	ns2:parent	dbpedia:Andrea_Heinemann_Simon ,
+		<http://dbpedia.org/resource/Richard_L._Simon> ;
+	ns2:spouse	<http://dbpedia.org/resource/14th_Annual_Grammy_Awards> ,
+		<http://dbpedia.org/resource/29th_Annual_Grammy_Awards> ,
+		dbpedia:James_Taylor ;
+	owl:sameAs	dbpedia:Carly_Simon ,
+		ns5:Q181683 ;
+	ns2:activeYearsStartYear	"1964"^^xsd:gYear ;
+	ns2:birthDate	"1945-06-25"^^xsd:date ;
+	ns2:birthName	"Carly Elisabeth Simon"@en ;
+	ns2:birthYear	"1945"^^xsd:gYear ;
+	foaf:name	"Carly Simon"@en .
+dbpedia:David_Bailey	rdf:type	ns2:Person ;
+	rdfs:label	"David Bailey"@en ;
+	ns2:birthPlace	dbpedia:London ,
+		dbpedia:Leytonstone ;
+	ns2:occupation	dbpedia:Photographer ,
+		dbpedia:David_Bailey__1 ;
+	ns2:spouse	dbpedia:Catherine_Deneuve ,
+		dbpedia:Marie_Helvin ;
+	ns2:activeYearsEndYear	"1959"^^xsd:gYear ;
+	ns2:activeYearsStartYear	"1959"^^xsd:gYear ;
+	ns2:birthDate	"1938-01-02"^^xsd:date ;
+	ns2:birthName	"David Royston Bailey"@en ;
+	ns2:birthYear	"1938"^^xsd:gYear ;
+	ns2:imdbId	"0047222" ;
+	foaf:name	"David Bailey"@en .
+dbpedia:David_Bailey__1	rdf:type	ns2:PersonFunction ;
+	ns2:title	"Photographer"@en .
+dbpedia:Hammersmith	rdf:type	ns2:Settlement ;
+	rdfs:label	"Hammersmith"@en ;
+	ns2:borough	dbpedia:Fulham ,
+		<http://dbpedia.org/resource/Hammersmith_(UK_Parliament_constituency)> ;
+	ns2:country	dbpedia:United_Kingdom ;
+	owl:sameAs	dbpedia:Hammersmith ,
+		ns5:Q277162 ;
+	ns2:areaCode	"020" ;
+	ns2:distanceToCharingCross	6920.1791999999995824 ;
+	ns2:gridReference	"TQ233786" ;
+	ns2:postalCode	"W6" ;
+	foaf:name	"Hammersmith"@en .
+dbpedia:Huddersfield	rdf:type	ns2:Settlement ;
+	rdfs:label	"Huddersfield"@en ;
+	ns2:country	dbpedia:United_Kingdom ,
+		dbpedia:England ;
+	owl:sameAs	ns5:Q201812 ,
+		dbpedia:Huddersfield ;
+	ns2:areaCode	"01484" ;
+	ns2:gridReference	"SE145165" ;
+	ns2:postalCode	"HD1-6, HD7-9" ;
+	ns2:populationTotal	"162949"^^xsd:nonNegativeInteger ;
+	foaf:name	"Huddersfield"@en ;
+	ns2:metropolitanBorough	dbpedia:Kirklees .
+dbpedia:James_Taylor	rdf:type	ns2:Person ;
+	rdfs:label	"James Taylor"@en ;
+	ns2:almaMater	dbpedia:Milton_Academy ,
+		dbpedia:Elon_University ;
+	ns2:birthPlace	dbpedia:Massachusetts ,
+		dbpedia:Boston ;
+	ns2:hometown	<http://dbpedia.org/resource/Chapel_Hill,_North_Carolina> ;
+	ns2:occupation	dbpedia:James_Taylor__1 ;
+	ns2:parent	<http://dbpedia.org/resource/Isaac_M._Taylor> ;
+	ns2:spouse	dbpedia:Carly_Simon ,
+		dbpedia:Kathryn_Walker ;
+	ns2:alias	"\"JT\""@en ,
+		"James V. Taylor"@en ,
+		"\"Stringbean\""@en ;
+	ns2:activeYearsStartYear	"1966"^^xsd:gYear ;
+	ns2:birthDate	"1948-03-12"^^xsd:date ;
+	ns2:birthName	"James Vernon Taylor"@en ;
+	ns2:birthYear	"1948"^^xsd:gYear ;
+	foaf:name	"James Taylor"@en .
+dbpedia:James_Taylor__1	rdf:type	ns2:PersonFunction ;
+	ns2:title	"Singer-songwriter, musician"@en .
+dbpedia:John_Mills	rdf:type	ns2:Person ;
+	rdfs:label	"John Mills"@en ;
+	ns2:birthPlace	dbpedia:Norfolk ,
+		dbpedia:North_Elmham ;
+	ns2:child	dbpedia:Juliet_Mills ,
+		dbpedia:Hayley_Mills ;
+	ns2:deathPlace	<http://dbpedia.org/resource/Denham,_Buckinghamshire> ,
+		dbpedia:Buckinghamshire ;
+	ns2:occupation	dbpedia:John_Mills__1 ;
+	ns2:spouse	dbpedia:Aileen_Raymond ,
+		dbpedia:Mary_Hayley_Bell ;
+	ns2:activeYearsEndYear	"2005"^^xsd:gYear ;
+	ns2:activeYearsStartYear	"1932"^^xsd:gYear ;
+	ns2:birthDate	"1908-02-22"^^xsd:date ;
+	ns2:birthName	"Lewis Ernest Watts Mills"@en ;
+	ns2:birthYear	"1908"^^xsd:gYear ;
+	ns2:deathDate	"2005-04-23"^^xsd:date ;
+	ns2:deathYear	"2005"^^xsd:gYear ;
+	ns2:imdbId	"0590055" ;
+	foaf:name	"John Mills"@en .
+dbpedia:John_Mills__1	rdf:type	ns2:PersonFunction ;
+	ns2:title	"Actor"@en .
+dbpedia:John_Williams	rdf:type	ns2:Person ;
+	rdfs:label	"John Williams"@en ;
+	ns2:birthPlace	<http://dbpedia.org/resource/Floral_Park,_New_York> ,
+		<http://dbpedia.org/resource/New_York_(state)> ;
+	ns2:child	<http://dbpedia.org/resource/Joseph_Williams_(musician)> ;
+	ns2:occupation	dbpedia:Conducting ,
+		dbpedia:Composer ,
+		dbpedia:Pianist ,
+		dbpedia:John_Williams__1 ;
+	ns2:soundRecording	dbpedia:John_Williams__1 ;
+	ns2:spouse	<http://dbpedia.org/resource/47th_Academy_Awards> ,
+		<http://dbpedia.org/resource/53rd_Academy_Awards> ,
+		dbpedia:Barbara_Ruick ;
+	ns2:birthDate	"1932-02-08"^^xsd:date ;
+	ns2:birthName	"John Towner Williams"@en ;
+	ns2:birthYear	"1932"^^xsd:gYear ;
+	foaf:name	"John Williams"@en .
+dbpedia:John_Williams__1	rdf:type	ns2:Sound ,
+		ns2:PersonFunction ;
+	ns2:description	"A selection from the iconic \"Hedwig's Theme\" from the Harry Potter films"@en ,
+		"Theme music for the1984 Summer Olympicsin Los Angeles"@en ,
+		"The main theme for Jaws, revolving around anostinatoofbass notes, which composer John Williams said were meant to represent the shark as an \"unstoppable force\" of \"mindless and instinctive attacks\""@en ,
+		"Indiana Jones' main motif, introduced in Raiders of the Lost Ark"@en ;
+	ns2:filename	"John Williams The Raiders' March from Raiders of the Lost Ark.ogg" ,
+		"John Williams Olympic Theme.ogg" ,
+		"Harry Potter Soundtrack - Hedwig's Theme.ogg" ,
+		"JawsJohnWilliams.ogg" ;
+	ns2:title	"\"Main Theme From Jaws\""@en ,
+		"pianist"@en ,
+		"\"The Raiders March\" (1981)"@en ,
+		"conductor"@en ,
+		"*"@en ,
+		"Olympic Fanfare and Theme"@en ,
+		"Composer"@en ,
+		"\"Hedwig's Theme\""@en .
+dbpedia:Kathryn_Bigelow	rdf:type	ns2:Person ;
+	rdfs:label	"Kathryn Bigelow"@en ;
+	ns2:almaMater	dbpedia:San_Francisco_Art_Institute ,
+		dbpedia:Columbia_University ;
+	ns2:birthPlace	<http://dbpedia.org/resource/San_Carlos,_California> ;
+	ns2:occupation	dbpedia:Kathryn_Bigelow__1 ,
+		dbpedia:Screenwriter ,
+		dbpedia:Film_producer ;
+	ns2:spouse	dbpedia:James_Cameron ;
+	owl:sameAs	ns5:Q34816 ,
+		dbpedia:Kathryn_Bigelow ;
+	ns2:activeYearsStartYear	"1978"^^xsd:gYear ;
+	ns2:birthDate	"1951-11-27"^^xsd:date ;
+	ns2:birthName	"Kathryn Ann Bigelow"@en ;
+	ns2:birthYear	"1951"^^xsd:gYear ;
+	foaf:name	"Kathryn Bigelow"@en .
+dbpedia:Malcolm_Campbell	rdf:type	ns2:Person ;
+	rdfs:label	"Malcolm Campbell"@en ;
+	ns2:birthPlace	dbpedia:Kent ,
+		dbpedia:Chislehurst ;
+	ns2:child	dbpedia:Donald_Campbell ;
+	ns2:deathPlace	dbpedia:Reigate ,
+		dbpedia:Surrey ;
+	ns2:education	dbpedia:Uppingham_School ;
+	ns2:occupation	dbpedia:Malcolm_Campbell__1 ;
+	ns2:restingPlace	dbpedia:Chislehurst ,
+		dbpedia:Kent ;
+	owl:sameAs	ns5:Q621028 ,
+		dbpedia:Malcolm_Campbell ;
+	ns2:birthDate	"1885-03-11"^^xsd:date ;
+	ns2:birthYear	"1885"^^xsd:gYear ;
+	ns2:deathDate	"1948-12-31"^^xsd:date ;
+	ns2:deathYear	"1948"^^xsd:gYear ;
+	foaf:name	"Sir Malcolm Campbell"@en .
+dbpedia:Mark_Thomas	rdf:type	ns2:Person ;
+	rdfs:label	"Mark Thomas"@en ;
+	ns2:employer	dbpedia:New_Statesman ;
+	ns2:occupation	dbpedia:Mark_Thomas__1 ,
+		dbpedia:Presenter ,
+		dbpedia:Journalist ,
+		dbpedia:Columnist ,
+		dbpedia:Comedian ,
+		dbpedia:Activist ;
+	ns2:birthDate	"1963-04-11"^^xsd:date ;
+	ns2:birthName	"Mark Clifford Thomas"@en ;
+	ns2:birthYear	"1963"^^xsd:gYear ;
+	foaf:name	"Mark Thomas"@en .
+dbpedia:Mark_Thomas__1	rdf:type	ns2:PersonFunction ;
+	ns2:title	"Presenter"@en ,
+		"Columnist"@en ,
+		"Comedian"@en ,
+		"Activist"@en ,
+		"Journalist"@en .
+dbpedia:Robert_Powell	rdf:type	ns2:Person ;
+	rdfs:label	"Robert Powell"@en ;
+	ns2:birthPlace	dbpedia:County_Borough_of_Salford ;
+	ns2:occupation	dbpedia:Robert_Powell__1 ;
+	ns2:activeYearsStartYear	"1966"^^xsd:gYear ;
+	ns2:birthDate	"1944-06-01"^^xsd:date ;
+	ns2:birthYear	"1944"^^xsd:gYear ;
+	foaf:name	"Robert Powell"@en .
+dbpedia:Robert_Powell__1	rdf:type	ns2:PersonFunction ;
+	ns2:title	"actor"@en .
+<http://dbpedia.org/resource/Smithfield,_London>	rdf:type	ns2:Settlement ;
+	rdfs:label	"Smithfield, London"@en ;
+	ns2:borough	dbpedia:City_of_London ;
+	ns2:country	dbpedia:United_Kingdom ,
+		dbpedia:England ;
+	ns2:region	dbpedia:London ;
+	owl:sameAs	<http://dbpedia.org/resource/Smithfield,_London> ,
+		ns5:Q3182018 ;
+	ns2:areaCode	"020" ;
+	ns2:postalCode	"EC1" ;
+	foaf:name	"Smithfield"@en .
+dbpedia:Tom_Baker	rdf:type	ns2:Person ;
+	rdfs:label	"Tom Baker"@en ;
+	ns2:birthPlace	dbpedia:England ,
+		dbpedia:Liverpool ;
+	ns2:occupation	dbpedia:Tom_Baker__1 ;
+	ns2:spouse	dbpedia:Lalla_Ward ;
+	ns2:activeYearsStartYear	"1968"^^xsd:gYear ;
+	ns2:birthDate	"1934-01-20"^^xsd:date ;
+	ns2:birthName	"Thomas Stewart Baker"@en ;
+	ns2:birthYear	"1934"^^xsd:gYear ;
+	foaf:name	"Tom Baker"@en .
+dbpedia:Tom_Baker__1	rdf:type	ns2:PersonFunction ;
+	ns2:title	"Actor, writer"@en .
+<http://dbpedia.org/resource/Wheeling,_West_Virginia>	rdf:type	ns2:City ;
+	rdfs:label	"Wheeling, West Virginia"@en ;
+	ns2:country	dbpedia:United_States ;
+	ns2:isPartOf	dbpedia:West_Virginia ,
+		<http://dbpedia.org/resource/Ohio_County,_West_Virginia> ,
+		<http://dbpedia.org/resource/Marshall_County,_West_Virginia> ;
+	ns2:type	dbpedia:City ;
+	owl:sameAs	<http://dbpedia.org/resource/Wheeling,_West_Virginia> ,
+		ns5:Q838112 ;
+	ns2:areaCode	"304" ;
+	ns2:elevation	209.0 ,
+		209.39760000000001128 ;
+	ns2:percentageOfAreaWater	"13.869999885559082031"^^xsd:float ;
+	ns2:populationMetro	"145205"^^xsd:nonNegativeInteger ;
+	ns2:populationUrban	"81249"^^xsd:nonNegativeInteger ;
+	ns2:postalCode	"26003" ;
+	ns2:utcOffset	"-4" ;
+	ns2:areaLand	35715936.041533440351 ,
+		35720000.0 ;
+	ns2:areaTotal	41470000.0 ,
+		41465709.646479360759 ;
+	ns2:areaWater	5749773.6049459204078 ,
+		5750000.0 ;
+	ns2:leaderTitle	"City Manager"@en ,
+		"Police Chief"@en ,
+		"Fire Chief"@en ,
+		"Mayor"@en ;
+	ns2:populationDensity	797.60000000000002274 ,
+		797.57122890113043923 ;
+	ns2:populationTotal	"28486"^^xsd:nonNegativeInteger ;
+	foaf:name	"Wheeling, West Virginia"@en ;
+	foaf:nick	"The Friendly City"@en .
+dbpedia:Bo_Derek	rdf:type	ns2:Person ;
+	rdfs:label	"Bo Derek"@en ;
+	ns2:birthPlace	<http://dbpedia.org/resource/Long_Beach,_California> ;
+	ns2:occupation	dbpedia:Bo_Derek__1 ;
+	ns2:relative	dbpedia:Sean_Catherine_Derek ;
+	owl:sameAs	ns5:Q229477 ,
+		dbpedia:Bo_Derek ;
+	ns2:alias	"Beau C. Shane"@en ,
+		"Kathleen Collins"@en ;
+	ns2:activeYearsStartYear	"1973"^^xsd:gYear ;
+	ns2:birthDate	"1956-11-20"^^xsd:date ;
+	ns2:birthName	"Mary Cathleen Collins"@en ;
+	ns2:birthYear	"1956"^^xsd:gYear ;
+	foaf:name	"Bo Derek"@en .
+dbpedia:Fran_Walsh	rdf:type	ns2:Person ;
+	rdfs:label	"Fran Walsh"@en ;
+	ns2:birthPlace	dbpedia:Wellington ;
+	ns2:occupation	dbpedia:Fran_Walsh__1 ,
+		dbpedia:Lyricist ,
+		dbpedia:Screenwriter ,
+		dbpedia:Film_producer ;
+	ns2:spouse	dbpedia:Peter_Jackson ;
+	owl:sameAs	dbpedia:Fran_Walsh ,
+		ns5:Q116861 ;
+	ns2:activeYearsStartYear	"1983"^^xsd:gYear ;
+	ns2:birthDate	"1959-01-10"^^xsd:date ;
+	ns2:birthName	"Frances Rosemary Walsh"@en ;
+	ns2:birthYear	"1959"^^xsd:gYear ;
+	ns2:imdbId	"0909638" ;
+	foaf:name	"Fran Walsh"@en .
+dbpedia:Milton_Academy	rdf:type	ns2:School ;
+	rdfs:label	"Milton Academy"@en ;
+	ns2:city	<http://dbpedia.org/resource/Milton,_Massachusetts> ;
+	ns2:country	dbpedia:United_States ;
+	ns2:rival	dbpedia:Noble_and_Greenough_School ;
+	ns2:state	dbpedia:Massachusetts ;
+	ns2:type	dbpedia:Day_school ,
+		dbpedia:Independent_School ,
+		dbpedia:Boarding_school ;
+	owl:sameAs	dbpedia:Milton_Academy ,
+		ns5:Q6860967 ;
+	ns2:endowment	"1.93E8"^^ns8:usDollar ;
+	ns2:facultySize	"127"^^xsd:nonNegativeInteger ;
+	ns2:foundingYear	"1798"^^xsd:gYear ;
+	ns2:numberOfStudents	"287"^^xsd:nonNegativeInteger ,
+		"675"^^xsd:nonNegativeInteger ,
+		"967"^^xsd:nonNegativeInteger ,
+		"50"^^xsd:nonNegativeInteger ;
+	ns2:teamName	"Mustang"@en ;
+	ns2:motto	"Dare to be True" ;
+	foaf:name	"Milton Academy"@en ;
+	ns2:classes	"14"^^xsd:nonNegativeInteger ;
+	ns2:tuition	"53330.0"^^ns8:usDollar ,
+		"43780.0"^^ns8:usDollar .
+dbpedia:University_of_Michigan-Flint	rdf:type	ns2:University ;
+	rdfs:label	"University of Michigan\u2013Flint"@en ;
+	ns2:chancellor	<http://dbpedia.org/resource/Susan_E._Borrego> ;
+	ns2:city	<http://dbpedia.org/resource/Flint,_Michigan> ;
+	ns2:president	<http://dbpedia.org/resource/Mark_S._Schlissel> ;
+	ns2:state	dbpedia:Michigan ;
+	ns2:type	dbpedia:Public_university ;
+	owl:sameAs	ns5:Q7895785 ,
+		dbpedia:University_of_Michigan-Flint ;
+	ns2:endowment	"6.335E7"^^ns8:usDollar ;
+	ns2:facultySize	"524"^^xsd:nonNegativeInteger ;
+	ns2:formerName	"Flint Senior College of the University of Michigan (1954\u20131964)"@en ;
+	ns2:numberOfPostgraduateStudents	"1264"^^xsd:nonNegativeInteger ;
+	ns2:numberOfStudents	"8289"^^xsd:nonNegativeInteger ;
+	ns2:numberOfUndergraduateStudents	"6874"^^xsd:nonNegativeInteger ;
+	ns2:officialSchoolColour	"Maize and Blue" ;
+	ns2:staff	"510"^^xsd:nonNegativeInteger ;
+	ns2:motto	"Artes, Scientia, Veritas" ,
+		"Arts, Knowledge, Truth" ;
+	foaf:name	"University of Michigan\u2013Flint"@en ;
+	foaf:nick	"Wolverines"@en .
+dbpedia:Cass_Technical_High_School	rdf:type	ns2:School ;
+	rdfs:label	"Cass Technical High School"@en ;
+	ns2:city	dbpedia:Detroit ;
+	ns2:state	dbpedia:Michigan_Wolverines_football ;
+	ns2:type	dbpedia:Magnet_school ;
+	owl:sameAs	dbpedia:Cass_Technical_High_School ,
+		ns5:Q5049183 ;
+	ns2:address	"2501 Second Avenue"@en ;
+	ns2:facultySize	"85"^^xsd:nonNegativeInteger ;
+	ns2:foundingYear	"1907"^^xsd:gYear ;
+	ns2:mascot	"Technicians" ;
+	ns2:numberOfStudents	"2356"^^xsd:nonNegativeInteger ;
+	foaf:name	"Cass Tech"@en .
+dbpedia:Kevin_Barry	rdf:type	ns2:Person ;
+	rdfs:label	"Kevin Barry"@en ;
+	ns2:birthPlace	dbpedia:Dublin ;
+	ns2:deathPlace	dbpedia:Dublin ,
+		dbpedia:Mountjoy_Jail ;
+	ns2:knownFor	dbpedia:Irish_Republican_Army ;
+	ns2:nationality	dbpedia:Irish_people ;
+	ns2:occupation	dbpedia:Kevin_Barry__1 ;
+	ns2:stateOfOrigin	dbpedia:Irish_people ;
+	ns2:birthDate	"1902-01-20"^^xsd:date ;
+	ns2:birthName	"Kevin Gerard Barry"@en ;
+	ns2:birthYear	"1902"^^xsd:gYear ;
+	ns2:deathDate	"1920-11-01"^^xsd:date ;
+	ns2:deathYear	"1920"^^xsd:gYear ;
+	foaf:name	"Kevin Barry"@en .
+dbpedia:Kevin_Barry__1	rdf:type	ns2:PersonFunction ;
+	ns2:title	"Medical student"@en .
+<http://dbpedia.org/resource/Topanga,_California>	rdf:type	ns2:Settlement ;
+	rdfs:label	"Topanga, California"@en ;
+	ns2:country	dbpedia:United_States ;
+	ns2:isPartOf	<http://dbpedia.org/resource/Los_Angeles_County,_California> ,
+		dbpedia:California ;
+	ns2:timeZone	dbpedia:Pacific_Time_Zone ;
+	ns2:type	dbpedia:Census-designated_place ;
+	owl:sameAs	<http://dbpedia.org/resource/Topanga,_California> ,
+		ns5:Q144792 ;
+	ns2:areaCode	"310,818" ;
+	ns2:elevation	330.40320000000002665 ;
+	ns2:percentageOfAreaWater	"0.039999999105930328369"^^xsd:float ;
+	ns2:postalCode	"90290" ;
+	ns2:utcOffset	"-7" ,
+		"-8" ;
+	ns2:areaLand	49543882.562617346644 ,
+		49543000.0 ;
+	ns2:areaTotal	49563000.0 ,
+		49564602.467500030994 ;
+	ns2:areaWater	20000.0 ,
+		20719.904882687998906 ;
+	ns2:populationTotal	"8289"^^xsd:nonNegativeInteger ;
+	foaf:name	"Topanga, California"@en .
+<http://dbpedia.org/resource/Joseph_Williams_(musician)>	rdf:type	ns2:Person ;
+	rdfs:label	"Joseph Williams (musician)"@en ;
+	ns2:birthPlace	dbpedia:Santa_Monica ,
+		dbpedia:California ;
+	ns2:occupation	<http://dbpedia.org/resource/Joseph_Williams_(musician)__1> ;
+	ns2:parent	dbpedia:John_Williams ,
+		dbpedia:Barbara_Ruick ;
+	ns2:relative	dbpedia:Melville_Ruick ,
+		dbpedia:Lurene_Tuttle ,
+		<http://dbpedia.org/resource/Johnny_Williams_(drummer)> ;
+	owl:sameAs	<http://dbpedia.org/resource/Joseph_Williams_(musician)> ,
+		ns5:Q957024 ;
+	ns2:birthDate	"1960-09-01"^^xsd:date ;
+	ns2:birthName	"Joseph Stanley Williams"@en ;
+	ns2:birthYear	"1960"^^xsd:gYear ;
+	ns2:imdbId	"0930990" ;
+	foaf:name	"Joseph Williams"@en .
+dbpedia:Synge_Street_CBS	rdf:type	ns2:School ;
+	rdfs:label	"Synge Street CBS"@en ;
+	ns2:colour	dbpedia:White ,
+		dbpedia:Blue ;
+	ns2:location	dbpedia:Dublin ;
+	ns2:religion	dbpedia:Catholic_Church ;
+	ns2:type	dbpedia:Congregation_of_Christian_Brothers ;
+	owl:sameAs	ns5:Q7662442 ,
+		dbpedia:Synge_Street_CBS ;
+	ns2:foundingYear	"1864"^^xsd:gYear ;
+	ns2:numberOfStudents	"300"^^xsd:nonNegativeInteger ;
+	ns2:officialSchoolColour	"BlueandWhite" ;
+	ns2:motto	"\"Viriliter Age\"" ,
+		"\"Act  Manly\"." ;
+	foaf:name	"Synge Street CBS"@en .
+dbpedia:United_States	rdf:type	ns2:Country ;
+	rdfs:label	"United States"@en ;
+	ns2:anthem	dbpedia:The_Star-Spangled_Banner ;
+	ns2:capital	<http://dbpedia.org/resource/Washington,_D.C.> ;
+	ns2:ethnicGroup	dbpedia:African-American ,
+		dbpedia:Native_American ,
+		dbpedia:Asian_American ,
+		dbpedia:White_American ,
+		dbpedia:Multiracial_American ;
+	ns2:governmentType	dbpedia:Federalism ;
+	ns2:language	dbpedia:Federal_government_of_the_United_States ,
+		dbpedia:English_language ;
+	ns2:largestCity	dbpedia:New_York_City ;
+	ns2:leader	dbpedia:Barack_Obama ,
+		dbpedia:Joe_Biden ,
+		dbpedia:John_Roberts ,
+		dbpedia:Paul_Ryan ;
+	ns2:officialLanguage	dbpedia:Federal_government_of_the_United_States ;
+	owl:sameAs	dbpedia:United_States ,
+		ns5:Q30 ;
+	ns2:percentageOfAreaWater	"6.9699997901916503906"^^xsd:float ;
+	ns2:areaTotal	9833517000000.0 ,
+		9833516638013.3261719 ;
+	ns2:demonym	"American"@en ;
+	ns2:flag	"Flag of the United States.svg" ;
+	ns2:foundingDate	"1776-07-04"^^xsd:date ,
+		"1781-03-01"^^xsd:date ;
+	ns2:leaderTitle	"Vice President"@en ,
+		"President"@en ,
+		"Speaker of the House"@en ,
+		"Chief Justice"@en ;
+	ns2:longName	"United States of America"@en ;
+	ns2:motto	"\"In God we trust\"" ;
+	ns2:populationDensity	35.0 ,
+		34.980855563945596032 ;
+	ns2:populationTotal	"324720797"^^xsd:nonNegativeInteger ;
+	foaf:name	"the United States"@en .
+dbpedia:William_David_Powell	rdf:type	ns2:Person ;
+	rdfs:label	"William David Powell"@en ;
+	ns2:occupation	dbpedia:William_David_Powell__1 ;
+	ns2:parent	dbpedia:William_Powell ;
+	owl:sameAs	dbpedia:William_David_Powell ,
+		ns5:Q16006456 ;
+	ns2:birthDate	"1925-02-27"^^xsd:date ;
+	ns2:birthYear	"1925"^^xsd:gYear ;
+	ns2:deathDate	"1968-03-13"^^xsd:date ;
+	ns2:deathYear	"1968"^^xsd:gYear ;
+	ns2:imdbId	"1309210" ;
+	foaf:name	"William David Powell"@en .
+dbpedia:Marie_Helvin	rdf:type	ns2:Model ;
+	rdfs:label	"Marie Helvin"@en ;
+	ns2:birthPlace	<http://dbpedia.org/resource/Tokyo,_Japan> ;
+	owl:sameAs	ns5:Q6762868 ,
+		dbpedia:Marie_Helvin ;
+	ns2:eyeColor	"Hazel" ;
+	ns2:hairColor	"Brown" ;
+	ns2:birthDate	"1952-08-13"^^xsd:date ;
+	foaf:name	"Marie Helvin"@en .
+dbpedia:Barbara_Ruick	rdf:type	ns2:Person ;
+	rdfs:label	"Barbara Ruick"@en ;
+	ns2:birthPlace	<http://dbpedia.org/resource/Pasadena,_California> ;
+	ns2:child	<http://dbpedia.org/resource/Joseph_Williams_(musician)> ;
+	ns2:deathCause	dbpedia:Cerebral_hemorrhage ;
+	ns2:deathPlace	<http://dbpedia.org/resource/Reno,_Nevada> ;
+	ns2:occupation	dbpedia:Barbara_Ruick__1 ;
+	ns2:parent	dbpedia:Melville_Ruick ,
+		dbpedia:Lurene_Tuttle ;
+	ns2:spouse	dbpedia:John_Williams ,
+		<http://dbpedia.org/resource/Robert_Horton_(actor)> ;
+	owl:sameAs	dbpedia:Barbara_Ruick ,
+		ns5:Q527841 ;
+	ns2:activeYearsEndYear	"1974"^^xsd:gYear ;
+	ns2:activeYearsStartYear	"1931"^^xsd:gYear ;
+	ns2:birthDate	"1930-12-23"^^xsd:date ;
+	ns2:birthYear	"1930"^^xsd:gYear ;
+	ns2:deathDate	"1974-03-03"^^xsd:date ;
+	ns2:deathYear	"1974"^^xsd:gYear ;
+	foaf:name	"Barbara Ruick"@en .
+dbpedia:Exeter	rdf:type	ns2:City ;
+	rdfs:label	"Exeter"@en ;
+	ns2:governmentType	dbpedia:Exeter_City_Council ;
+	ns2:isPartOf	dbpedia:Devon ,
+		dbpedia:South_West_England ;
+	ns2:leaderName	<http://dbpedia.org/resource/Exeter_(UK_Parliament_constituency)> ,
+		<http://dbpedia.org/resource/East_Devon_(UK_Parliament_constituency)> ,
+		dbpedia:Hugo_Swire ,
+		dbpedia:Ben_Bradshaw ,
+		<http://dbpedia.org/resource/South_West_England_(European_Parliament_constituency)> ;
+	ns2:timeZone	dbpedia:Greenwich_Mean_Time ,
+		dbpedia:British_Summer_Time ;
+	ns2:type	dbpedia:Non-metropolitan_district ,
+		dbpedia:City_status_in_the_United_Kingdom ;
+	owl:sameAs	ns5:Q134672 ,
+		dbpedia:Exeter ;
+	ns2:areaCode	"01392" ;
+	ns2:postalCode	"EX1-6" ;
+	ns2:synonym	"City of Exeter" ;
+	ns2:utcOffset	"+1" ,
+		"0" ;
+	ns2:leaderTitle	"UK Parliament"@en ,
+		"Lord Mayor"@en ,
+		"Members of Parliament"@en ,
+		"European Parliament"@en ,
+		"HQ"@en ;
+	ns2:motto	"Semper fidelis (Always Faithful)" ;
+	foaf:name	"Exeter"@en .
+dbpedia:Essex	rdf:type	ns2:AdministrativeRegion ;
+	rdfs:label	"Essex"@en ;
+	ns2:country	dbpedia:United_Kingdom ;
+	ns2:location	dbpedia:England ;
+	owl:sameAs	ns5:Q23240 ,
+		dbpedia:Essex ;
+	ns2:areaTotal	3670000000.0 ;
+	foaf:name	"Essex"@en .
+ns2:Person	rdf:type	owl:Class .
+@prefix ns9:	<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+ns2:Person	owl:equivalentClass	ns9:NaturalPerson ,
+		foaf:Person .
+@prefix ns10:	<http://www.wikidata.org/entity/> .
+ns2:Person	owl:equivalentClass	ns10:Q215627 ,
+		ns10:Q5 .
+@prefix ns11:	<http://schema.org/> .
+ns2:Person	owl:equivalentClass	ns11:Person ;
+	rdfs:label	"\u0561\u0576\u0571"@hy ,
+		"persona"@it ,
+		"duine"@ga ,
+		"pessoa"@pt ,
+		"Person"@de ,
+		"persoon"@nl ,
+		"persona"@es ,
+		"\u03A0\u03BB\u03B7\u03C1\u03BF\u03C6\u03BF\u03C1\u03AF\u03B5\u03C2 \u03C0\u03C1\u03BF\u03C3\u03CE\u03C0\u03BF\u03C5"@el ,
+		"osoba"@pl ,
+		"Oseba"@sl ,
+		"\u4EBA_(\u6CD5\u5F8B)"@ja ,
+		"person"@en ,
+		"\u0634\u062E\u0635"@ar ,
+		"personne"@fr ,
+		"pertsona"@eu ;
+	rdfs:subClassOf	ns2:Agent .
+@prefix ns12:	<http://www.w3.org/ns/prov#> .
+@prefix ns13:	<http://mappings.dbpedia.org/index.php/OntologyClass:> .
+ns2:Person	ns12:wasDerivedFrom	ns13:Person .
+dbpedia:England	rdf:type	owl:Thing ;
+	rdfs:label	"England"@en ;
+	ns2:soundRecording	dbpedia:England__3 ,
+		dbpedia:England__4 ,
+		dbpedia:England__5 ,
+		dbpedia:England__1 ,
+		dbpedia:England__2 ;
+	owl:sameAs	ns5:Q21 ,
+		dbpedia:England .
+dbpedia:Filmmaker	rdfs:label	"Filmmaker"@en .
+dbpedia:Hampshire	rdf:type	owl:Thing ;
+	rdfs:label	"Hampshire"@en ;
+	owl:sameAs	dbpedia:Hampshire ,
+		ns5:Q23204 .
+dbpedia:Irish_Republican_Army	rdfs:label	"Irish Republican Army"@en ;
+	owl:sameAs	dbpedia:Irish_Republican_Army ,
+		ns5:Q3084968 .
+dbpedia:Journalist	rdf:type	owl:Thing ;
+	rdfs:label	"Journalist"@en ;
+	owl:sameAs	ns5:Q1930187 ,
+		dbpedia:Journalist .
+dbpedia:Ontario	rdf:type	owl:Thing ;
+	rdfs:label	"Ontario"@en ;
+	owl:sameAs	dbpedia:Ontario ,
+		ns5:Q1904 .
+dbpedia:Pianist	rdf:type	owl:Thing ;
+	rdfs:label	"Pianist"@en ;
+	owl:sameAs	ns5:Q486748 ,
+		dbpedia:Pianist .
+dbpedia:Renfrewshire	rdf:type	owl:Thing ;
+	rdfs:label	"Renfrewshire"@en ;
+	owl:sameAs	dbpedia:Renfrewshire ,
+		ns5:Q211091 .
+dbpedia:Socialism	rdf:type	owl:Thing ;
+	rdfs:label	"Socialism"@en ;
+	owl:sameAs	dbpedia:Socialism ,
+		ns5:Q7272 .
+dbpedia:Songwriter	rdf:type	owl:Thing ;
+	rdfs:label	"Songwriter"@en ;
+	owl:sameAs	dbpedia:Songwriter ,
+		ns5:Q753110 .
+dbpedia:Stirlingshire	rdfs:label	"Stirlingshire"@en ;
+	owl:sameAs	dbpedia:Stirlingshire ,
+		ns5:Q1229763 .
+dbpedia:Westwood_Village_Memorial_Park_Cemetery	rdfs:label	"Westwood Village Memorial Park Cemetery"@en ;
+	owl:sameAs	dbpedia:Westwood_Village_Memorial_Park_Cemetery ,
+		ns5:Q1358639 .
+dbpedia:Race_car	rdfs:label	"Race car"@en .
+dbpedia:George_Polk_Award	rdfs:label	"George Polk Award"@en .
+dbpedia:Sicilian-American	rdfs:label	"Sicilian-American"@en .
+<http://dbpedia.org/resource/Barnwell,_South_Carolina>	rdf:type	ns2:City ;
+	rdfs:label	"Barnwell, South Carolina"@en ;
+	ns2:country	dbpedia:United_States ;
+	ns2:isPartOf	dbpedia:South_Carolina ,
+		<http://dbpedia.org/resource/Barnwell_County,_South_Carolina> ;
+	ns2:timeZone	dbpedia:North_American_Eastern_Time_Zone ;
+	ns2:type	dbpedia:City ;
+	owl:sameAs	ns5:Q586262 ,
+		<http://dbpedia.org/resource/Barnwell,_South_Carolina> ;
+	ns2:areaCode	"803" ;
+	ns2:elevation	66.14159999999999684 ,
+		66.0 ;
+	ns2:postalCode	"29812-29813" ;
+	ns2:utcOffset	"-5" ,
+		"-4" ;
+	ns2:areaLand	20300000.0 ;
+	ns2:areaTotal	20700000.0 ;
+	ns2:areaWater	400000.0 ;
+	ns2:populationDensity	233.59999999999999432 ;
+	ns2:populationTotal	"4750"^^xsd:nonNegativeInteger ;
+	foaf:name	"Barnwell, South Carolina"@en .
+dbpedia:Richard_Harris	rdf:type	ns2:Person ;
+	rdfs:label	"Richard Harris"@en ;
+	ns2:birthPlace	dbpedia:County_Limerick ,
+		dbpedia:Republic_of_Ireland ,
+		dbpedia:Limerick ;
+	ns2:child	dbpedia:Jared_Harris ,
+		dbpedia:Damian_Harris ;
+	ns2:deathCause	<http://dbpedia.org/resource/Hodgkin\u0027s_Lymphoma> ;
+	ns2:deathPlace	dbpedia:Fitzrovia ,
+		dbpedia:London ;
+	ns2:occupation	dbpedia:Richard_Harris__1 ;
+	ns2:spouse	dbpedia:Elizabeth_Rees-Williams ,
+		dbpedia:Ann_Turkel ;
+	ns2:activeYearsEndYear	"2002"^^xsd:gYear ;
+	ns2:activeYearsStartYear	"1958"^^xsd:gYear ;
+	ns2:birthDate	"1930-10-01"^^xsd:date ;
+	ns2:birthYear	"1930"^^xsd:gYear ;
+	ns2:deathDate	"2002-10-25"^^xsd:date ;
+	ns2:deathYear	"2002"^^xsd:gYear .
+dbpedia:Richard_Harris__1	rdf:type	ns2:PersonFunction ;
+	ns2:title	"Actor, singer, songwriter, producer, director, writer"@en .
+<http://dbpedia.org/resource/St_Edmund_Hall,_Oxford>	rdf:type	ns2:College ;
+	rdfs:label	"St Edmund Hall, Oxford"@en ;
+	ns2:head	dbpedia:Keith_Gull ;
+	ns2:isPartOf	dbpedia:University_of_Oxford ;
+	ns2:location	dbpedia:Oxford ;
+	ns2:sisterCollege	<http://dbpedia.org/resource/Fitzwilliam_College,_Cambridge> ;
+	owl:sameAs	ns5:Q973884 ,
+		<http://dbpedia.org/resource/St_Edmund_Hall,_Oxford> ;
+	ns2:numberOfGraduateStudents	"257"^^xsd:nonNegativeInteger ;
+	ns2:numberOfUndergraduateStudents	"405"^^xsd:nonNegativeInteger ;
+	foaf:name	"St Edmund Hall"@en ,
+		"The Principal, Fellows and Scholars of St Edmund Hall in the University of Oxford"@en .
+dbpedia:Colwyn_Bay	rdf:type	ns2:Settlement ;
+	rdfs:label	"Colwyn Bay"@en ;
+	ns2:ceremonialCounty	dbpedia:Clwyd ;
+	ns2:country	dbpedia:United_Kingdom ,
+		dbpedia:Wales ;
+	ns2:principalArea	<http://dbpedia.org/resource/Conwy_(county_borough)> ;
+	owl:sameAs	ns5:Q527467 ,
+		dbpedia:Colwyn_Bay ;
+	ns2:areaCode	"01492" ;
+	ns2:gridReference	"SH865785" ;
+	ns2:postalCode	"LL29" ;
+	ns2:populationTotal	"30742"^^xsd:nonNegativeInteger ;
+	foaf:name	"Bae Colwyn"@en ,
+		"Colwyn Bay"@en .
+dbpedia:Diana_Dors	rdf:type	ns2:Person ;
+	rdfs:label	"Diana Dors"@en ;
+	ns2:almaMater	dbpedia:London_Academy_of_Music_and_Dramatic_Art ;
+	ns2:birthPlace	dbpedia:Wiltshire ,
+		dbpedia:Swindon ;
+	ns2:child	dbpedia:Mark_Dawson ;
+	ns2:deathCause	dbpedia:Ovarian_cancer ;
+	ns2:deathPlace	<http://dbpedia.org/resource/Windsor,_Berkshire> ,
+		dbpedia:Berkshire ;
+	ns2:education	dbpedia:Swindon ;
+	ns2:hometown	dbpedia:Wiltshire ,
+		dbpedia:Swindon ;
+	ns2:occupation	dbpedia:Diana_Dors__1 ;
+	ns2:religion	dbpedia:Roman_Catholic ;
+	ns2:residence	dbpedia:Berkshire ,
+		dbpedia:Sunningdale ;
+	ns2:spouse	dbpedia:Richard_Dawson ,
+		dbpedia:Alan_Lake ;
+	owl:sameAs	ns5:Q239849 ,
+		dbpedia:Diana_Dors ;
+	ns2:alias	"Diana d'Ors"@en ;
+	ns2:activeYearsStartYear	"1947"^^xsd:gYear ;
+	ns2:birthDate	"1931-10-23"^^xsd:date ;
+	ns2:birthName	"Diana Mary Fluck"@en ;
+	ns2:birthYear	"1931"^^xsd:gYear ;
+	ns2:deathDate	"1984-05-04"^^xsd:date ;
+	ns2:deathYear	"1984"^^xsd:gYear ;
+	foaf:name	"Diana Dors"@en .
+dbpedia:Elderslie	rdf:type	ns2:Settlement ;
+	rdfs:label	"Elderslie"@en ;
+	ns2:councilArea	dbpedia:Renfrewshire ;
+	ns2:country	dbpedia:United_Kingdom ,
+		dbpedia:Scotland ;
+	ns2:lieutenancyArea	<http://dbpedia.org/resource/Renfrewshire_(historic)> ;
+	owl:sameAs	dbpedia:Elderslie ,
+		ns5:Q950200 ;
+	ns2:areaCode	"01505" ;
+	ns2:gridReference	"NS445625" ;
+	ns2:postalCode	"PA5" ;
+	ns2:populationTotal	"5180"^^xsd:nonNegativeInteger ;
+	foaf:name	"Elderslie"@en ,
+		"Ach na Fe\u00E0rna"@en .
+dbpedia:Juliet_Mills	rdf:type	ns2:Person ;
+	rdfs:label	"Juliet Mills"@en ;
+	ns2:birthPlace	dbpedia:London ,
+		dbpedia:England ;
+	ns2:education	dbpedia:Elmhurst_Ballet_School ;
+	ns2:occupation	dbpedia:Juliet_Mills__1 ;
+	ns2:parent	dbpedia:John_Mills ,
+		dbpedia:Mary_Hayley_Bell ;
+	ns2:relative	dbpedia:Hayley_Mills ;
+	ns2:spouse	dbpedia:Maxwell_Caulfield ;
+	owl:sameAs	dbpedia:Juliet_Mills ,
+		ns5:Q444988 ;
+	ns2:activeYearsStartYear	"1942"^^xsd:gYear ;
+	ns2:birthDate	"1941-11-21"^^xsd:date ;
+	ns2:birthName	"Juliet Maryon Mills"@en ;
+	ns2:birthYear	"1941"^^xsd:gYear ;
+	foaf:name	"Juliet Mills"@en .
+dbpedia:NBCUniversal	rdf:type	ns2:Company ;
+	rdfs:label	"NBCUniversal"@en ;
+	ns2:division	dbpedia:NBC_News ,
+		dbpedia:NBCUniversal_Television_Group ,
+		dbpedia:NBCUniversal_Cable ,
+		dbpedia:NBC_Sports_Group ,
+		dbpedia:Universal_Studios ;
+	ns2:industry	dbpedia:Mass_media ;
+	ns2:keyPerson	<http://dbpedia.org/resource/Steve_Burke_(businessman)> ;
+	ns2:locationCity	dbpedia:Comcast_Building ;
+	ns2:parentCompany	dbpedia:Comcast ;
+	ns2:predecessor	<http://dbpedia.org/resource/MCA_Inc.> ,
+		dbpedia:Vivendi_Universal_Entertainment ,
+		dbpedia:General_Electric ;
+	ns2:subsidiary	dbpedia:Telemundo ,
+		dbpedia:DreamWorks_Animation ,
+		dbpedia:Focus_Features ,
+		dbpedia:Illumination_Entertainment ,
+		<http://dbpedia.org/resource/Universal_Parks_&_Resorts> ,
+		dbpedia:WKAQ-TV ,
+		dbpedia:The_Weather_Channel ,
+		dbpedia:Universal_Studios ,
+		dbpedia:Hulu ,
+		dbpedia:Telemundo_Television_Studios ;
+	ns2:type	<http://dbpedia.org/resource/Division_(business)> ;
+	owl:sameAs	ns5:Q724759 ,
+		dbpedia:NBCUniversal ;
+	ns2:foundingYear	"2011"^^xsd:gYear ;
+	ns2:operatingIncome	"4.819E9"^^ns8:usDollar ;
+	ns2:revenue	"2.8462E10"^^ns8:usDollar ;
+	foaf:name	"NBCUniversal, Inc."@en .
+dbpedia:Bill_Robinson	rdf:type	ns2:Person ;
+	rdfs:label	"Bill Robinson"@en ;
+	ns2:birthPlace	<http://dbpedia.org/resource/Richmond,_Virginia> ;
+	ns2:deathCause	dbpedia:Heart_failure ;
+	ns2:deathPlace	<http://dbpedia.org/resource/New_York_City,_New_York> ;
+	ns2:occupation	dbpedia:Bill_Robinson__1 ;
+	ns2:activeYearsEndYear	"1943"^^xsd:gYear ;
+	ns2:activeYearsStartYear	"1900"^^xsd:gYear ;
+	ns2:birthDate	"1878-05-25"^^xsd:date ;
+	ns2:birthName	"Luther Robinson"@en ;
+	ns2:birthYear	"1878"^^xsd:gYear ;
+	ns2:deathDate	"1949-11-25"^^xsd:date ;
+	ns2:deathYear	"1949"^^xsd:gYear .
+dbpedia:Bill_Robinson__1	rdf:type	ns2:PersonFunction ;
+	ns2:title	"Dancer, actor, activist"@en .
+dbpedia:James_Bruce	rdf:type	ns2:Person ;
+	rdfs:label	"James Bruce"@en ;
+	ns2:occupation	dbpedia:Travel_writer ,
+		dbpedia:James_Bruce__1 ;
+	ns2:birthDate	"1730-12-14"^^xsd:date ;
+	ns2:birthYear	"1730"^^xsd:gYear ;
+	ns2:deathDate	"1794-04-27"^^xsd:date ;
+	ns2:deathYear	"1794"^^xsd:gYear ;
+	foaf:name	"James Bruce"@en .
+dbpedia:James_Bruce__1	rdf:type	ns2:PersonFunction ;
+	ns2:title	"traveller, travel writer"@en .
+dbpedia:Brea_Olinda_High_School	rdf:type	ns2:School ;
+	rdfs:label	"Brea Olinda High School"@en ;
+	ns2:city	<http://dbpedia.org/resource/Brea,_California> ;
+	ns2:state	dbpedia:California ;
+	ns2:type	<http://dbpedia.org/resource/Public_school_(government_funded)> ;
+	owl:sameAs	dbpedia:Brea_Olinda_High_School ,
+		ns5:Q4959087 ;
+	ns2:address	"789 Wildcat Way"@en ;
+	ns2:facultySize	"163"^^xsd:nonNegativeInteger ;
+	ns2:foundingYear	"1927"^^xsd:gYear ;
+	ns2:mascot	"Wildcat" ;
+	ns2:numberOfStudents	"2053"^^xsd:nonNegativeInteger ;
+	ns2:postalCode	"92821" ;
+	foaf:name	"Brea Olinda High School"@en .
+dbpedia:Gale_Anne_Hurd	rdf:type	ns2:Person ;
+	rdfs:label	"Gale Anne Hurd"@en ;
+	ns2:birthPlace	dbpedia:California ,
+		dbpedia:Los_Angeles ;
+	ns2:occupation	dbpedia:Film_producer ,
+		dbpedia:Television_producer ,
+		dbpedia:Gale_Anne_Hurd__1 ;
+	owl:sameAs	dbpedia:Gale_Anne_Hurd ,
+		ns5:Q269895 ;
+	ns2:birthDate	"1955-10-25"^^xsd:date ;
+	ns2:birthYear	"1955"^^xsd:gYear ;
+	foaf:name	"Gale Anne Hurd"@en .
+dbpedia:Mike_Murphy	rdf:type	ns2:Person ;
+	rdfs:label	"Mike Murphy"@en ;
+	ns2:birthPlace	dbpedia:Dublin ,
+		dbpedia:Republic_of_Ireland ;
+	ns2:education	dbpedia:Synge_Street_CBS ;
+	ns2:occupation	dbpedia:Mike_Murphy__1 ;
+	ns2:birthDate	"1941-10-20"^^xsd:date ;
+	ns2:birthName	"Michael James Murphy"@en ;
+	ns2:birthYear	"1941"^^xsd:gYear ;
+	foaf:name	"Mike Murphy"@en .
+dbpedia:Mike_Murphy__1	rdf:type	ns2:PersonFunction ;
+	ns2:title	"Broadcaster, actor and property developer"@en .
+dbpedia:Village_Christian_Schools	rdf:type	ns2:School ;
+	rdfs:label	"Village Christian Schools"@en ;
+	ns2:city	<http://dbpedia.org/resource/Sun_Valley,_Los_Angeles> ;
+	ns2:country	dbpedia:United_States ;
+	ns2:location	<http://dbpedia.org/resource/Sun_Valley,_Los_Angeles> ;
+	ns2:state	dbpedia:California ;
+	owl:sameAs	ns5:Q7930628 ,
+		dbpedia:Village_Christian_Schools ;
+	ns2:address	"8930 Village Ave., Sun Valley, CA 91352"@en ;
+	ns2:foundingYear	"1949"^^xsd:gYear ;
+	ns2:mascot	"Crusaders" ;
+	ns2:motto	"College-Bound from Kindergarten, Christ-Centered for Life" ;
+	foaf:name	"Village Christian Schools"@en ;
+	foaf:nick	"National Blue Ribbon School (2003)"@en .
+dbpedia:Canada	rdf:type	ns2:Country ;
+	rdfs:label	"Canada"@en ;
+	ns2:anthem	dbpedia:God_Save_the_Queen ,
+		dbpedia:O_Canada ;
+	ns2:capital	dbpedia:Ottawa ;
+	ns2:currency	dbpedia:Canadian_dollar ;
+	ns2:ethnicGroup	dbpedia:European_Canadian ,
+		dbpedia:Latin_American_Canadian ,
+		dbpedia:Aboriginal_peoples_in_Canada ,
+		dbpedia:Canada_2011_Census ,
+		dbpedia:Black_Canadian ,
+		dbpedia:Asian_Canadian ,
+		dbpedia:Multiracial ;
+	ns2:governmentType	dbpedia:Parliamentary_system ,
+		dbpedia:Representative_democracy ,
+		dbpedia:Federalism ,
+		dbpedia:Constitutional_monarchy ;
+	ns2:language	dbpedia:Gwich%E2%80%99in_language ,
+		dbpedia:English_language ,
+		dbpedia:Inuinnaqtun ,
+		dbpedia:Inuvialuktun ,
+		dbpedia:Dogrib_language ,
+		dbpedia:Slavey_language ,
+		dbpedia:French_language ,
+		dbpedia:Dene_Suline_language ,
+		dbpedia:Cree_language ,
+		dbpedia:Inuktitut ;
+	ns2:largestCity	dbpedia:Toronto ;
+	ns2:leader	dbpedia:Justin_Trudeau ,
+		dbpedia:Elizabeth_II ,
+		dbpedia:David_Johnston ,
+		dbpedia:Beverley_McLachlin ;
+	ns2:officialLanguage	dbpedia:English_language ,
+		dbpedia:French_language ;
+	ns2:regionalLanguage	dbpedia:Gwich%E2%80%99in_language ,
+		dbpedia:Inuvialuktun ,
+		dbpedia:Inuinnaqtun ,
+		dbpedia:Dogrib_language ,
+		dbpedia:Slavey_language ,
+		dbpedia:Cree_language ,
+		dbpedia:Dene_Suline_language ,
+		dbpedia:Inuktitut ;
+	owl:sameAs	ns5:Q16 ,
+		dbpedia:Canada ;
+	ns2:percentageOfAreaWater	"8.9200000762939453125"^^xsd:float ;
+	ns2:areaTotal	9982034326224.3222656 ,
+		9984670000000.0 ;
+	ns2:demonym	"Canadian"@en ;
+	ns2:flag	"Flag of Canada (Pantone).svg" ;
+	ns2:foundingDate	"1867-07-01"^^xsd:date ,
+		"1931-12-11"^^xsd:date ;
+	ns2:leaderTitle	"Prime Minister"@en ,
+		"Chief Justice"@en ,
+		"Monarch"@en ,
+		"Governor General"@en ;
+	ns2:populationDensity	3.2046479159023011363 ,
+		3.4100000000000001421 ;
+	ns2:populationTotal	"36286425"^^xsd:nonNegativeInteger ;
+	foaf:name	"Canada"@en .
+dbpedia:Mark_Dawson	rdf:type	ns2:Person ;
+	rdfs:label	"Mark Dawson"@en ;
+	ns2:birthPlace	dbpedia:London ;
+	ns2:occupation	dbpedia:Mark_Dawson__1 ,
+		dbpedia:Entertainment ;
+	ns2:parent	dbpedia:Diana_Dors ,
+		dbpedia:Richard_Dawson ;
+	owl:sameAs	ns5:Q6767303 ,
+		dbpedia:Mark_Dawson ;
+	ns2:birthDate	"1960-02-04"^^xsd:date ;
+	ns2:birthYear	"1960"^^xsd:gYear ;
+	ns2:imdbId	"0007086" ;
+	foaf:name	"Mark Dawson"@en .
+dbpedia:Peter_Jackson	rdf:type	ns2:Person ;
+	rdfs:label	"Peter Jackson"@en ;
+	ns2:birthPlace	dbpedia:Wellington ;
+	ns2:occupation	dbpedia:Screenwriter ,
+		dbpedia:Film_producer ,
+		dbpedia:Film_director ,
+		dbpedia:Peter_Jackson__1 ,
+		dbpedia:Actor ;
+	ns2:spouse	dbpedia:Fran_Walsh ;
+	ns2:networth	"6.0E8"^^ns8:usDollar ;
+	ns2:birthDate	"1961-10-31"^^xsd:date ;
+	ns2:birthName	"Peter Robert Jackson"@en ;
+	ns2:birthYear	"1961"^^xsd:gYear ;
+	foaf:name	"Peter Jackson"@en .
+dbpedia:Peter_Jackson__1	rdf:type	ns2:PersonFunction ;
+	ns2:title	"Film director,screenwriter,film producer,actor"@en .
+dbpedia:Bobbi_Kristina_Brown	rdf:type	ns2:Person ;
+	rdfs:label	"Bobbi Kristina Brown"@en ;
+	ns2:birthPlace	<http://dbpedia.org/resource/Livingston,_New_Jersey> ;
+	ns2:deathCause	dbpedia:Cardiac_arrest ;
+	ns2:deathPlace	<http://dbpedia.org/resource/Duluth,_Georgia> ;
+	ns2:occupation	dbpedia:Bobbi_Kristina_Brown__1 ;
+	ns2:parent	dbpedia:Whitney_Houston ,
+		dbpedia:Bobby_Brown ;
+	ns2:relative	dbpedia:Cissy_Houston ,
+		dbpedia:Gary_Garland ,
+		dbpedia:Leontyne_Price ,
+		dbpedia:Dionne_Warwick ,
+		dbpedia:Dee_Dee_Warwick ;
+	ns2:restingPlace	<http://dbpedia.org/resource/Fairview_Cemetery_(Westfield,_New_Jersey)> ,
+		<http://dbpedia.org/resource/Westfield,_New_Jersey> ;
+	owl:sameAs	dbpedia:Bobbi_Kristina_Brown ,
+		ns5:Q18951229 ;
+	ns2:alias	"Krissy; Bobbi Kris"@en ;
+	ns2:activeYearsEndYear	"2015"^^xsd:gYear ;
+	ns2:activeYearsStartYear	"1998"^^xsd:gYear ;
+	ns2:birthDate	"1993-03-04"^^xsd:date ;
+	ns2:birthYear	"1993"^^xsd:gYear ;
+	ns2:deathDate	"2015-07-26"^^xsd:date ;
+	ns2:deathYear	"2015"^^xsd:gYear ;
+	foaf:name	"Bobbi Kristina Brown"@en .
+dbpedia:Clarissa_Kaye	rdf:type	ns2:Person ;
+	rdfs:label	"Clarissa Kaye"@en ;
+	ns2:occupation	dbpedia:Clarissa_Kaye__1 ;
+	ns2:spouse	dbpedia:James_Mason ;
+	owl:sameAs	ns5:Q5127069 ,
+		dbpedia:Clarissa_Kaye ;
+	ns2:alias	"Clarissa Kaye-Mason"@en ;
+	ns2:birthName	"Clarissa Knipe"@en ;
+	ns2:birthYear	"1931"^^xsd:gYear ;
+	ns2:deathDate	"1994-07-21"^^xsd:date ;
+	ns2:deathYear	"1994"^^xsd:gYear ;
+	ns2:imdbId	"0443420" ;
+	foaf:name	"Clarissa Kaye"@en .
+dbpedia:Lucchese_crime_family	rdfs:label	"Lucchese crime family"@en ;
+	owl:sameAs	ns5:Q281284 ,
+		dbpedia:Lucchese_crime_family .
+dbpedia:Catholic_Church	rdf:type	owl:Thing ;
+	rdfs:label	"Catholic Church"@en ;
+	owl:sameAs	ns5:Q9592 ,
+		dbpedia:Catholic_Church .
+dbpedia:Middlesex	rdfs:label	"Middlesex"@en ;
+	owl:sameAs	ns5:Q19186 ,
+		dbpedia:Middlesex .
+dbpedia:Photographer	rdf:type	owl:Thing ;
+	rdfs:label	"Photographer"@en ;
+	owl:sameAs	ns5:Q33231 ,
+		dbpedia:Photographer .
+dbpedia:Podcast	rdf:type	owl:Thing ;
+	rdfs:label	"Podcast"@en ;
+	owl:sameAs	dbpedia:Podcast ,
+		ns5:Q20899 .
+dbpedia:The_Church_of_Jesus_Christ_of_Latter-day_Saints	rdf:type	owl:Thing ;
+	rdfs:label	"The Church of Jesus Christ of Latter-day Saints"@en ;
+	owl:sameAs	dbpedia:The_Church_of_Jesus_Christ_of_Latter-day_Saints ,
+		ns5:Q42504 .
+dbpedia:Vaud	rdf:type	owl:Thing ;
+	rdfs:label	"Vaud"@en ;
+	owl:sameAs	dbpedia:Vaud ,
+		ns5:Q12771 .
+dbpedia:Heart_Disease	rdfs:label	"Heart Disease"@en .
